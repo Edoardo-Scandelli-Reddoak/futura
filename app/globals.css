@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette */
+  --color-navy: #16314e;
+  --color-navy-deep: #0f2438;
+  --color-cream: #e7e1d6;
+  --color-sand: #d8cfc0;
+  --color-ink: #161514;
+  --color-stone: #6b6459;
+  --color-paper: #f6f4ef;
+
+  /* Fonts — single grotesque across the whole site (Park Associati style).
+     --font-grotesk is provided by next/font on the <html> element. */
+  --font-serif: var(--font-grotesk), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-sans: var(--font-grotesk), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif;
+
+  /* Easing */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #161514;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-cream);
+}
+
+/* Former-serif display headings now render in the grotesque: give them
+   a medium weight and tight tracking for presence. */
+.font-serif {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+/* Thin uppercase eyebrow label used across sections */
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Reveal-on-scroll animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 1s var(--ease-out-soft), transform 1s var(--ease-out-soft);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Subtle hover line for nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 1px;
+  width: 0;
+  background: currentColor;
+  transition: width 0.4s var(--ease-out-soft);
+}
+.nav-link:hover::after {
+  width: 100%;
+}
