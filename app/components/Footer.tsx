@@ -35,6 +35,11 @@ export default function Footer() {
             <p className="eyebrow text-cream/50">Naviga</p>
             <ul className="mt-6 space-y-3 text-sm text-cream/80">
               <li>
+                <Link href="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
+              <li>
                 <Link href="/progetti" className="nav-link">
                   Progetti
                 </Link>
@@ -47,6 +52,11 @@ export default function Footer() {
               <li>
                 <Link href="/team" className="nav-link">
                   Team
+                </Link>
+              </li>
+              <li>
+                <Link href="/impegno-sociale" className="nav-link">
+                  Impegno sociale
                 </Link>
               </li>
               <li>

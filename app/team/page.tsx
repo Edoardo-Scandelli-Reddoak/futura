@@ -115,6 +115,52 @@ export default function TeamPage() {
 
       <TeamValues />
 
+      {/* Impegno sociale — Futura per il sociale */}
+      <section className="bg-[#DDD8D0]">
+        <div className="mx-auto max-w-[1600px] px-6 py-24 md:px-10 md:py-32">
+          <div className="grid gap-10 md:grid-cols-[1fr_1.2fr] md:gap-16">
+            <Reveal>
+              <div>
+                <p className="eyebrow text-stone">Futura per il sociale</p>
+                <h2 className="mt-6 max-w-md font-serif text-3xl leading-[1.1] text-ink md:text-4xl">
+                  Il nostro impegno non si ferma in cantiere.
+                </h2>
+                <Link
+                  href="/impegno-sociale"
+                  className="group mt-10 inline-flex items-center gap-3 border border-ink/30 px-8 py-4 text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:border-navy hover:bg-navy hover:text-paper"
+                >
+                  Scopri il nostro impegno
+                  <span className="transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                  </span>
+                </Link>
+              </div>
+            </Reveal>
+            <Reveal delay={120}>
+              <div className="space-y-8 md:mt-24">
+                <p className="text-base leading-relaxed text-stone md:text-lg">
+                  Costruiamo dove viviamo, e sentiamo la responsabilità di
+                  restituire qualcosa al territorio che ci accoglie. Per questo
+                  sosteniamo le realtà e le iniziative che animano le nostre
+                  comunità — a partire dallo sport, palestra quotidiana degli
+                  stessi valori in cui crediamo: impegno, rispetto e spirito di
+                  squadra.
+                </p>
+                <blockquote className="border-l-2 border-navy pl-6 font-serif text-xl leading-snug text-ink md:text-2xl">
+                  «Il lavoro di squadra è l&apos;abilità di lavorare insieme verso
+                  una visione comune: dirigere ogni risultato individuale verso un
+                  obiettivo condiviso. È l&apos;entusiasmo che permette a persone
+                  comuni di ottenere risultati non comuni.»
+                  <cite className="mt-5 block text-sm not-italic uppercase tracking-[0.16em] text-stone">
+                    Gaetano Barletta
+                  </cite>
+                </blockquote>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
       {/* Lavora con noi — closing section */}
       <section className="relative overflow-hidden bg-ink text-white">
         <Image
