@@ -5,13 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-// All voices point to home for now, as requested.
 const menu = [
   { label: "Home", href: "/" },
-  { label: "Progetti", href: "/" },
-  { label: "Servizi", href: "/" },
-  { label: "Team", href: "/" },
-  { label: "Contatti", href: "/" },
+  { label: "Progetti", href: "/progetti" },
+  { label: "Come lavoriamo", href: "/come-lavoriamo" },
+  { label: "Team", href: "/team" },
+  { label: "Contatti", href: "/contatti" },
 ];
 
 const social = [

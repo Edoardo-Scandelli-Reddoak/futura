@@ -7,7 +7,7 @@ export default function FeaturedProjects() {
 
   return (
     <section id="progetti" className="bg-paper">
-      <div className="px-6 pb-8 pt-24 md:px-10 md:pb-10 md:pt-32">
+      <div className="mx-auto max-w-[1600px] px-6 pb-8 pt-24 md:px-10 md:pb-10 md:pt-32">
         <h2 className="font-serif text-4xl uppercase leading-[0.9] tracking-tight text-ink md:text-6xl lg:text-7xl">
           Progetti
           <br />
@@ -20,7 +20,7 @@ export default function FeaturedProjects() {
         {featured.map((project, i) => (
           <Link
             key={project.slug}
-            href="/"
+            href={`/progetti/${project.slug}`}
             className="group relative h-full flex-1 overflow-hidden"
           >
             <Image
@@ -67,7 +67,7 @@ export default function FeaturedProjects() {
         {featured.map((project, i) => (
           <Link
             key={project.slug}
-            href="/"
+            href={`/progetti/${project.slug}`}
             className="relative block h-[58vh] overflow-hidden"
           >
             <Image

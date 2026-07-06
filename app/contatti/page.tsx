@@ -1,37 +1,79 @@
 import type { Metadata } from "next";
-import PageHeader from "../components/PageHeader";
 import Reveal from "../components/Reveal";
+import ProjectsHero from "../components/sections/ProjectsHero";
+import ContactForm from "../components/sections/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contatti — Futura",
-  description: "Contatta Futura: sede a Solaro (MI), Via Como 51.",
+  description:
+    "Parliamo del tuo prossimo progetto. Scrivici o vieni a trovarci nella sede di Futura a Solaro (MI), Via Como 51.",
 };
+
+const mapsUrl =
+  "https://www.google.com/maps/search/?api=1&query=Via+Como+51+Solaro+MI";
 
 export default function ContattiPage() {
   return (
     <>
-      <PageHeader
+      <ProjectsHero
+        image="/projects/solaro/01.jpeg"
         eyebrow="Contatti"
-        title="Parliamo del tuo prossimo progetto"
-        intro="Scrivici o vieni a trovarci nella nostra sede di Solaro. Saremo felici di ascoltare la tua idea e capire come possiamo realizzarla insieme."
+        title="Contatti"
       />
 
-      <section className="bg-white">
-        <div className="mx-auto max-w-[1400px] px-6 pb-32 md:px-10">
+      {/* Manifesto — same register as the other pages */}
+      <section className="bg-paper">
+        <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
+          <Reveal>
+            <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
+              Ogni progetto comincia con una conversazione. Raccontaci la tua
+              idea, un&apos;area da valorizzare o un&apos;esigenza da risolvere:
+              ti ascolteremo e capiremo, insieme, come realizzarla con la cura
+              che ci contraddistingue.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Section heading + info/form */}
+      <section className="bg-paper">
+        <div className="mx-auto max-w-[1600px] px-6 md:px-10">
+          <h2 className="font-serif text-4xl uppercase leading-[0.9] tracking-tight text-ink md:text-6xl lg:text-7xl">
+            Raccontaci
+            <br />
+            la tua idea
+          </h2>
+        </div>
+
+        <div className="mx-auto max-w-[1600px] px-6 pb-28 pt-16 md:px-10 md:pb-36 md:pt-20">
           <div className="grid gap-16 md:grid-cols-[1fr_1.1fr] md:gap-24">
             {/* Info */}
             <Reveal>
               <div className="space-y-10">
                 <div>
-                  <p className="eyebrow text-stone">Sede</p>
-                  <p className="mt-4 font-serif text-2xl text-ink">
+                  <p className="eyebrow flex items-center gap-2.5 text-stone">
+                    <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
+                    Sede
+                  </p>
+                  <p className="mt-4 font-serif text-2xl leading-snug text-ink">
                     Via Como, 51
                     <br />
                     20020 Solaro (MI)
                   </p>
+                  <a
+                    href={mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="nav-link mt-4 inline-block text-sm uppercase tracking-[0.16em] text-navy"
+                  >
+                    Apri su Google Maps →
+                  </a>
                 </div>
                 <div>
-                  <p className="eyebrow text-stone">Email</p>
+                  <p className="eyebrow flex items-center gap-2.5 text-stone">
+                    <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
+                    Email
+                  </p>
                   <a
                     href="mailto:info@futura.it"
                     className="nav-link mt-4 inline-block text-lg text-ink"
@@ -40,7 +82,10 @@ export default function ContattiPage() {
                   </a>
                 </div>
                 <div>
-                  <p className="eyebrow text-stone">Telefono</p>
+                  <p className="eyebrow flex items-center gap-2.5 text-stone">
+                    <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
+                    Telefono
+                  </p>
                   <a
                     href="tel:+390290000000"
                     className="nav-link mt-4 inline-block text-lg text-ink"
@@ -49,7 +94,10 @@ export default function ContattiPage() {
                   </a>
                 </div>
                 <div>
-                  <p className="eyebrow text-stone">Orari</p>
+                  <p className="eyebrow flex items-center gap-2.5 text-stone">
+                    <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
+                    Orari
+                  </p>
                   <p className="mt-4 text-sm text-stone">
                     Lun – Ven · 9:00 – 18:00
                   </p>
@@ -59,67 +107,14 @@ export default function ContattiPage() {
 
             {/* Form */}
             <Reveal delay={120}>
-              <form className="space-y-6">
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <Field label="Nome" name="nome" />
-                  <Field label="Cognome" name="cognome" />
-                </div>
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <Field label="Email" name="email" type="email" />
-                  <Field label="Telefono" name="telefono" type="tel" />
-                </div>
-                <div>
-                  <label
-                    htmlFor="messaggio"
-                    className="eyebrow text-stone"
-                  >
-                    Messaggio
-                  </label>
-                  <textarea
-                    id="messaggio"
-                    name="messaggio"
-                    rows={5}
-                    className="mt-3 w-full border-b border-ink/20 bg-transparent py-3 text-ink outline-none transition-colors focus:border-navy"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="group inline-flex items-center gap-3 bg-ink px-9 py-5 text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-navy"
-                >
-                  Invia messaggio
-                  <span className="transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </button>
-              </form>
+              <div className="bg-[#DDD8D0] p-8 md:p-12">
+                <ContactForm />
+              </div>
             </Reveal>
           </div>
         </div>
       </section>
-    </>
-  );
-}
 
-function Field({
-  label,
-  name,
-  type = "text",
-}: {
-  label: string;
-  name: string;
-  type?: string;
-}) {
-  return (
-    <div>
-      <label htmlFor={name} className="eyebrow text-stone">
-        {label}
-      </label>
-      <input
-        id={name}
-        name={name}
-        type={type}
-        className="mt-3 w-full border-b border-ink/20 bg-transparent py-3 text-ink outline-none transition-colors focus:border-navy"
-      />
-    </div>
+    </>
   );
 }

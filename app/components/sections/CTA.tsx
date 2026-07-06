@@ -12,7 +12,7 @@ export default function CTA() {
         sizes="100vw"
         className="object-cover opacity-30"
       />
-      <div className="relative z-10 mx-auto flex max-w-[1400px] flex-col items-start gap-10 px-6 py-28 md:flex-row md:items-end md:justify-between md:px-10 md:py-40">
+      <div className="relative z-10 mx-auto flex max-w-[1600px] flex-col items-start gap-10 px-6 py-28 md:flex-row md:items-end md:justify-between md:px-10 md:py-40">
         <Reveal>
           <p className="eyebrow text-white/60">Costruiamo insieme</p>
           <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-tight md:text-6xl">

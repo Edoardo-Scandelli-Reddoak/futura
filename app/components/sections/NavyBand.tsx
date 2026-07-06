@@ -42,7 +42,7 @@ export default function NavyBand() {
 
   return (
     <section id="metodo" ref={ref} className="bg-[#DDD8D0] text-ink">
-      <div className="mx-auto max-w-[1100px] px-6 py-24 text-center md:px-10 md:py-32">
+      <div className="mx-auto max-w-[1600px] px-6 py-24 text-center md:px-10 md:py-32">
         <Reveal>
           <h2 className="mx-auto max-w-3xl font-serif text-3xl leading-[1.2] md:text-5xl md:leading-[1.18]">
             Non costruiamo soltanto edifici. Diamo forma a luoghi destinati a

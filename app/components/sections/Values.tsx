@@ -84,7 +84,7 @@ export default function Values() {
 
   return (
     <section id="values" ref={sectionRef} className="overflow-hidden bg-paper">
-      <div className="mx-auto max-w-[1500px] px-6 py-24 md:px-10 md:py-32">
+      <div className="mx-auto max-w-[1600px] px-6 py-24 md:px-10 md:py-32">
         {/* Desktop: typed headline + images appearing afterwards */}
         <div className="relative hidden min-h-[720px] items-center justify-center lg:min-h-[780px] md:flex">
           {scattered.map((img, i) => (

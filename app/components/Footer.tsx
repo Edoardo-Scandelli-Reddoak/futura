@@ -13,7 +13,7 @@ export default function Footer() {
         className="scale-110 object-cover opacity-40 blur-2xl"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0f2438]/82 to-[#0f2438]/92" />
-      <div className="relative z-10 mx-auto max-w-[1400px] px-6 py-20 md:px-10 md:py-28">
+      <div className="relative z-10 mx-auto max-w-[1600px] px-6 py-20 md:px-10 md:py-28">
         <div className="grid gap-14 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             <Image
@@ -40,8 +40,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/servizi" className="nav-link">
-                  Servizi
+                <Link href="/come-lavoriamo" className="nav-link">
+                  Come lavoriamo
                 </Link>
               </li>
               <li>

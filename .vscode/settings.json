@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "androidx",
+        "ngrok",
+        "soloud"
+    ],
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#0E3258",
+        "titleBar.activeForeground": "#ffffff",
+        "statusBar.background": "#0E3258",
+        "statusBar.foreground": "#ffffff"
+    }
+}
