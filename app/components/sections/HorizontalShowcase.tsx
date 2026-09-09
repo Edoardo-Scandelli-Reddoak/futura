@@ -34,11 +34,11 @@ const cells: Cell[] = [
   },
   {
     kind: "image",
-    src: "/projects/nembro/06.webp",
+    src: "/site/ponte-pietra-01.jpg",
     w: 720,
     h: "56vh",
     align: "start",
-    caption: "Tower Baioni · Nembro",
+    caption: "Via Ponte Pietra · Bergamo",
   },
   {
     kind: "text",
@@ -84,19 +84,19 @@ const cells: Cell[] = [
   },
   {
     kind: "image",
-    src: "/projects/nembro/08.webp",
+    src: "/projects/nembro/01.jpg",
     w: 320,
     h: "50vh",
     align: "end",
-    caption: "Tower Baioni · Nembro",
+    caption: "Via Stazione · Nembro",
   },
   {
     kind: "image",
-    src: "/projects/nembro/07.webp",
+    src: "/site/milano-sbodio-01.jpg",
     w: 360,
     h: "52vh",
     align: "center",
-    caption: "Tower Baioni · Nembro",
+    caption: "Via Sbodio · Milano",
   },
   {
     kind: "text",

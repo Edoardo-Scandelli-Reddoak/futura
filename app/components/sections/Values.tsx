@@ -7,10 +7,10 @@ import { useEffect, useRef, useState } from "react";
 const scattered = [
   { src: "/projects/bergamo-gaber/05.jpeg", top: "4%", left: "4%", w: 300, h: 200, speed: 30 },
   { src: "/projects/saronno-dante/03.jpeg", top: "5%", right: "4%", w: 300, h: 195, speed: -36 },
-  { src: "/projects/nembro/06.webp", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
-  { src: "/projects/nembro/05.webp", top: "35%", right: "1%", w: 300, h: 200, speed: 40 },
+  { src: "/projects/nembro/02.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
+  { src: "/site/milano-sbodio-01.jpg", top: "35%", right: "1%", w: 300, h: 200, speed: 40 },
   { src: "/projects/solaro/03.jpeg", bottom: "5%", left: "5%", w: 290, h: 195, speed: 26 },
-  { src: "/projects/nembro/07.webp", bottom: "5%", right: "5%", w: 300, h: 195, speed: -32 },
+  { src: "/projects/nembro/03.jpg", bottom: "5%", right: "5%", w: 300, h: 195, speed: -32 },
 ];
 
 const shadow = "shadow-[0_22px_50px_-24px_rgba(20,20,20,0.45)]";

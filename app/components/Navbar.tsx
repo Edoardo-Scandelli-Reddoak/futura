@@ -68,7 +68,7 @@ export default function Navbar() {
         >
           <div className="absolute inset-0 bg-[#0b1c2c]" />
           <Image
-            src="/projects/nembro/06.webp"
+            src="/site/menu-bg.jpg"
             alt=""
             fill
             sizes="100vw"
@@ -123,7 +123,7 @@ export default function Navbar() {
         {/* Blurred dark-blue backdrop */}
         <div className="absolute inset-0 bg-[#0b1c2c]">
           <Image
-            src="/projects/nembro/06.webp"
+            src="/site/menu-bg.jpg"
             alt=""
             fill
             sizes="100vw"

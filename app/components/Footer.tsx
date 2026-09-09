@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-[#0b1c2c] text-cream">
       {/* Navy with a blurred image behind (matches the overlay menu) */}
       <Image
-        src="/projects/nembro/06.webp"
+        src="/site/menu-bg.jpg"
         alt=""
         fill
         sizes="100vw"

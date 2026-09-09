@@ -15,7 +15,7 @@ export default function TeamPage() {
   return (
     <>
       <ProjectsHero
-        image="/team/squadra-giovane.jpg"
+        image="/team/hero.jpg"
         eyebrow="Chi siamo"
         title="Team"
       />
@@ -67,7 +67,7 @@ export default function TeamPage() {
       {/* La nostra visione — full-bleed atmospheric section */}
       <section className="relative isolate flex min-h-[92vh] flex-col overflow-hidden bg-navy-deep text-cream">
         <Image
-          src="/projects/nembro/05.webp"
+          src="/team/visione.jpg"
           alt=""
           fill
           sizes="100vw"

@@ -33,7 +33,7 @@ export default function ImpegnoSocialePage() {
   return (
     <>
       <ProjectsHero
-        image="/projects/bergamo-gaber/07.jpeg"
+        image="/site/impegno-hero.jpg"
         eyebrow="Futura per il sociale"
         title="Impegno sociale"
       />

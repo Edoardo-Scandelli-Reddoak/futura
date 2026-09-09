@@ -13,7 +13,7 @@ export default function ProgettiPage() {
   return (
     <>
       <ProjectsHero
-        image="/projects/nembro/06.webp"
+        image="/site/progetti-hero.jpg"
         eyebrow="Le nostre realizzazioni"
         title="Progetti"
       />
