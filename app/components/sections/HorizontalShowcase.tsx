@@ -26,7 +26,7 @@ const cells: Cell[] = [
   { kind: "intro" },
   {
     kind: "image",
-    src: "/projects/saronno-dante/01.jpeg",
+    src: "/projects/saronno-dante/04.jpeg",
     w: 360,
     h: "50vh",
     align: "end",

@@ -27,7 +27,7 @@ const steps: Step[] = [
     n: "03",
     title: "Preventivo & pianificazione",
     body: "Prima di iniziare mettiamo tutto nero su bianco: computo dettagliato, tempi e costi trasparenti. Scegli tu la formula — chiavi in mano o affidamento di opere parziali — e sai fin dall'inizio cosa aspettarti.",
-    image: "/services/step-3.jpg",
+    image: "/services/step-3-sede.jpg",
   },
   {
     n: "04",

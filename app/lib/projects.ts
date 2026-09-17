@@ -132,14 +132,13 @@ export const projects: Project[] = [
     category: "Residenziale",
     year: "2024",
     status: "Realizzato",
-    cover: "/projects/saronno-dante/01.jpeg",
+    cover: "/projects/saronno-dante/04.jpeg",
     gallery: [
-      "/projects/saronno-dante/01.jpeg",
-      "/projects/saronno-dante/02.jpeg",
-      "/projects/saronno-dante/03.jpeg",
       "/projects/saronno-dante/04.jpeg",
+      "/projects/saronno-dante/03.jpeg",
       "/projects/saronno-dante/05.jpeg",
       "/projects/saronno-dante/06.jpeg",
+      "/projects/saronno-dante/02.jpeg",
     ],
     excerpt:
       "Due corpi residenziali gemelli con rivestimenti ceramici cangianti. Spazi luminosi e una corte condivisa che fa comunità.",
