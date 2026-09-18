@@ -50,6 +50,8 @@ export default function StickyProjects() {
                 alt={`${project.title}, ${project.city}`}
                 fill
                 sizes="50vw"
+                priority={i === 0}
+                loading={i < 3 ? "eager" : "lazy"}
                 className={`object-cover transition-all duration-[1100ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
                   i === active
                     ? "scale-100 opacity-100"
@@ -90,7 +92,9 @@ export default function StickyProjects() {
                   {project.title}
                 </h3>
                 <p className="mt-4 text-sm uppercase tracking-[0.14em] text-stone">
-                  {project.category} · {project.year} · {project.status}
+                  {[project.category, project.year, project.status]
+                    .filter(Boolean)
+                    .join(" · ")}
                 </p>
                 <p className="mt-7 max-w-md text-base leading-relaxed text-stone/90">
                   {project.excerpt}

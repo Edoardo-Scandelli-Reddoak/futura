@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 // Straight (un-rotated) scattered images. `speed` drives the scroll parallax.
 const scattered = [
   { src: "/projects/bergamo-gaber/05.jpeg", top: "4%", left: "4%", w: 300, h: 200, speed: 30 },
-  { src: "/projects/saronno-dante/03.jpeg", top: "5%", right: "4%", w: 300, h: 195, speed: -36 },
+  { src: "/projects/ponte-pietra/03.jpg", top: "5%", right: "4%", w: 300, h: 195, speed: -36 },
   { src: "/projects/nembro/02.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
   { src: "/site/milano-sbodio-01.jpg", top: "35%", right: "1%", w: 300, h: 200, speed: 40 },
   { src: "/projects/solaro/03.jpeg", bottom: "5%", left: "5%", w: 290, h: 195, speed: 26 },

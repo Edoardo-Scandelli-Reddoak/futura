@@ -26,14 +26,6 @@ const cells: Cell[] = [
   { kind: "intro" },
   {
     kind: "image",
-    src: "/projects/saronno-dante/04.jpeg",
-    w: 360,
-    h: "50vh",
-    align: "end",
-    caption: "Via Dante · Saronno",
-  },
-  {
-    kind: "image",
     src: "/site/ponte-pietra-01.jpg",
     w: 720,
     h: "56vh",
