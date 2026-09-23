@@ -7,21 +7,21 @@ import CTA from "../components/sections/CTA";
 export const metadata: Metadata = {
   title: "Come lavoriamo — Futura",
   description:
-    "Dall'idea iniziale alle chiavi in mano: Futura ti accompagna in un unico percorso, con un solo interlocutore, trent'anni di cantieri e un ufficio tecnico interno.",
+    "Impresa di costruzioni con trent'anni di cantieri e ufficio tecnico interno: un solo interlocutore dalla fattibilità alla consegna.",
 };
 
 const pillars = [
   {
     title: "Un unico interlocutore",
-    body: "Dalla prima idea alle chiavi in mano, una sola regia. Progettazione, cantiere e consegna sotto un unico responsabile: nessun rimpallo, sempre le stesse persone al tuo fianco.",
+    body: "Dalla fattibilità alla consegna, una sola regia. Progettazione, cantiere e collaudo sotto un unico responsabile: nessun rimpallo di responsabilità, sempre le stesse persone sul progetto.",
   },
   {
     title: "Trent'anni di cantieri",
-    body: "Un'esperienza costruita in tre decenni, tra edilizia residenziale, industriale e commerciale. Certificazioni SOA, ISO 9001 e 14001 e Rating di Legalità: solidità e trasparenza, verificate.",
+    body: "Un'esperienza costruita in tre decenni, tra edilizia residenziale, industriale e commerciale. Certificazioni SOA, ISO 9001 e 14001 e Rating di Legalità: solidità e trasparenza verificabili da chi deve affidarci un'opera.",
   },
   {
     title: "Una squadra, non una filiera",
-    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati che lavorano come un solo organismo. È così che teniamo insieme qualità, tempi e costi.",
+    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati che lavorano come un solo organismo. È così che teniamo insieme qualità, tempi e costi — le tre cose che decidono un'operazione.",
   },
 ];
 
@@ -39,12 +39,12 @@ export default function ServiziPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Costruire significa prendere decisioni che durano anni. Per questo
-              non ti lasciamo mai solo: dalla prima idea alle chiavi in mano,
-              Futura è un unico interlocutore che progetta, costruisce e ti
-              accompagna passo dopo passo. Trent&apos;anni di cantieri, un ufficio
-              tecnico interno e maestranze selezionate al servizio di una sola
-              cosa — il tuo progetto, fatto bene.
+              Costruire significa prendere decisioni che durano anni, e quasi
+              tutte si pagano in cantiere. Per questo entriamo prima:
+              trent&apos;anni di esperienza, un ufficio tecnico interno e
+              maestranze selezionate messi al servizio del progetto e di chi lo
+              promuove — fondi di sviluppo, committenti industriali, privati.
+              Un solo interlocutore, dalla fattibilità alla consegna.
             </p>
           </Reveal>
         </div>

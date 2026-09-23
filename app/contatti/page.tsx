@@ -6,7 +6,7 @@ import ContactForm from "../components/sections/ContactForm";
 export const metadata: Metadata = {
   title: "Contatti — Futura",
   description:
-    "Parliamo del tuo prossimo progetto. Scrivici o vieni a trovarci nella sede di Futura a Solaro (MI), Via Como 51.",
+    "Parliamo della prossima operazione. Scriveteci o venite a trovarci nella sede di Futura a Solaro (MI), Via Como 51.",
 };
 
 const mapsUrl =
@@ -26,10 +26,10 @@ export default function ContattiPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Ogni progetto comincia con una conversazione. Raccontaci la tua
-              idea, un&apos;area da valorizzare o un&apos;esigenza da risolvere:
-              ti ascolteremo e capiremo, insieme, come realizzarla con la cura
-              che ci contraddistingue.
+              Ogni opera comincia con una conversazione. Un progetto da
+              realizzare, un&apos;area da valorizzare, un preventivo da
+              confrontare: guardiamo i numeri e i vincoli e diciamo subito se e
+              come si fa.
             </p>
           </Reveal>
         </div>
@@ -39,9 +39,9 @@ export default function ContattiPage() {
       <section className="bg-paper">
         <div className="mx-auto max-w-[1600px] px-6 md:px-10">
           <h2 className="font-serif text-4xl uppercase leading-[0.9] tracking-tight text-ink md:text-6xl lg:text-7xl">
-            Raccontaci
+            Parliamo
             <br />
-            la tua idea
+            del progetto
           </h2>
         </div>
 
@@ -58,7 +58,7 @@ export default function ContattiPage() {
                   <p className="mt-4 font-serif text-2xl leading-snug text-ink">
                     Via Como, 51
                     <br />
-                    20020 Solaro (MI)
+                    20033 Solaro (MI)
                   </p>
                   <a
                     href={mapsUrl}
@@ -75,10 +75,10 @@ export default function ContattiPage() {
                     Email
                   </p>
                   <a
-                    href="mailto:info@futura.it"
+                    href="mailto:info@futurasrl.net"
                     className="nav-link mt-4 inline-block text-lg text-ink"
                   >
-                    info@futura.it
+                    info@futurasrl.net
                   </a>
                 </div>
                 <div>
@@ -87,10 +87,10 @@ export default function ContattiPage() {
                     Telefono
                   </p>
                   <a
-                    href="tel:+390290000000"
+                    href="tel:+390225062368"
                     className="nav-link mt-4 inline-block text-lg text-ink"
                   >
-                    +39 02 9000 0000
+                    +39 02 250 62368
                   </a>
                 </div>
                 <div>

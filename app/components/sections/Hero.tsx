@@ -62,7 +62,7 @@ export default function Hero() {
             ref={subRef}
             className="inline-block w-fit whitespace-nowrap text-lg text-white/85 opacity-0 [animation:fadeUp_1s_var(--ease-out-soft)_0.45s_forwards]"
           >
-            Costruiamo gli spazi della vita reale.
+            Costruttori. Da trent&apos;anni, al servizio del progetto.
           </p>
           <a
             href="/progetti"

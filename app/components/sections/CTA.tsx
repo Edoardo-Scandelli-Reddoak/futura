@@ -14,9 +14,9 @@ export default function CTA() {
       />
       <div className="relative z-10 mx-auto flex max-w-[1600px] flex-col items-start gap-10 px-6 py-28 md:flex-row md:items-end md:justify-between md:px-10 md:py-40">
         <Reveal>
-          <p className="eyebrow text-white/60">Costruiamo insieme</p>
+          <p className="eyebrow text-white/60">Lavoriamo insieme</p>
           <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-tight md:text-6xl">
-            Hai un&apos;area, un&apos;idea o un progetto da realizzare?
+            C&apos;è un&apos;operazione da costruire? Parliamone.
           </h2>
         </Reveal>
         <Reveal delay={120}>

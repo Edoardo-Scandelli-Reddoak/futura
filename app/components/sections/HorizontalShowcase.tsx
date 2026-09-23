@@ -34,8 +34,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Persone, prima che edifici",
-    body: "Crediamo in un'edilizia che mette al centro chi la vive: spazi luminosi, materiali onesti e un disegno che invecchia con grazia. Ogni scelta progettuale nasce da una domanda semplice — come si vivrà davvero questo spazio?",
+    title: "Il mestiere viene prima",
+    body: "Un progetto regge se chi lo costruisce sa come si costruisce. Portiamo in fase di disegno l'esperienza del cantiere: dettagli risolvibili, materiali che si trovano, soluzioni che non esplodono in corso d'opera.",
     align: "center",
   },
   {
@@ -48,8 +48,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Dall'area al progetto",
-    body: "Selezioniamo e valorizziamo le aree con una visione di lungo periodo, trasformando il potenziale di un luogo in un progetto concreto. Studiamo il contesto, i volumi e la luce prima ancora di disegnare la prima linea.",
+    title: "Anche sviluppo, non solo",
+    body: "Acquisiamo e valorizziamo aree anche in proprio, e questo ci ha insegnato a leggere un'operazione dal lato di chi la promuove: costi, tempi, margini. Ma resta una parte del lavoro, non il mestiere principale.",
     align: "start",
   },
   {
@@ -70,8 +70,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Qualità in ogni fase",
-    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati. Tempi, costi e dettagli sotto controllo: è così che trasformiamo un progetto in una casa destinata a durare nel tempo.",
+    title: "Il cantiere sotto controllo",
+    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati. Tempi, costi e dettagli sotto controllo: è la parte in cui un'operazione si fa o si perde, ed è la parte che sappiamo fare.",
     align: "center",
   },
   {
@@ -93,7 +93,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Costruire per durare",
-    body: "Pensiamo ogni edificio come un lascito: qualcosa che resterà nel tempo e nel paesaggio. Per questo scegliamo soluzioni solide, sostenibili e capaci di mantenere valore negli anni.",
+    body: "Un edificio costruito bene mantiene valore, costa meno da gestire e non torna indietro sotto forma di contenziosi. Per questo scegliamo soluzioni solide anche quando nessuno le vedrà.",
     align: "center",
   },
 ];
@@ -166,14 +166,15 @@ export default function HorizontalShowcase() {
                 >
                   <p className="eyebrow mb-6 text-stone">Cosa facciamo</p>
                   <p className="text-lg leading-relaxed text-ink md:text-xl">
-                    Operiamo su tutta la filiera dell&apos;edilizia:
-                    dall&apos;acquisizione delle aree allo sviluppo immobiliare,
-                    dalla progettazione alla costruzione.
+                    Siamo un&apos;impresa di costruzioni. Operiamo anche su
+                    tutta la filiera — dall&apos;acquisizione delle aree allo
+                    sviluppo immobiliare — ma il nostro mestiere è costruire.
                   </p>
                   <p className="mt-5 text-base leading-relaxed text-stone">
-                    Un approccio integrato che ci permette di controllare la
-                    qualità in ogni fase e di consegnare spazi pensati per
-                    durare nel tempo.
+                    Averla attraversata tutta ci permette di entrare nel progetto
+                    con l&apos;occhio di chi poi dovrà realizzarlo: ottimizzazioni
+                    costruttive, meno sorprese in cantiere, un risultato che
+                    tiene.
                   </p>
                   <Link
                     href="/"

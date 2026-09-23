@@ -82,7 +82,7 @@ export const projects: Project[] = [
     intro:
       "Un residenziale contemporaneo che ridisegna l'affaccio sulla piazza con volumi netti e terrazze profonde.",
     description: [
-      "Affacciato su Piazza Giorgio Gaber, l'intervento reinterpreta l'isolato urbano con volumi netti e terrazze aggettanti che proiettano la vita domestica verso la città. Il ritmo delle logge disegna una facciata in continuo movimento di luci e ombre.",
+      "Affacciato su Piazza Giorgio Gaber, l'intervento reinterpreta l'isolato urbano con volumi netti e terrazze aggettanti risolte con una struttura a sbalzo continua. Il ritmo delle logge disegna una facciata in continuo movimento di luci e ombre.",
       "Gli appartamenti, tagliati su misure diverse, condividono spazi comuni curati e un attacco a terra permeabile, che restituisce alla piazza un fronte attivo e accogliente.",
     ],
     facts: [
@@ -252,7 +252,7 @@ export const projects: Project[] = [
     intro:
       "Un complesso residenziale a corte aperta, con i tetti interamente dedicati al fotovoltaico.",
     description: [
-      "A Osio Sotto abbiamo lavorato per sottrazione: invece di un unico blocco, quattro corpi bassi disposti attorno a corti verdi e percorsi pedonali. Ogni alloggio ha una loggia profonda e un affaccio proprio, e nessuno guarda dentro casa d'altri.",
+      "A Osio Sotto abbiamo lavorato per sottrazione: invece di un unico blocco, quattro corpi bassi disposti attorno a corti verdi e percorsi pedonali. Ogni alloggio ha una loggia profonda e un affaccio proprio, senza sovrapposizioni tra le visuali.",
       "Le coperture piane sono interamente occupate da campi fotovoltaici — la scelta più evidente dall'alto e la più concreta in bolletta. Sotto, pompe di calore e involucro ad alte prestazioni completano un edificio pensato per consumare poco e durare molto.",
     ],
     facts: [
@@ -347,7 +347,7 @@ export const projects: Project[] = [
       "/projects/saronno-dante/02.jpeg",
     ],
     excerpt:
-      "Due corpi residenziali gemelli con rivestimenti ceramici cangianti. Spazi luminosi e una corte condivisa che fa comunità.",
+      "Due corpi residenziali gemelli con rivestimenti ceramici cangianti. Doppia esposizione, corte condivisa e rivestimenti in ceramica cangiante.",
     intro:
       "Due corpi residenziali gemelli con rivestimenti ceramici cangianti e una corte condivisa che fa comunità.",
     description: [

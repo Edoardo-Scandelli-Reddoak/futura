@@ -15,7 +15,7 @@ const scattered = [
 
 const shadow = "shadow-[0_22px_50px_-24px_rgba(20,20,20,0.45)]";
 
-const LINES = ["Lo spazio reale", "della tua vita"];
+const LINES = ["L'esperienza", "di chi costruisce"];
 const TOTAL = LINES.reduce((a, l) => a + l.length, 0);
 
 export default function Values() {
@@ -132,7 +132,7 @@ export default function Values() {
                 className="text-[0.72rem] font-medium uppercase tracking-[0.08em] text-ink underline underline-offset-[6px] transition-opacity duration-700 [transition-delay:150ms]"
                 style={{ opacity: started ? 1 : 0 }}
               >
-                Diamo valore alla tua casa
+                Il nostro valore aggiunto
               </p>
               <h2
                 aria-label={LINES.join(" ")}
@@ -164,9 +164,9 @@ export default function Values() {
                   transform: imagesIn ? "translateY(0)" : "translateY(14px)",
                 }}
               >
-                Progettiamo case in cui la vita di ogni giorno diventa più bella:
-                luce, comfort e dettagli pensati per accompagnare le persone nel
-                tempo.
+                Trent&apos;anni di cantieri messi a disposizione di chi progetta
+                e di chi investe: soluzioni costruttive migliori, tempi
+                rispettati, un edificio che regge negli anni.
               </p>
             </div>
           </div>
@@ -183,7 +183,7 @@ export default function Values() {
               className="text-[0.72rem] font-medium uppercase tracking-[0.08em] text-ink underline underline-offset-[6px] transition-opacity duration-700"
               style={{ opacity: started ? 1 : 0 }}
             >
-              Diamo valore alla tua casa
+              Il nostro valore aggiunto
             </p>
             <h2
               aria-label={LINES.join(" ")}
@@ -212,7 +212,7 @@ export default function Values() {
               className="mx-auto mt-6 max-w-sm text-base leading-snug text-stone transition-opacity duration-700"
               style={{ opacity: imagesIn ? 1 : 0 }}
             >
-              Progettiamo case in cui la vita di ogni giorno diventa più bella.
+              Trent&apos;anni di cantieri al servizio di chi progetta e di chi investe.
             </p>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-3">

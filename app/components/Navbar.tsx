@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import SmartLink from "./SmartLink";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -10,6 +11,7 @@ const menu = [
   { label: "Progetti", href: "/progetti" },
   { label: "Come lavoriamo", href: "/come-lavoriamo" },
   { label: "Team", href: "/team" },
+  { label: "Lavora con noi", href: "/team#lavora-con-noi" },
   { label: "Contatti", href: "/contatti" },
 ];
 
@@ -149,9 +151,11 @@ export default function Navbar() {
           {/* Menu list */}
           <nav className="flex flex-col justify-center">
             {menu.map((item, i) => (
-              <Link
+              <SmartLink
                 key={item.label}
                 href={item.href}
+                onNavigate={() => setOpen(false)}
+                scrollDelay={320}
                 className="group flex items-stretch"
                 style={{
                   transitionDelay: open ? `${120 + i * 70}ms` : "0ms",
@@ -189,7 +193,7 @@ export default function Navbar() {
                     </svg>
                   </span>
                 </span>
-              </Link>
+              </SmartLink>
             ))}
           </nav>
 
@@ -202,20 +206,20 @@ export default function Navbar() {
           >
             <div className="space-y-8 text-cream/90">
               <InfoBlock label="Email">
-                <a href="mailto:info@futura.it" className="nav-link">
-                  info@futura.it
+                <a href="mailto:info@futurasrl.net" className="nav-link">
+                  info@futurasrl.net
                 </a>
               </InfoBlock>
               <InfoBlock label="Telefono">
-                <a href="tel:+390290000000" className="nav-link">
-                  (+39) 02 9000 0000
+                <a href="tel:+390225062368" className="nav-link">
+                  (+39) 02 250 62368
                 </a>
               </InfoBlock>
               <InfoBlock label="Indirizzo">
                 <span className="not-italic">
                   Via Como, 51
                   <br />
-                  20020 Solaro (MI)
+                  20033 Solaro (MI)
                 </span>
               </InfoBlock>
               <InfoBlock label="Social">

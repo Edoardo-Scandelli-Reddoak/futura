@@ -60,12 +60,12 @@ export default function TeamValues() {
             <div className="space-y-6 text-base leading-relaxed text-stone md:mt-24 md:text-lg">
               <p>
                 Non sono valori appesi a una parete: sono il modo in cui
-                prendiamo ogni decisione, dal primo sopralluogo alla consegna
-                delle chiavi. Guidano chi progetta, chi coordina il cantiere e
-                chi posa l&apos;ultimo dettaglio.
+                prendiamo ogni decisione, dal primo sopralluogo al collaudo
+                finale. Guidano chi disegna, chi coordina il cantiere e chi posa
+                l&apos;ultimo dettaglio.
               </p>
               <p>
-                Metterle in pratica ogni giorno è ciò che ci rende una squadra e
+                Metterle in pratica ogni giorno è ciò che ci rende un partner e
                 non un semplice fornitore: persone diverse, un solo modo di
                 intendere il lavoro fatto bene.
               </p>

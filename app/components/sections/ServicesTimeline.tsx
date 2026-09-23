@@ -14,31 +14,31 @@ const steps: Step[] = [
   {
     n: "01",
     title: "Ascolto & fattibilità",
-    body: "Tutto parte da un incontro. Ascoltiamo la tua idea — una nuova costruzione, una ristrutturazione, un immobile da valorizzare — sopralluoghiamo il luogo e ne verifichiamo la fattibilità tecnica, urbanistica ed economica prima di tracciare qualsiasi linea.",
+    body: "Tutto parte da un incontro. Che ci sia già un progetto, un'area o solo un'ipotesi, sopralluoghiamo il luogo e ne verifichiamo la fattibilità tecnica, urbanistica ed economica. Dire subito cosa non sta in piedi vale più di un preventivo ottimista.",
     image: "/services/step-1.jpg",
   },
   {
     n: "02",
     title: "Progettazione su misura",
-    body: "Il nostro ufficio tecnico interno trasforma l'idea in progetto: soluzioni disegnate attorno a te, insieme ad architetti e ingegneri. Dove serve, gestiamo permessi e pratiche e ti orientiamo tra gli incentivi edilizi disponibili.",
+    body: "Il nostro ufficio tecnico interno lavora a fianco di architetti e ingegneri, portando in fase di disegno ciò che sappiamo del cantiere: ottimizzazioni costruttive, dettagli realizzabili, scelte che reggono il preventivo. Dove serve, gestiamo permessi e pratiche.",
     image: "/services/step-2.jpg",
   },
   {
     n: "03",
     title: "Preventivo & pianificazione",
-    body: "Prima di iniziare mettiamo tutto nero su bianco: computo dettagliato, tempi e costi trasparenti. Scegli tu la formula — chiavi in mano o affidamento di opere parziali — e sai fin dall'inizio cosa aspettarti.",
+    body: "Prima di iniziare mettiamo tutto nero su bianco: computo dettagliato, tempi e costi trasparenti. La formula la sceglie il committente — chiavi in mano o affidamento di opere parziali — e i numeri sono quelli fino alla fine.",
     image: "/services/step-3-sede.jpg",
   },
   {
     n: "04",
     title: "Cantiere & direzione lavori",
-    body: "Apriamo il cantiere con un unico interlocutore dall'inizio alla fine. Maestranze selezionate, fornitori di fiducia e un controllo costante su qualità, sicurezza, tempi e costi: l'esperienza trentennale e le certificazioni SOA e ISO sono la tua garanzia.",
+    body: "Apriamo il cantiere con un unico interlocutore dall'inizio alla fine. Maestranze selezionate, fornitori di fiducia e un controllo costante su qualità, sicurezza, tempi e costi: trent'anni di esperienza e le certificazioni SOA e ISO sono la garanzia che regge l'operazione.",
     image: "/services/step-4.jpg",
   },
   {
     n: "05",
     title: "Consegna & cura nel tempo",
-    body: "Ti consegniamo un'opera finita e pronta da vivere. Ma non finisce qui: restiamo al tuo fianco con assistenza e manutenzione, perché ciò che costruiamo mantenga valore e bellezza negli anni.",
+    body: "Consegniamo un'opera finita, collaudata e documentata. Ma non finisce lì: restiamo disponibili con assistenza e manutenzione, perché ciò che costruiamo mantenga valore negli anni — e perché chi ci ha scelto una volta ci richiami.",
     image: "/services/step-5.jpg",
   },
 ];

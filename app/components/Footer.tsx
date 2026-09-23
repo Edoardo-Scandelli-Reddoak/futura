@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import SmartLink from "./SmartLink";
 
 export default function Footer() {
   return (
@@ -25,9 +25,9 @@ export default function Footer() {
               style={{ filter: "brightness(0) invert(1)" }}
             />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/70">
-              Progettiamo e realizziamo spazi residenziali e direzionali in
-              Lombardia. Costruiamo valore, qualità e visione per la vita di chi
-              li abita.
+              Impresa di costruzioni in Lombardia, da trent&apos;anni.
+              Realizziamo opere residenziali, direzionali e industriali per chi
+              progetta, sviluppa e investe.
             </p>
           </div>
 
@@ -35,54 +35,59 @@ export default function Footer() {
             <p className="eyebrow text-cream/50">Naviga</p>
             <ul className="mt-6 space-y-3 text-sm text-cream/80">
               <li>
-                <Link href="/" className="nav-link">
+                <SmartLink href="/" className="nav-link">
                   Home
-                </Link>
+                </SmartLink>
               </li>
               <li>
-                <Link href="/progetti" className="nav-link">
+                <SmartLink href="/progetti" className="nav-link">
                   Progetti
-                </Link>
+                </SmartLink>
               </li>
               <li>
-                <Link href="/come-lavoriamo" className="nav-link">
+                <SmartLink href="/come-lavoriamo" className="nav-link">
                   Come lavoriamo
-                </Link>
+                </SmartLink>
               </li>
               <li>
-                <Link href="/team" className="nav-link">
+                <SmartLink href="/team" className="nav-link">
                   Team
-                </Link>
+                </SmartLink>
               </li>
               <li>
-                <Link href="/impegno-sociale" className="nav-link">
+                <SmartLink href="/team#lavora-con-noi" className="nav-link">
+                  Lavora con noi
+                </SmartLink>
+              </li>
+              <li>
+                <SmartLink href="/impegno-sociale" className="nav-link">
                   Impegno sociale
-                </Link>
+                </SmartLink>
               </li>
               <li>
-                <Link href="/contatti" className="nav-link">
+                <SmartLink href="/contatti" className="nav-link">
                   Contatti
-                </Link>
+                </SmartLink>
               </li>
             </ul>
           </div>
 
           <div>
-            <p className="eyebrow text-cream/50">Sede</p>
+            <p className="eyebrow text-cream/50">Sede operativa</p>
             <address className="mt-6 space-y-3 text-sm not-italic text-cream/80">
               <p>
                 Via Como, 51
                 <br />
-                20020 Solaro (MI)
+                20033 Solaro (MI)
               </p>
               <p>
-                <a href="mailto:info@futura.it" className="nav-link">
-                  info@futura.it
+                <a href="mailto:info@futurasrl.net" className="nav-link">
+                  info@futurasrl.net
                 </a>
               </p>
               <p>
-                <a href="tel:+390290000000" className="nav-link">
-                  +39 02 9000 0000
+                <a href="tel:+390225062368" className="nav-link">
+                  +39 02 250 62368
                 </a>
               </p>
             </address>
@@ -91,7 +96,7 @@ export default function Footer() {
 
         <div className="mt-20 flex flex-col gap-3 border-t border-cream/15 pt-8 text-xs text-cream/50 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Futura S.r.l. — Tutti i diritti riservati.</p>
-          <p>P.IVA 00000000000 · Privacy Policy · Cookie Policy</p>
+          <p>P.IVA e C.F. 02870190168 · Privacy Policy · Cookie Policy</p>
         </div>
       </div>
     </footer>

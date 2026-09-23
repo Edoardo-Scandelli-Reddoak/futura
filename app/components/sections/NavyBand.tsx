@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Reveal from "../Reveal";
 
 const stats = [
-  { target: 20, suffix: "+", label: "Anni di esperienza" },
-  { target: 40, suffix: "", label: "Progetti realizzati" },
-  { target: 120, suffix: "k", label: "Metri quadri costruiti" },
-  { target: 5, suffix: "", label: "Cantieri attivi" },
+  { target: 30, suffix: "+", label: "Anni di esperienza" },
+  { target: 120, suffix: "+", label: "Progetti realizzati" },
+  { target: 21, suffix: "", label: "Cantieri" },
+  { target: 4, suffix: "", label: "Certificazioni e rating" },
 ];
 
 export default function NavyBand() {
@@ -45,13 +45,14 @@ export default function NavyBand() {
       <div className="mx-auto max-w-[1600px] px-6 py-24 text-center md:px-10 md:py-32">
         <Reveal>
           <h2 className="mx-auto max-w-3xl font-serif text-3xl leading-[1.2] md:text-5xl md:leading-[1.18]">
-            Non costruiamo soltanto edifici. Diamo forma a luoghi destinati a
-            durare, curando ogni dettaglio dal progetto alla consegna.
+            Il successo di un&apos;operazione immobiliare è anche il nostro
+            successo.
           </h2>
           <p className="mx-auto mt-8 max-w-2xl leading-relaxed text-stone">
-            Controllo diretto della filiera, materiali selezionati e un dialogo
-            costante con committenti e territorio. È questo che ci permette di
-            garantire qualità e trasparenza in ogni fase.
+            Per questo entriamo nel progetto prima del cantiere, con le
+            competenze di chi dovrà realizzarlo: ottimizzazioni costruttive,
+            controllo di tempi e costi, qualità che regge negli anni. Chi ci
+            sceglie sa cosa aspettarsi.
           </p>
         </Reveal>
 

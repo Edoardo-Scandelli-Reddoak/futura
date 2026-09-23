@@ -4,11 +4,12 @@ import Link from "next/link";
 import Reveal from "../components/Reveal";
 import ProjectsHero from "../components/sections/ProjectsHero";
 import TeamValues from "../components/sections/TeamValues";
+import Careers from "../components/sections/Careers";
 
 export const metadata: Metadata = {
   title: "Team — Futura",
   description:
-    "Le persone e la visione di Futura: un'unica squadra che costruisce su misura, con cura artigianale del dettaglio e radici nel territorio.",
+    "Le persone e il metodo di Futura: ufficio tecnico interno, maestranze qualificate e trent'anni di cantieri al servizio del progetto.",
 };
 
 export default function TeamPage() {
@@ -26,10 +27,10 @@ export default function TeamPage() {
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
               Futura non è un catalogo di servizi, ma un gruppo di persone.
-              Progettisti, ingegneri e maestranze che condividono un modo di
-              lavorare fatto di ascolto, precisione e responsabilità. È da qui —
-              dalle mani e dalle idee di chi la compone — che nasce ogni cosa che
-              costruiamo.
+              Tecnici, capicantiere e maestranze che condividono un modo di
+              lavorare fatto di precisione e responsabilità. È da qui — dalle
+              mani e dall&apos;esperienza di chi la compone — che dipende la
+              riuscita di ogni opera che ci viene affidata.
             </p>
           </Reveal>
         </div>
@@ -47,16 +48,17 @@ export default function TeamPage() {
             <Reveal delay={120}>
               <div className="space-y-6 text-lg leading-relaxed text-stone md:text-xl">
                 <p>
-                  Non partiamo mai dal disegno, ma dall&apos;ascolto: capire
-                  l&apos;esigenza di chi abiterà uno spazio è il primo gesto di
-                  ogni progetto. Da lì nasce una relazione che ci accompagna per
-                  tutto il percorso, dall&apos;idea alla consegna.
+                  Non partiamo dal disegno, ma dal capire cosa serve davvero:
+                  vincoli del lotto, budget, tempi, e cosa il progetto dovrà
+                  restituire a chi lo promuove. Da lì nasce un rapporto che regge
+                  per tutto il percorso, dalla fattibilità al collaudo.
                 </p>
                 <p>
                   La precisione fa il resto. Curiamo materiali, finiture e tempi
                   con rigore artigianale, in ogni fase del cantiere, assumendoci
-                  la responsabilità di ciò che costruiamo — perché un edificio ben
-                  fatto è un impegno che dura nel tempo.
+                  la responsabilità di ciò che costruiamo — perché un edificio
+                  ben fatto è un impegno che dura nel tempo, e un contenzioso
+                  risparmiato a chi ce lo ha affidato.
                 </p>
               </div>
             </Reveal>
@@ -90,14 +92,14 @@ export default function TeamPage() {
           <Reveal delay={120} className="mt-16 flex justify-end md:mt-0">
             <div className="max-w-xl">
               <p className="text-base leading-relaxed text-cream/85 md:text-lg">
-                Crediamo che costruire sia un gesto umano prima che tecnico. Per
-                questo lavoriamo su misura, con la stessa cura in ogni dettaglio
-                e con le stesse persone al tuo fianco, dall&apos;inizio alla fine.
+                Non esistono due cantieri uguali. Per questo lavoriamo su misura,
+                con la stessa cura in ogni dettaglio e con le stesse persone sul
+                progetto, dall&apos;inizio alla fine.
               </p>
               <p className="mt-6 text-base leading-relaxed text-cream/85 md:text-lg">
-                Ogni spazio che consegniamo nasce da ascolto, competenza e
-                passione: perché un cliente soddisfatto è la realizzazione più
-                bella a cui possiamo aspirare.
+                Ogni opera che consegniamo nasce da competenza, esperienza e
+                responsabilità: perché un&apos;operazione che riesce è la
+                soddisfazione più grande a cui possiamo aspirare.
               </p>
               <Link
                 href="/contatti"
@@ -161,35 +163,8 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Lavora con noi — closing section */}
-      <section className="relative overflow-hidden bg-ink text-white">
-        <Image
-          src="/team/lavora-cantiere.jpg"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover opacity-30"
-        />
-        <div className="relative z-10 mx-auto flex max-w-[1600px] flex-col items-start gap-10 px-6 py-28 md:flex-row md:items-end md:justify-between md:px-10 md:py-40">
-          <Reveal>
-            <p className="eyebrow text-white/60">Lavora con noi</p>
-            <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-tight md:text-6xl">
-              Cerchiamo persone che condividano la nostra cura.
-            </h2>
-          </Reveal>
-          <Reveal delay={120}>
-            <Link
-              href="/contatti"
-              className="group inline-flex shrink-0 items-center gap-3 bg-white px-9 py-5 text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-cream"
-            >
-              Invia la tua candidatura
-              <span className="transition-transform duration-300 group-hover:translate-x-1">
-                →
-              </span>
-            </Link>
-          </Reveal>
-        </div>
-      </section>
+      <Careers />
+
     </>
   );
 }

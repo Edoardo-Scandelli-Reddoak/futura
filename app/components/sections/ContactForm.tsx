@@ -52,8 +52,8 @@ export default function ContactForm() {
           Grazie{nome ? `, ${nome}` : ""}!
         </h3>
         <p className="mt-4 max-w-md text-base leading-relaxed text-stone">
-          Abbiamo ricevuto la tua richiesta. Ti risponderemo al più presto per
-          parlare del tuo progetto.
+          Abbiamo ricevuto la richiesta. Risponderemo al più presto per
+          parlare del progetto.
         </p>
         <button
           type="button"
