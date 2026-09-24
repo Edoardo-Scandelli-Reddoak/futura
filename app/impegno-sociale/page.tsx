@@ -76,8 +76,8 @@ export default function ImpegnoSocialePage() {
             </h2>
             <p className="text-base leading-relaxed text-stone md:text-lg">
               Alcune delle opere che raccontano il nostro modo di stare sul
-              territorio: spazi pensati per le persone e per le comunità che li
-              vivono.
+              territorio: cantieri aperti nei luoghi in cui viviamo e
+              lavoriamo.
             </p>
           </div>
 

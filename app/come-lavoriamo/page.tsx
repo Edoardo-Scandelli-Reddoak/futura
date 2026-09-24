@@ -40,9 +40,11 @@ export default function ServiziPage() {
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
               Costruire significa prendere decisioni che durano anni, e quasi
-              tutte si pagano in cantiere. Per questo entriamo prima:
+              tutte si pagano in cantiere. Per questo chiediamo di essere
+              coinvolti già in fase di progetto, quando una scelta costruttiva
+              si può ancora correggere sulla carta invece che in opera:
               trent&apos;anni di esperienza, un ufficio tecnico interno e
-              maestranze selezionate messi al servizio del progetto e di chi lo
+              maestranze selezionate al servizio del progetto e di chi lo
               promuove — fondi di sviluppo, committenti industriali, privati.
               Un solo interlocutore, dalla fattibilità alla consegna.
             </p>

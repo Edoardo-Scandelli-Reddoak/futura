@@ -6,11 +6,14 @@ import ContactForm from "../components/sections/ContactForm";
 export const metadata: Metadata = {
   title: "Contatti — Futura",
   description:
-    "Parliamo della prossima operazione. Scriveteci o venite a trovarci nella sede di Futura a Solaro (MI), Via Como 51.",
+    "Parliamo della prossima operazione. Le sedi Futura sono a Solaro (MI), in Via Como 51, e a Bergamo, in Piazza Gaber 3/E.",
 };
 
 const mapsUrl =
   "https://www.google.com/maps/search/?api=1&query=Via+Como+51+Solaro+MI";
+
+const mapsUrlBergamo =
+  "https://www.google.com/maps/search/?api=1&query=Piazza+Gaber+3+Bergamo";
 
 export default function ContattiPage() {
   return (
@@ -53,7 +56,7 @@ export default function ContattiPage() {
                 <div>
                   <p className="eyebrow flex items-center gap-2.5 text-stone">
                     <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
-                    Sede
+                    Sede operativa
                   </p>
                   <p className="mt-4 font-serif text-2xl leading-snug text-ink">
                     Via Como, 51
@@ -62,6 +65,25 @@ export default function ContattiPage() {
                   </p>
                   <a
                     href={mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="nav-link mt-4 inline-block text-sm uppercase tracking-[0.16em] text-navy"
+                  >
+                    Apri su Google Maps →
+                  </a>
+                </div>
+                <div>
+                  <p className="eyebrow flex items-center gap-2.5 text-stone">
+                    <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
+                    Sede di Bergamo
+                  </p>
+                  <p className="mt-4 font-serif text-2xl leading-snug text-ink">
+                    Piazza Gaber, 3/E
+                    <br />
+                    24124 Bergamo (BG)
+                  </p>
+                  <a
+                    href={mapsUrlBergamo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-link mt-4 inline-block text-sm uppercase tracking-[0.16em] text-navy"

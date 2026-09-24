@@ -6,7 +6,7 @@ import StickyProjects from "../components/sections/StickyProjects";
 export const metadata: Metadata = {
   title: "Progetti — Futura",
   description:
-    "I cantieri realizzati da Futura tra Milano, Bergamo e Varese: residenziale, direzionale e funzione mista.",
+    "I cantieri realizzati da Futura tra Milano, Bergamo e Varese: nuove costruzioni residenziali, recuperi e interventi a funzione mista.",
 };
 
 export default function ProgettiPage() {
@@ -24,10 +24,11 @@ export default function ProgettiPage() {
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
               Ogni cantiere ha i suoi vincoli, e sono quelli a raccontare come
-              lavoriamo: lotti stretti, demolizioni in città, edifici storici da
-              recuperare, strutture consegnate in esercizio. Residenziale,
-              direzionale e funzione mista tra Milano, Bergamo e Varese —
-              committenti diversi, uno stesso modo di costruire.
+              lavoriamo: lotti stretti in città, demolizioni e bonifiche,
+              palazzi storici da recuperare senza tradirne il volto. Nuove
+              costruzioni residenziali e interventi a funzione mista tra Milano,
+              Bergamo e Varese — committenti diversi, uno stesso modo di
+              costruire.
             </p>
           </Reveal>
         </div>

@@ -15,30 +15,30 @@ type Value = {
 const values: Value[] = [
   {
     n: "01",
-    title: "Le persone, prima di tutto",
+    title: "Chi costruisce fa la differenza",
     short: "Persone",
-    body: "Dietro ogni progetto ci sono persone: chi lo abiterà e chi lo costruisce. Mettiamo l'ascolto al centro del nostro metodo, perché un buon edificio nasce prima di tutto da una buona relazione.",
+    body: "Un progetto vale quanto le mani che lo realizzano. Maestranze qualificate, fornitori selezionati e un ufficio tecnico che risponde in giornata: è da qui che passa la differenza tra un'opera consegnata e un'opera consegnata bene.",
     image: "/team/value-persone.jpg",
   },
   {
     n: "02",
     title: "Cura artigianale del dettaglio",
     short: "Dettaglio",
-    body: "Trattiamo ogni realizzazione come un pezzo unico. Studiamo materiali, finiture e giunzioni con l'attenzione di un artigiano: è nella precisione dei particolari che si misura la qualità del nostro lavoro.",
+    body: "Trattiamo ogni realizzazione come un pezzo unico. Studiamo materiali, finiture e giunzioni con l'attenzione di un artigiano: è nei particolari che un edificio si difende dal tempo e dai contenziosi.",
     image: "/team/value-cura.jpg",
   },
   {
     n: "03",
     title: "Un'unica squadra",
     short: "Squadra",
-    body: "Architetti, ingegneri, maestranze e project manager lavorano come un solo organismo. Nessun compartimento stagno: le competenze si intrecciano attorno a un obiettivo condiviso, dall'idea alla consegna.",
+    body: "Ufficio tecnico, maestranze e project manager lavorano come un solo organismo, a fianco dei progettisti che il committente ha scelto. Nessun compartimento stagno: le competenze si intrecciano attorno al risultato finale.",
     image: "/team/value-squadra.jpg",
   },
   {
     n: "04",
     title: "Radici nel territorio",
     short: "Territorio",
-    body: "Costruiamo dove viviamo. Conosciamo i luoghi, le persone e il paesaggio in cui operiamo, e ci sentiamo responsabili di ciò che lasciamo: spazi pensati per durare e per migliorare il contesto che li accoglie.",
+    body: "Costruiamo dove viviamo. Conosciamo imprese, fornitori e uffici tecnici del territorio, e questo si traduce in tempi più corti e meno imprevisti. Di ciò che lasciamo ci sentiamo responsabili anche molto dopo la consegna.",
     image: "/team/value-territorio.jpg",
   },
 ];

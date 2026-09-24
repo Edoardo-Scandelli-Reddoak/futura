@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Futura — Impresa di Costruzioni",
     description:
-      "Progettiamo e realizziamo spazi residenziali e direzionali in Lombardia.",
+      "Impresa di costruzioni in Lombardia da trent'anni. Mettiamo competenze ed esperienza di cantiere al servizio del progetto e di chi lo promuove.",
     type: "website",
   },
 };

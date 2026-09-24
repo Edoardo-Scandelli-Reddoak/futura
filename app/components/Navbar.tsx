@@ -215,11 +215,11 @@ export default function Navbar() {
                   (+39) 02 250 62368
                 </a>
               </InfoBlock>
-              <InfoBlock label="Indirizzo">
+              <InfoBlock label="Sedi">
                 <span className="not-italic">
-                  Via Como, 51
+                  Via Como, 51 — 20033 Solaro (MI)
                   <br />
-                  20033 Solaro (MI)
+                  Piazza Gaber, 3/E — 24124 Bergamo (BG)
                 </span>
               </InfoBlock>
               <InfoBlock label="Social">

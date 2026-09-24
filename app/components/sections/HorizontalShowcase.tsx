@@ -19,6 +19,7 @@ type Cell =
       h: string;
       align: "start" | "center" | "end";
       caption: string;
+      city: string;
     };
 
 // The horizontal strip, read left → right as the page scrolls.
@@ -30,7 +31,8 @@ const cells: Cell[] = [
     w: 720,
     h: "56vh",
     align: "start",
-    caption: "Via Ponte Pietra · Bergamo",
+    caption: "Via Ponte Pietra",
+    city: "Bergamo",
   },
   {
     kind: "text",
@@ -44,7 +46,8 @@ const cells: Cell[] = [
     w: 300,
     h: "38vh",
     align: "center",
-    caption: "Sede · Solaro",
+    caption: "La nostra sede",
+    city: "Solaro",
   },
   {
     kind: "text",
@@ -58,7 +61,8 @@ const cells: Cell[] = [
     w: 430,
     h: "54vh",
     align: "end",
-    caption: "Piazza G. Gaber · Bergamo",
+    caption: "Piazza G. Gaber",
+    city: "Bergamo",
   },
   {
     kind: "image",
@@ -66,7 +70,8 @@ const cells: Cell[] = [
     w: 540,
     h: "44vh",
     align: "start",
-    caption: "Via G. Ferrari · Saronno",
+    caption: "Via G. Ferrari",
+    city: "Saronno",
   },
   {
     kind: "text",
@@ -80,7 +85,8 @@ const cells: Cell[] = [
     w: 320,
     h: "50vh",
     align: "end",
-    caption: "Via Stazione · Nembro",
+    caption: "Via Stazione",
+    city: "Nembro",
   },
   {
     kind: "image",
@@ -88,7 +94,8 @@ const cells: Cell[] = [
     w: 360,
     h: "52vh",
     align: "center",
-    caption: "Via Sbodio · Milano",
+    caption: "Via Sbodio",
+    city: "Milano",
   },
   {
     kind: "text",
@@ -177,10 +184,10 @@ export default function HorizontalShowcase() {
                     tiene.
                   </p>
                   <Link
-                    href="/"
+                    href="/come-lavoriamo"
                     className="mt-8 inline-flex w-fit items-center gap-3 bg-navy px-7 py-4 text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-navy-deep"
                   >
-                    I nostri servizi
+                    Come lavoriamo
                   </Link>
                 </div>
               );
@@ -215,15 +222,18 @@ export default function HorizontalShowcase() {
                   >
                     <Image
                       src={cell.src}
-                      alt={cell.caption}
+                      alt={`${cell.caption}, ${cell.city}`}
                       fill
                       sizes={`${cell.w}px`}
                       priority={i <= 2}
                       className="object-cover"
                     />
                   </div>
-                  <p className="mt-4 text-[0.7rem] uppercase tracking-[0.18em] text-stone">
+                  <p className="mt-4 text-[0.7rem] uppercase tracking-[0.18em] text-ink">
                     {cell.caption}
+                  </p>
+                  <p className="mt-1.5 text-[0.7rem] uppercase tracking-[0.18em] text-stone/70">
+                    {cell.city}
                   </p>
                 </div>
               </div>

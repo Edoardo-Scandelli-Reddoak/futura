@@ -73,12 +73,19 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-cream/50">Sede operativa</p>
+            <p className="eyebrow text-cream/50">Sedi</p>
             <address className="mt-6 space-y-3 text-sm not-italic text-cream/80">
               <p>
+                <span className="block text-cream/50">Solaro</span>
                 Via Como, 51
                 <br />
                 20033 Solaro (MI)
+              </p>
+              <p>
+                <span className="block text-cream/50">Bergamo</span>
+                Piazza Gaber, 3/E
+                <br />
+                24124 Bergamo (BG)
               </p>
               <p>
                 <a href="mailto:info@futurasrl.net" className="nav-link">
