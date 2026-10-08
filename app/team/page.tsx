@@ -26,10 +26,10 @@ export default function TeamPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Futura non è un catalogo di servizi, ma un gruppo di persone.
-              Tecnici, capicantiere e maestranze che condividono un modo di
-              lavorare fatto di precisione e responsabilità. È da qui — dalle
-              mani e dall&apos;esperienza di chi la compone — che dipende la
+              Futura non è un catalogo di servizi, ma un gruppo di persone:
+              tecnici, capicantiere e maestranze che condividono un metodo di
+              lavoro fondato sulla precisione e sulla responsabilità. È dalle
+              competenze e dall&apos;esperienza di chi la compone che dipende la
               riuscita di ogni opera che ci viene affidata.
             </p>
           </Reveal>
@@ -48,17 +48,18 @@ export default function TeamPage() {
             <Reveal delay={120}>
               <div className="space-y-6 text-lg leading-relaxed text-stone md:text-xl">
                 <p>
-                  Non partiamo dal disegno, ma dal capire cosa serve davvero:
-                  vincoli del lotto, budget, tempi, e cosa il progetto dovrà
-                  restituire a chi lo promuove. Da lì nasce un rapporto che regge
-                  per tutto il percorso, dalla fattibilità al collaudo.
+                  Non partiamo dal disegno, ma dall&apos;analisi di ciò che
+                  serve realmente: vincoli del lotto, budget, tempi e risultato
+                  atteso da chi promuove l&apos;intervento. Da questa premessa
+                  nasce un rapporto solido per l&apos;intero percorso, dalla
+                  fattibilità al collaudo.
                 </p>
                 <p>
                   La precisione fa il resto. Curiamo materiali, finiture e tempi
-                  con rigore artigianale, in ogni fase del cantiere, assumendoci
-                  la responsabilità di ciò che costruiamo — perché un edificio
-                  ben fatto è un impegno che dura nel tempo, e un contenzioso
-                  risparmiato a chi ce lo ha affidato.
+                  con rigore artigianale in ogni fase del cantiere, assumendoci
+                  la responsabilità di quanto realizziamo: un edificio eseguito
+                  correttamente rappresenta un valore che dura nel tempo e
+                  risparmia contenziosi a chi ce lo ha affidato.
                 </p>
               </div>
             </Reveal>
@@ -92,14 +93,14 @@ export default function TeamPage() {
           <Reveal delay={120} className="mt-16 flex justify-end md:mt-0">
             <div className="max-w-xl">
               <p className="text-base leading-relaxed text-cream/85 md:text-lg">
-                Non esistono due cantieri uguali. Per questo lavoriamo su misura,
-                con la stessa cura in ogni dettaglio e con le stesse persone sul
-                progetto, dall&apos;inizio alla fine.
+                Non esistono due cantieri uguali. Per questo lavoriamo su
+                misura, con la medesima cura in ogni dettaglio e con le stesse
+                persone a seguire il progetto dall&apos;inizio alla fine.
               </p>
               <p className="mt-6 text-base leading-relaxed text-cream/85 md:text-lg">
                 Ogni opera che consegniamo nasce da competenza, esperienza e
-                responsabilità: perché un&apos;operazione che riesce è la
-                soddisfazione più grande a cui possiamo aspirare.
+                senso di responsabilità: un&apos;operazione portata a buon fine
+                è il risultato a cui aspiriamo.
               </p>
               <Link
                 href="/contatti"
@@ -141,10 +142,10 @@ export default function TeamPage() {
             <Reveal delay={120}>
               <div className="space-y-8 md:mt-24">
                 <p className="text-base leading-relaxed text-stone md:text-lg">
-                  Costruiamo dove viviamo, e sentiamo la responsabilità di
-                  restituire qualcosa al territorio che ci accoglie. Per questo
-                  sosteniamo le realtà e le iniziative che animano le nostre
-                  comunità — a partire dallo sport, palestra quotidiana degli
+                  Costruiamo nei territori in cui viviamo e sentiamo la
+                  responsabilità di restituire qualcosa alle comunità che ci
+                  accolgono. Per questo sosteniamo le realtà e le iniziative
+                  locali, a cominciare dallo sport, che promuove ogni giorno gli
                   stessi valori in cui crediamo: impegno, rispetto e spirito di
                   squadra.
                 </p>

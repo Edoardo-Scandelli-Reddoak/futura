@@ -13,15 +13,15 @@ export const metadata: Metadata = {
 const pillars = [
   {
     title: "Un unico interlocutore",
-    body: "Dalla fattibilità alla consegna, una sola regia. Progettazione, cantiere e collaudo sotto un unico responsabile: nessun rimpallo di responsabilità, sempre le stesse persone sul progetto.",
+    body: "Dalla fattibilità alla consegna, un'unica regia. Progettazione, cantiere e collaudo rispondono a un solo responsabile: nessuna sovrapposizione di competenze e sempre le stesse persone a seguire il progetto.",
   },
   {
     title: "Trent'anni di cantieri",
-    body: "Un'esperienza costruita in tre decenni, tra edilizia residenziale, industriale e commerciale. Certificazioni SOA, ISO 9001 e 14001 e Rating di Legalità: solidità e trasparenza verificabili da chi deve affidarci un'opera.",
+    body: "Un'esperienza maturata in tre decenni nell'edilizia residenziale, industriale e commerciale. Certificazioni SOA, ISO 9001 e ISO 14001 e Rating di Legalità: solidità e trasparenza verificabili da chi valuta di affidarci un'opera.",
   },
   {
     title: "Una squadra, non una filiera",
-    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati che lavorano come un solo organismo. È così che teniamo insieme qualità, tempi e costi — le tre cose che decidono un'operazione.",
+    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati operano come un'unica struttura. È questo che ci permette di governare insieme qualità, tempi e costi: i tre fattori che determinano l'esito di un'operazione.",
   },
 ];
 
@@ -39,14 +39,15 @@ export default function ServiziPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Costruire significa prendere decisioni che durano anni, e quasi
-              tutte si pagano in cantiere. Per questo chiediamo di essere
-              coinvolti già in fase di progetto, quando una scelta costruttiva
-              si può ancora correggere sulla carta invece che in opera:
-              trent&apos;anni di esperienza, un ufficio tecnico interno e
-              maestranze selezionate al servizio del progetto e di chi lo
-              promuove — fondi di sviluppo, committenti industriali, privati.
-              Un solo interlocutore, dalla fattibilità alla consegna.
+              Costruire significa assumere decisioni destinate a durare anni, e
+              quasi tutte si traducono in costi di cantiere. Per questo
+              chiediamo di essere coinvolti già in fase di progettazione, quando
+              una scelta costruttiva può ancora essere corretta sulla carta
+              anziché in opera. Mettiamo trent&apos;anni di esperienza, un
+              ufficio tecnico interno e maestranze selezionate al servizio del
+              progetto e di chi lo promuove: fondi di sviluppo, committenti
+              industriali e privati. Un solo interlocutore, dalla fattibilità
+              alla consegna.
             </p>
           </Reveal>
         </div>
@@ -71,7 +72,7 @@ export default function ServiziPage() {
           <Reveal>
             <p className="eyebrow text-cream/50">La differenza Futura</p>
             <h2 className="mt-6 max-w-3xl font-serif text-3xl leading-[1.15] md:text-5xl">
-              Ciò che ci rende diversi non è cosa costruiamo, ma come.
+              Ciò che ci distingue non è che cosa costruiamo, ma come lo costruiamo.
             </h2>
           </Reveal>
 

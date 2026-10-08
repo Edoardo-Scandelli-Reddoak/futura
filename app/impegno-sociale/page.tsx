@@ -75,7 +75,7 @@ export default function ImpegnoSocialePage() {
               in evidenza
             </h2>
             <p className="text-base leading-relaxed text-stone md:text-lg">
-              Alcune delle opere che raccontano il nostro modo di stare sul
+              Alcune delle opere che testimoniano il nostro rapporto con il
               territorio: cantieri aperti nei luoghi in cui viviamo e
               lavoriamo.
             </p>

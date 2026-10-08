@@ -27,10 +27,11 @@ export default function Careers() {
               Un&apos;impresa vale quanto le persone che manda in cantiere.
             </h2>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-cream/85 md:text-lg">
-              Futura è cresciuta così: tecnici e maestranze che sono rimasti, e
-              che hanno portato dentro altre persone brave. Non abbiamo
-              posizioni aperte pubblicate — le candidature spontanee le leggiamo
-              tutte, e quando serve una figura partiamo da lì.
+              Futura è cresciuta così: tecnici e maestranze rimasti nel tempo,
+              che hanno a loro volta portato in azienda altri professionisti
+              qualificati. Non pubblichiamo posizioni aperte, ma esaminiamo
+              tutte le candidature spontanee: quando si apre una ricerca,
+              partiamo da lì.
             </p>
           </Reveal>
 
@@ -57,19 +58,19 @@ export default function Careers() {
               <div className="md:sticky md:top-32">
                 <p className="eyebrow text-stone">Candidatura spontanea</p>
                 <h3 className="mt-6 font-serif text-3xl leading-[1.1] text-ink md:text-5xl">
-                  Raccontaci
+                  Presentate
                   <br />
-                  cosa sai fare.
+                  la vostra esperienza.
                 </h3>
                 <p className="mt-8 max-w-sm text-base leading-relaxed text-stone">
                   Ufficio tecnico, cantiere, maestranze, sicurezza, fornitori e
-                  collaboratori: se sai fare il tuo mestiere e vuoi farlo bene,
-                  scrivici.
+                  collaboratori: se conoscete il vostro mestiere e volete
+                  esercitarlo con serietà, scriveteci.
                 </p>
                 <p className="mt-6 max-w-sm text-sm leading-relaxed text-stone/80">
-                  Leggiamo tutto quello che arriva. Se il profilo è in linea
-                  ricontattiamo noi, anche a distanza di mesi, quando si apre
-                  il cantiere giusto.
+                  Esaminiamo ogni candidatura. Se il profilo risulta in linea
+                  con le nostre esigenze vi ricontattiamo, anche a distanza di
+                  mesi, quando si apre il cantiere adatto.
                 </p>
               </div>
             </Reveal>

@@ -15,30 +15,30 @@ type Value = {
 const values: Value[] = [
   {
     n: "01",
-    title: "Chi costruisce fa la differenza",
+    title: "Le competenze fanno la differenza",
     short: "Persone",
-    body: "Un progetto vale quanto le mani che lo realizzano. Maestranze qualificate, fornitori selezionati e un ufficio tecnico che risponde in giornata: è da qui che passa la differenza tra un'opera consegnata e un'opera consegnata bene.",
+    body: "Un progetto vale quanto le competenze di chi lo realizza. Maestranze qualificate, fornitori selezionati e un ufficio tecnico sempre reperibile: è da questi elementi che dipende la differenza tra un'opera semplicemente consegnata e un'opera eseguita a regola d'arte.",
     image: "/team/value-persone.jpg",
   },
   {
     n: "02",
     title: "Cura artigianale del dettaglio",
     short: "Dettaglio",
-    body: "Trattiamo ogni realizzazione come un pezzo unico. Studiamo materiali, finiture e giunzioni con l'attenzione di un artigiano: è nei particolari che un edificio si difende dal tempo e dai contenziosi.",
+    body: "Trattiamo ogni realizzazione come un intervento unico. Studiamo materiali, finiture e giunzioni con attenzione artigianale: è nei dettagli che un edificio dimostra la propria durata e previene contestazioni.",
     image: "/team/value-cura.jpg",
   },
   {
     n: "03",
     title: "Un'unica squadra",
     short: "Squadra",
-    body: "Ufficio tecnico, maestranze e project manager lavorano come un solo organismo, a fianco dei progettisti che il committente ha scelto. Nessun compartimento stagno: le competenze si intrecciano attorno al risultato finale.",
+    body: "Ufficio tecnico, maestranze e project manager operano come un'unica struttura, in collaborazione con i progettisti scelti dal committente. Nessun compartimento stagno: le competenze convergono verso il risultato finale.",
     image: "/team/value-squadra.jpg",
   },
   {
     n: "04",
     title: "Radici nel territorio",
     short: "Territorio",
-    body: "Costruiamo dove viviamo. Conosciamo imprese, fornitori e uffici tecnici del territorio, e questo si traduce in tempi più corti e meno imprevisti. Di ciò che lasciamo ci sentiamo responsabili anche molto dopo la consegna.",
+    body: "Costruiamo nei territori in cui viviamo. Conosciamo imprese, fornitori e uffici tecnici locali, e questo si traduce in tempi più rapidi e minori imprevisti. Ci sentiamo responsabili di ciò che realizziamo anche molto tempo dopo la consegna.",
     image: "/team/value-territorio.jpg",
   },
 ];
@@ -59,15 +59,15 @@ export default function TeamValues() {
             </div>
             <div className="space-y-6 text-base leading-relaxed text-stone md:mt-24 md:text-lg">
               <p>
-                Non sono valori appesi a una parete: sono il modo in cui
-                prendiamo ogni decisione, dal primo sopralluogo al collaudo
-                finale. Guidano chi disegna, chi coordina il cantiere e chi posa
-                l&apos;ultimo dettaglio.
+                Non sono principi dichiarati e poi dimenticati: orientano ogni
+                decisione, dal primo sopralluogo al collaudo finale. Guidano chi
+                progetta, chi coordina il cantiere e chi cura l&apos;ultimo
+                dettaglio.
               </p>
               <p>
-                Metterle in pratica ogni giorno è ciò che ci rende un partner e
-                non un semplice fornitore: persone diverse, un solo modo di
-                intendere il lavoro fatto bene.
+                Applicarli quotidianamente è ciò che ci rende un partner e non
+                un semplice fornitore: competenze diverse, un unico modo di
+                intendere il lavoro ben fatto.
               </p>
             </div>
           </div>

@@ -16,7 +16,7 @@ export default function CTA() {
         <Reveal>
           <p className="eyebrow text-white/60">Lavoriamo insieme</p>
           <h2 className="mt-6 max-w-2xl font-serif text-4xl leading-tight md:text-6xl">
-            C&apos;è un&apos;operazione da costruire? Parliamone.
+            Avete un&apos;operazione da realizzare? Parliamone.
           </h2>
         </Reveal>
         <Reveal delay={120}>

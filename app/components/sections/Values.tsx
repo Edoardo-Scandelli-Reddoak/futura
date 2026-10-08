@@ -164,9 +164,9 @@ export default function Values() {
                   transform: imagesIn ? "translateY(0)" : "translateY(14px)",
                 }}
               >
-                Trent&apos;anni di cantieri messi a disposizione di chi progetta
-                e di chi investe: soluzioni costruttive migliori, tempi
-                rispettati, un edificio che regge negli anni.
+                Trent&apos;anni di esperienza a disposizione di chi progetta e
+                di chi investe: soluzioni costruttive più efficienti, tempi
+                rispettati, edifici che mantengono valore nel tempo.
               </p>
             </div>
           </div>
@@ -212,7 +212,7 @@ export default function Values() {
               className="mx-auto mt-6 max-w-sm text-base leading-snug text-stone transition-opacity duration-700"
               style={{ opacity: imagesIn ? 1 : 0 }}
             >
-              Trent&apos;anni di cantieri al servizio di chi progetta e di chi investe.
+              Trent&apos;anni di esperienza al servizio di chi progetta e di chi investe.
             </p>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-3">

@@ -29,10 +29,10 @@ export default function ContattiPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Ogni opera comincia con una conversazione. Un progetto da
-              realizzare, un&apos;area da valorizzare, un preventivo da
-              confrontare: guardiamo i numeri e i vincoli e diciamo subito se e
-              come si fa.
+              Ogni opera comincia da un confronto. Un progetto da realizzare,
+              un&apos;area da valorizzare o un preventivo da verificare:
+              esaminiamo numeri e vincoli e indichiamo con chiarezza se e in che
+              modo l&apos;intervento è realizzabile.
             </p>
           </Reveal>
         </div>

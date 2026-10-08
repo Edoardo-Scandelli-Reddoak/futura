@@ -36,8 +36,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Il mestiere viene prima",
-    body: "Un progetto regge se chi lo costruisce sa come si costruisce. Portiamo in fase di disegno l'esperienza del cantiere: dettagli risolvibili, materiali che si trovano, soluzioni che non esplodono in corso d'opera.",
+    title: "L'esperienza prima del disegno",
+    body: "Un progetto regge quando chi lo realizza conosce a fondo le tecniche costruttive. Portiamo in fase di disegno l'esperienza del cantiere: dettagli effettivamente eseguibili, materiali reperibili e soluzioni che non generano varianti in corso d'opera.",
     align: "center",
   },
   {
@@ -51,8 +51,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Anche sviluppo, non solo",
-    body: "Acquisiamo e valorizziamo aree anche in proprio, e questo ci ha insegnato a leggere un'operazione dal lato di chi la promuove: costi, tempi, margini. Ma resta una parte del lavoro, non il mestiere principale.",
+    title: "Sviluppo immobiliare, ma non solo",
+    body: "Acquisiamo e valorizziamo aree anche in proprio: un'attività che ci ha insegnato a valutare un'operazione dal punto di vista di chi la promuove, considerando costi, tempi e marginalità. Resta però una parte del nostro lavoro, non l'attività principale.",
     align: "start",
   },
   {
@@ -76,7 +76,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Il cantiere sotto controllo",
-    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati. Tempi, costi e dettagli sotto controllo: è la parte in cui un'operazione si fa o si perde, ed è la parte che sappiamo fare.",
+    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati, mantenendo il controllo su tempi, costi e qualità esecutiva. È la fase in cui si determina il risultato di un'operazione, ed è quella in cui siamo specializzati.",
     align: "center",
   },
   {
@@ -100,7 +100,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Costruire per durare",
-    body: "Un edificio costruito bene mantiene valore, costa meno da gestire e non torna indietro sotto forma di contenziosi. Per questo scegliamo soluzioni solide anche quando nessuno le vedrà.",
+    body: "Un edificio costruito a regola d'arte mantiene il proprio valore, comporta costi di gestione inferiori e riduce il rischio di contenziosi. Per questo adottiamo soluzioni durevoli anche dove non saranno visibili.",
     align: "center",
   },
 ];
@@ -173,15 +173,16 @@ export default function HorizontalShowcase() {
                 >
                   <p className="eyebrow mb-6 text-stone">Cosa facciamo</p>
                   <p className="text-lg leading-relaxed text-ink md:text-xl">
-                    Siamo un&apos;impresa di costruzioni. Operiamo anche su
-                    tutta la filiera — dall&apos;acquisizione delle aree allo
-                    sviluppo immobiliare — ma il nostro mestiere è costruire.
+                    Siamo un&apos;impresa di costruzioni. Operiamo anche
+                    sull&apos;intera filiera, dall&apos;acquisizione delle aree
+                    allo sviluppo immobiliare, ma la nostra attività principale
+                    è costruire.
                   </p>
                   <p className="mt-5 text-base leading-relaxed text-stone">
-                    Averla attraversata tutta ci permette di entrare nel progetto
-                    con l&apos;occhio di chi poi dovrà realizzarlo: ottimizzazioni
-                    costruttive, meno sorprese in cantiere, un risultato che
-                    tiene.
+                    Conoscere l&apos;intera filiera ci consente di affrontare il
+                    progetto con la prospettiva di chi dovrà realizzarlo:
+                    ottimizzazioni costruttive, minori imprevisti in cantiere e
+                    un risultato solido nel tempo.
                   </p>
                   <Link
                     href="/come-lavoriamo"

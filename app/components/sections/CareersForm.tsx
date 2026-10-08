@@ -28,7 +28,7 @@ export default function CareersForm() {
     if (!ACCESS_KEY) {
       setStato("errore");
       setErrore(
-        "Il modulo non è ancora collegato all'account Web3Forms. Nel frattempo scrivi a info@futurasrl.net."
+        "Il modulo non è ancora collegato all'account Web3Forms. Nel frattempo potete scrivere a info@futurasrl.net."
       );
       return;
     }
@@ -51,12 +51,12 @@ export default function CareersForm() {
         form.reset();
       } else {
         setStato("errore");
-        setErrore(json.message || "Invio non riuscito. Riprova tra poco.");
+        setErrore(json.message || "Invio non riuscito. Vi invitiamo a riprovare tra qualche minuto.");
       }
     } catch {
       setStato("errore");
       setErrore(
-        "Non siamo riusciti a inviare la candidatura. Controlla la connessione e riprova."
+        "Non è stato possibile inviare la candidatura. Verificate la connessione e riprovate."
       );
     }
   }
@@ -72,8 +72,8 @@ export default function CareersForm() {
         </span>
         <p className="font-serif text-3xl text-ink">Candidatura inviata.</p>
         <p className="max-w-md text-base leading-relaxed text-stone">
-          L&apos;abbiamo ricevuta e la leggiamo. Se il profilo è in linea con
-          quello che cerchiamo ricontattiamo noi.
+          Abbiamo ricevuto la candidatura e la esamineremo. Se il profilo
+          risulta in linea con le nostre esigenze, vi ricontatteremo.
         </p>
         <button
           type="button"
@@ -149,7 +149,7 @@ export default function CareersForm() {
       <textarea
         name="messaggio"
         rows={4}
-        placeholder="Due righe su di te: cosa sai fare, dove hai lavorato (facoltativo)"
+        placeholder="Breve presentazione: competenze ed esperienze principali (facoltativo)"
         className={campo}
       />
 

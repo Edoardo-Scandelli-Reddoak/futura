@@ -25,7 +25,7 @@ export default function Footer() {
               style={{ filter: "brightness(0) invert(1)" }}
             />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/70">
-              Impresa di costruzioni in Lombardia, da trent&apos;anni.
+              Impresa di costruzioni attiva in Lombardia da trent&apos;anni.
               Realizziamo opere residenziali, direzionali e industriali per chi
               progetta, sviluppa e investe.
             </p>

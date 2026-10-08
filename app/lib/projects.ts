@@ -43,12 +43,12 @@ export const projects: Project[] = [
       "/projects/ponte-pietra/06.jpg",
     ],
     excerpt:
-      "Un nuovo isolato residenziale a due passi dallo stadio, nel tessuto storico di Bergamo. Il cantiere in cui si vede il mestiere prima ancora dell'edificio.",
+      "Un nuovo isolato residenziale in prossimità dello stadio, nel tessuto consolidato di Bergamo. Un cantiere complesso, condotto in spazi ristretti.",
     intro:
-      "Un nuovo isolato residenziale nel cuore di Bergamo, dove il cantiere racconta il mestiere prima ancora dell'edificio.",
+      "Un nuovo isolato residenziale nel tessuto consolidato di Bergamo, realizzato in un contesto urbano particolarmente vincolato.",
     description: [
-      "Via Ponte Pietra si inserisce in un tessuto urbano già scritto: palazzine anni Sessanta, capannoni storici, lo stadio poco oltre e, sullo sfondo, il profilo di Città Alta. Costruire qui significa lavorare in spazi stretti, con la città addosso.",
-      "L'intervento è oggi nella fase strutturale: sbancamento completato, platea di fondazione gettata, casseri e armature in opera lungo tutto il fronte. È la fase in cui si decide tutto — geometrie, tolleranze, impermeabilizzazioni — e in cui la qualità di un edificio si costruisce davvero.",
+      "L'intervento di Via Ponte Pietra si inserisce in un tessuto urbano consolidato, caratterizzato da edilizia residenziale degli anni Sessanta, capannoni di impianto storico e la prossimità dello stadio, con il profilo di Città Alta sullo sfondo. Costruire in questo contesto richiede una gestione accurata degli spazi di cantiere e delle interferenze con la viabilità.",
+      "I lavori si trovano attualmente nella fase strutturale: sbancamento completato, platea di fondazione gettata, casseri e armature in opera lungo l'intero fronte. È la fase in cui si definiscono geometrie, tolleranze e impermeabilizzazioni, e in cui si determina la qualità complessiva dell'edificio.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
@@ -78,12 +78,12 @@ export const projects: Project[] = [
       "/projects/bergamo-gaber/06.jpeg",
     ],
     excerpt:
-      "Volumi netti e terrazze aggettanti nel cuore urbano di Bergamo. Un residenziale contemporaneo che ridisegna l'affaccio sulla piazza.",
+      "Volumi netti e terrazze aggettanti nel centro di Bergamo: un intervento residenziale contemporaneo affacciato sulla piazza.",
     intro:
-      "Un residenziale contemporaneo che ridisegna l'affaccio sulla piazza con volumi netti e terrazze profonde.",
+      "Un intervento residenziale contemporaneo che ridefinisce il fronte sulla piazza attraverso volumi netti e terrazze profonde.",
     description: [
-      "Affacciato su Piazza Giorgio Gaber, l'intervento reinterpreta l'isolato urbano con volumi netti e terrazze aggettanti risolte con una struttura a sbalzo continua. Il ritmo delle logge disegna una facciata in continuo movimento di luci e ombre.",
-      "Gli appartamenti, tagliati su misure diverse, condividono spazi comuni curati e un attacco a terra permeabile, che restituisce alla piazza un fronte attivo e accogliente.",
+      "Affacciato su Piazza Giorgio Gaber, l'intervento reinterpreta l'isolato urbano con volumi netti e terrazze aggettanti, realizzate mediante una struttura a sbalzo continua. Il ritmo delle logge genera una facciata in costante variazione di luci e ombre.",
+      "Gli appartamenti, disponibili in tagli differenziati, condividono spazi comuni curati e un attacco a terra permeabile, che restituisce alla piazza un fronte attivo.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
@@ -112,12 +112,12 @@ export const projects: Project[] = [
       "/projects/nembro/04.jpg",
     ],
     excerpt:
-      "Una torre residenziale dal disegno scultoreo, immersa nel verde. Terrazzi profondi e una facciata in continuo movimento di luci e ombre.",
+      "Una torre residenziale dal disegno articolato, immersa nel verde, con terrazzi profondi e una facciata in continua variazione.",
     intro:
-      "Una torre residenziale dal disegno scultoreo, immersa nel verde, dove ogni piano cerca la luce e il paesaggio.",
+      "Una torre residenziale dal disegno articolato, immersa nel verde, concepita per ottimizzare illuminazione naturale e affacci.",
     description: [
-      "Tower Baioni è una torre residenziale dal disegno scultoreo, affacciata sul parco e sulla valle alle porte di Nembro. I terrazzi profondi, fioriti e sfalsati di piano in piano, generano una facciata viva, sempre diversa secondo l'ora e la stagione.",
-      "Il progetto mette al centro il rapporto con il paesaggio: ogni alloggio è orientato per catturare la luce e gli affacci sui monti, mentre il piano terra dialoga con il verde pubblico del quartiere.",
+      "Tower Baioni è una torre residenziale affacciata sul parco e sulla valle, alle porte di Nembro. I terrazzi, profondi e sfalsati di piano in piano, generano una facciata dinamica che muta con la luce e con le stagioni.",
+      "Il progetto pone al centro il rapporto con il paesaggio: ogni alloggio è orientato per massimizzare l'illuminazione naturale e gli affacci sui rilievi circostanti, mentre il piano terra si relaziona con il verde pubblico del quartiere.",
     ],
     facts: [
       { label: "Località", value: "Nembro (BG)" },
@@ -145,12 +145,12 @@ export const projects: Project[] = [
       "/projects/saronno-ferrari/02.jpg",
     ],
     excerpt:
-      "Un fronte urbano dai colori decisi che ospita residenze e attività commerciali. Identità forte e funzioni che si intrecciano.",
+      "Un fronte urbano dai colori decisi che accoglie residenze e attività commerciali in un unico intervento a funzione mista.",
     intro:
-      "Un fronte urbano dai colori decisi dove residenze e attività commerciali si intrecciano in un'unica identità.",
+      "Un fronte urbano dai colori decisi, dove residenze e attività commerciali convivono in un'identità architettonica unitaria.",
     description: [
-      "Via Gaudenzio Ferrari è un intervento a funzione mista: un fronte urbano dai colori decisi che ospita residenze ai piani alti e attività commerciali al piano terra, restituendo vitalità alla strada.",
-      "La sovrapposizione delle funzioni è gestita con ingressi distinti e una scansione di facciata che dichiara con chiarezza i diversi usi, costruendo un'identità forte e riconoscibile.",
+      "Via Gaudenzio Ferrari è un intervento a funzione mista: un fronte urbano dai colori decisi che accoglie residenze ai piani superiori e attività commerciali al piano terra, restituendo vitalità alla strada.",
+      "La sovrapposizione delle funzioni è risolta con ingressi distinti e una scansione di facciata che distingue con chiarezza le diverse destinazioni d'uso.",
     ],
     facts: [
       { label: "Località", value: "Saronno (VA)" },
@@ -180,12 +180,12 @@ export const projects: Project[] = [
       "/projects/bergamo-baioni/06.jpg",
     ],
     excerpt:
-      "Rigenerazione urbana a Bergamo: dalla demolizione di un capannone dismesso a un nuovo abitare, raccontato in un padiglione Open Living.",
+      "Rigenerazione urbana a Bergamo: dalla demolizione di un capannone dismesso a un nuovo intervento residenziale, presentato in un padiglione Open Living.",
     intro:
-      "Un'area industriale dismessa che torna alla città: demolizione, bonifica e un nuovo modo di raccontare la casa.",
+      "Un'area industriale dismessa restituita alla città attraverso demolizione, bonifica e un nuovo intervento residenziale.",
     description: [
-      "Via Baioni nasce da una demolizione. Al posto di un capannone dismesso — coperture in lamiera, capriate, pilastri prefabbricati — l'area è stata svuotata e restituita al quartiere come suolo su cui ricostruire. È il tipo di intervento che misura davvero un'impresa: gestione delle macerie, selezione dei materiali, sicurezza in un contesto urbano fitto.",
-      "Accanto al cantiere abbiamo costruito un padiglione Open Living: un volume netto in grigio, aperto sul giardino con vetrate a tutta altezza e una pensilina profonda tagliata da linee di luce. Non un ufficio vendite, ma uno spazio in cui si possono toccare i materiali, la luce e le proporzioni del progetto prima che esista.",
+      "L'intervento di Via Baioni ha avuto origine da una demolizione. Al posto di un capannone dismesso, con coperture in lamiera, capriate e pilastri prefabbricati, l'area è stata liberata e restituita al quartiere come superficie edificabile. Si tratta di un intervento che richiede particolare competenza: gestione dei materiali di risulta, selezione e recupero dei materiali, sicurezza in un contesto urbano densamente edificato.",
+      "Accanto al cantiere è stato realizzato un padiglione Open Living: un volume netto di colore grigio, aperto sul giardino con vetrate a tutta altezza e una pensilina profonda attraversata da linee di luce. Più che un ufficio vendite, uno spazio che consente di valutare materiali, illuminazione e proporzioni del progetto prima della sua realizzazione.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
@@ -213,12 +213,12 @@ export const projects: Project[] = [
       "/projects/bergamo-suardi/05.jpg",
     ],
     excerpt:
-      "Tre torri e 75 appartamenti nel borgo di Santa Caterina. Il complesso residenziale più grande che abbiamo costruito a Bergamo.",
+      "Tre torri e 75 appartamenti nel borgo di Santa Caterina: il nostro complesso residenziale di maggiori dimensioni a Bergamo.",
     intro:
-      "Tre torri residenziali nel borgo di Santa Caterina: 75 appartamenti, finiture di pregio, materiali a basso impatto.",
+      "Tre torri residenziali nel borgo di Santa Caterina: 75 appartamenti, finiture di pregio e materiali a basso impatto ambientale.",
     description: [
-      "Tower Santa Caterina è il nostro intervento più esteso in città: tre corpi residenziali per 75 appartamenti in via Suardi, nel borgo storico di Santa Caterina. Volumi chiari e grigi si alternano, con logge profonde e parapetti vetrati che alleggeriscono i fronti.",
-      "Il progetto è stato costruito attorno alla casa campione: un appartamento completo, finito e arredato, visitabile durante i lavori. Un modo concreto di mostrare capitolato, finiture e luce reale invece di prometterli su carta.",
+      "Tower Santa Caterina è il nostro intervento di maggiore estensione in città: tre corpi residenziali per complessivi 75 appartamenti in via Suardi, nel borgo storico di Santa Caterina. Volumi chiari e grigi si alternano, con logge profonde e parapetti vetrati che alleggeriscono i fronti.",
+      "Il progetto è stato sviluppato attorno alla casa campione: un appartamento completo, finito e arredato, visitabile durante l'esecuzione dei lavori. Una soluzione che consente di verificare capitolato, finiture e qualità degli ambienti prima dell'acquisto.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
@@ -248,12 +248,12 @@ export const projects: Project[] = [
       "/projects/osio-sotto/06.jpg",
     ],
     excerpt:
-      "Quattro corpi bassi attorno a corti verdi, con tetti interamente coperti di fotovoltaico. Un residenziale che produce l'energia che consuma.",
+      "Quattro corpi bassi disposti attorno a corti verdi, con coperture interamente dedicate al fotovoltaico.",
     intro:
       "Un complesso residenziale a corte aperta, con i tetti interamente dedicati al fotovoltaico.",
     description: [
-      "A Osio Sotto abbiamo lavorato per sottrazione: invece di un unico blocco, quattro corpi bassi disposti attorno a corti verdi e percorsi pedonali. Ogni alloggio ha una loggia profonda e un affaccio proprio, senza sovrapposizioni tra le visuali.",
-      "Le coperture piane sono interamente occupate da campi fotovoltaici — la scelta più evidente dall'alto e la più concreta in bolletta. Sotto, pompe di calore e involucro ad alte prestazioni completano un edificio pensato per consumare poco e durare molto.",
+      "A Osio Sotto il volume edificabile è stato frazionato: anziché un unico blocco, quattro corpi di altezza contenuta disposti attorno a corti verdi e percorsi pedonali. Ogni alloggio dispone di una loggia profonda e di un affaccio autonomo, senza sovrapposizioni tra le visuali.",
+      "Le coperture piane ospitano campi fotovoltaici estesi all'intera superficie disponibile. Pompe di calore e un involucro ad alte prestazioni completano un edificio progettato per contenere i consumi e mantenere nel tempo le proprie prestazioni.",
     ],
     facts: [
       { label: "Località", value: "Osio Sotto (BG)" },
@@ -283,12 +283,12 @@ export const projects: Project[] = [
       "/projects/milano-sbodio/04.jpg",
     ],
     excerpt:
-      "Due corpi gemelli a Milano est, seguiti stagione dopo stagione dalle strutture al cappotto. Il nostro cantiere più urbano.",
+      "Due corpi gemelli a Milano est, seguiti dalle strutture in elevazione fino alle finiture: il nostro cantiere in contesto più densamente urbanizzato.",
     intro:
-      "Due corpi residenziali gemelli in via Sbodio: il nostro cantiere milanese, seguito passo dopo passo.",
+      "Due corpi residenziali gemelli in via Sbodio: il nostro cantiere milanese, seguito in ogni fase esecutiva.",
     description: [
-      "Twin Palace è un intervento residenziale a Milano est, costruito su un lotto stretto e profondo tra la strada e il tessuto edilizio esistente. Due corpi gemelli, ritmati da logge e da una tessitura di facciata in due toni, chiudono l'isolato con un fronte compatto.",
-      "Il cantiere è stato documentato mese dopo mese: dalle strutture in elevazione ai ponteggi, dalla posa del cappotto alla finitura. Una lavorazione ordinata in uno spazio minimo, dove la logistica vale quanto il progetto.",
+      "Twin Palace è un intervento residenziale a Milano est, realizzato su un lotto stretto e profondo compreso tra la strada e il tessuto edilizio esistente. Due corpi gemelli, scanditi da logge e da una tessitura di facciata bicromatica, completano l'isolato con un fronte compatto.",
+      "Il cantiere è stato documentato mese dopo mese, dalle strutture in elevazione al montaggio dei ponteggi, dalla posa del cappotto alle finiture. Un'organizzazione rigorosa in uno spazio operativo ridotto, dove la logistica incide quanto il progetto.",
     ],
     facts: [
       { label: "Località", value: "Milano (MI)" },
@@ -315,12 +315,12 @@ export const projects: Project[] = [
       "/projects/bollate-bixio/04.jpg",
     ],
     excerpt:
-      "Un residenziale di scala domestica alle porte di Milano, dove il verde privato conta quanto il costruito.",
+      "Un intervento residenziale di scala contenuta alle porte di Milano, in cui gli spazi verdi privati hanno lo stesso rilievo del costruito.",
     intro:
-      "Un residenziale di scala domestica a Bollate, pensato attorno agli spazi aperti di ogni alloggio.",
+      "Un intervento residenziale di scala contenuta a Bollate, organizzato attorno agli spazi aperti di pertinenza di ogni alloggio.",
     description: [
-      "A Bollate abbiamo costruito un intervento volutamente contenuto nell'altezza, coerente con il tessuto di case e villette che lo circonda. Volumi semplici, intonaci chiari e logge che diventano stanze all'aperto per buona parte dell'anno.",
-      "Il progetto dedica molto spazio al verde di pertinenza e ai percorsi: giardini privati al piano terra, terrazzi ai piani alti, e un attacco a terra curato che rende il complesso riconoscibile senza alzare la voce.",
+      "A Bollate è stato realizzato un intervento volutamente contenuto in altezza, coerente con il tessuto di case unifamiliari circostante. Volumi semplici, intonaci chiari e logge utilizzabili come spazi all'aperto per buona parte dell'anno.",
+      "Il progetto riserva ampio spazio al verde di pertinenza e ai percorsi: giardini privati al piano terra, terrazzi ai piani superiori e un attacco a terra curato, che conferisce al complesso un carattere riconoscibile e misurato.",
     ],
     facts: [
       { label: "Località", value: "Bollate (MI)" },
@@ -347,12 +347,12 @@ export const projects: Project[] = [
       "/projects/saronno-dante/02.jpeg",
     ],
     excerpt:
-      "Due corpi residenziali gemelli con rivestimenti ceramici cangianti. Doppia esposizione, corte condivisa e rivestimenti in ceramica cangiante.",
+      "Due corpi residenziali gemelli rivestiti in ceramica cangiante, con alloggi a doppia esposizione affacciati su una corte condivisa.",
     intro:
-      "Due corpi residenziali gemelli con rivestimenti ceramici cangianti e una corte condivisa che fa comunità.",
+      "Due corpi residenziali gemelli rivestiti in ceramica cangiante, organizzati attorno a una corte condivisa.",
     description: [
-      "L'intervento di Via Dante si compone di due corpi residenziali gemelli, rivestiti in ceramica cangiante che cambia tono con la luce. Tra i due volumi si apre una corte condivisa, cuore sociale del progetto.",
-      "Gli alloggi privilegiano la doppia esposizione e spazi interni luminosi e flessibili, con logge protette che diventano stanze all'aperto per buona parte dell'anno.",
+      "L'intervento di Via Dante si compone di due corpi residenziali gemelli, rivestiti in ceramica cangiante che varia tonalità al variare della luce. Tra i due volumi si apre una corte condivisa, elemento centrale dell'impianto.",
+      "Gli alloggi privilegiano la doppia esposizione e ambienti interni luminosi e flessibili, con logge protette utilizzabili per buona parte dell'anno.",
     ],
     facts: [
       { label: "Località", value: "Saronno (VA)" },
@@ -378,12 +378,12 @@ export const projects: Project[] = [
       "/projects/saronno-monti/03.jpg",
     ],
     excerpt:
-      "Il recupero di un palazzo storico affacciato sulla piazza pedonale di Saronno: facciata restaurata, interni nuovi, negozi al piano terra.",
+      "Il recupero di un palazzo storico affacciato sulla piazza pedonale di Saronno: facciata restaurata, interni rinnovati e spazi commerciali al piano terra.",
     intro:
-      "Un palazzo storico sulla piazza pedonale di Saronno, recuperato senza tradirne il volto.",
+      "Un palazzo storico sulla piazza pedonale di Saronno, recuperato nel rispetto del suo carattere originario.",
     description: [
-      "Via Padre Luigi Monti è un intervento di recupero: un palazzo di impianto storico affacciato sulla piazza pedonale, con la sua facciata in tono caldo, il fregio decorativo sotto gronda e i balconcini in ferro battuto. Tutto questo è stato conservato e restaurato.",
-      "Dietro la facciata, invece, si è ricostruito: impianti, distribuzioni e prestazioni energetiche portati agli standard di oggi, con spazi commerciali al piano terra che tengono viva la piazza. Il tipo di lavoro che si nota solo se è fatto male.",
+      "Via Padre Luigi Monti è un intervento di recupero edilizio su un palazzo di impianto storico affacciato sulla piazza pedonale. La facciata dai toni caldi, il fregio decorativo sotto gronda e i balconcini in ferro battuto sono stati integralmente conservati e restaurati.",
+      "Dietro la facciata l'edificio è stato invece ricostruito: impianti, distribuzione interna e prestazioni energetiche sono stati adeguati agli standard attuali, con spazi commerciali al piano terra che contribuiscono alla vitalità della piazza.",
     ],
     facts: [
       { label: "Località", value: "Saronno (VA)" },
@@ -404,12 +404,12 @@ export const projects: Project[] = [
     cover: "/projects/saronno-roma/01.jpg",
     gallery: ["/projects/saronno-roma/01.jpg"],
     excerpt:
-      "Un palazzo di fine Ottocento nel centro storico di Saronno, riportato alla luce cornice per cornice.",
+      "Il restauro conservativo della facciata di un palazzo di fine Ottocento, nel centro storico di Saronno.",
     intro:
-      "Un palazzo di fine Ottocento nel centro storico di Saronno, riportato alla luce cornice per cornice.",
+      "Un palazzo di fine Ottocento nel centro storico di Saronno, restaurato nei suoi elementi decorativi originali.",
     description: [
-      "In via Roma, dentro la zona a traffico limitato di Saronno, abbiamo lavorato su un edificio di fine Ottocento: cornici modanate sulle finestre, bugnato d'angolo, un balcone in ferro battuto sopra l'ingresso. Elementi che non si replicano e che vanno quindi recuperati, non sostituiti.",
-      "Il restauro ha riguardato intonaci, decori e serramenti, con un lavoro paziente di pulitura e integrazione. Un cantiere di precisione, nel pieno centro, con tutti i vincoli che questo comporta.",
+      "In via Roma, all'interno della zona a traffico limitato di Saronno, l'intervento ha riguardato un edificio di fine Ottocento caratterizzato da cornici modanate alle finestre, bugnato d'angolo e un balcone in ferro battuto sopra l'ingresso. Elementi non riproducibili, che richiedono un recupero conservativo anziché la sostituzione.",
+      "Il restauro ha interessato intonaci, apparati decorativi e serramenti, attraverso un accurato lavoro di pulitura e integrazione. Un cantiere di precisione in pieno centro storico, con i vincoli operativi che tale contesto comporta.",
     ],
     facts: [
       { label: "Località", value: "Saronno (VA)" },
@@ -434,12 +434,12 @@ export const projects: Project[] = [
       "/projects/caronno/01.jpg",
     ],
     excerpt:
-      "Palazzine in antracite e legno lungo una corte privata pavimentata. Un residenziale compatto che gioca sui contrasti di materia.",
+      "Palazzine in antracite e legno affacciate su una corte privata pavimentata: un intervento residenziale compatto fondato sul contrasto dei materiali.",
     intro:
-      "Palazzine in antracite e legno affacciate su una corte privata: un residenziale compatto che gioca sui contrasti.",
+      "Palazzine in antracite e legno affacciate su una corte privata: un intervento residenziale compatto e matericamente articolato.",
     description: [
-      "A Caronno Pertusella il progetto si organizza lungo una corte privata pavimentata in autobloccanti, che serve tutti gli ingressi e i box. Le palazzine si fronteggiano a distanza ravvicinata, e proprio per questo ognuna ruota i propri affacci.",
-      "La partitura dei materiali fa il resto: volumi in antracite alternati a inserti chiari e a campiture in legno, balconi profondi con parapetti metallici leggeri. Un linguaggio contemporaneo, controllato, senza gesti superflui.",
+      "A Caronno Pertusella l'impianto si sviluppa lungo una corte privata pavimentata in autobloccanti, che distribuisce tutti gli ingressi e i box. Le palazzine si fronteggiano a distanza ravvicinata: per questa ragione ciascuna orienta diversamente i propri affacci.",
+      "La partitura dei materiali completa il progetto: volumi in antracite alternati a inserti chiari e a campiture in legno, balconi profondi con parapetti metallici di sezione ridotta. Un linguaggio contemporaneo e misurato.",
     ],
     facts: [
       { label: "Località", value: "Caronno Pertusella (VA)" },

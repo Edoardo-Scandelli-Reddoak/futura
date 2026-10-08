@@ -49,10 +49,10 @@ export default function NavyBand() {
             successo.
           </h2>
           <p className="mx-auto mt-8 max-w-2xl leading-relaxed text-stone">
-            Per questo entriamo nel progetto prima del cantiere, con le
-            competenze di chi dovrà realizzarlo: ottimizzazioni costruttive,
-            controllo di tempi e costi, qualità che regge negli anni. Chi ci
-            sceglie sa cosa aspettarsi.
+            Per questo interveniamo già in fase di progetto, con le competenze
+            di chi dovrà realizzarlo: ottimizzazioni costruttive, controllo dei
+            tempi e dei costi, una qualità che si mantiene nel tempo. Chi ci
+            affida un&apos;opera sa fin dall&apos;inizio che cosa aspettarsi.
           </p>
         </Reveal>
 
