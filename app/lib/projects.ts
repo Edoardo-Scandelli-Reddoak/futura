@@ -35,6 +35,7 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/ponte-pietra/01.jpg",
     gallery: [
+      "/projects/ponte-pietra/20.jpg",
       "/projects/ponte-pietra/01.jpg",
       "/projects/ponte-pietra/05.jpg",
       "/projects/ponte-pietra/03.jpg",
@@ -61,42 +62,44 @@ export const projects: Project[] = [
   },
   {
     slug: "bergamo-gaber",
-    title: "Piazza G. Gaber",
+    title: "Tower Santa Caterina",
     city: "Bergamo",
     province: "BG",
     address: "Piazza Giorgio Gaber",
     category: "Residenziale",
-    year: "2022",
     status: "Realizzato",
     cover: "/projects/bergamo-gaber/01.jpg",
     gallery: [
       "/projects/bergamo-gaber/01.jpg",
+      "/projects/bergamo-suardi/01.jpg",
       "/projects/bergamo-gaber/02.jpg",
-      "/projects/bergamo-gaber/03.jpeg",
-      "/projects/bergamo-gaber/04.jpeg",
       "/projects/bergamo-gaber/05.jpeg",
+      "/projects/bergamo-suardi/03.jpg",
+      "/projects/bergamo-gaber/03.jpeg",
+      "/projects/bergamo-suardi/04.jpg",
+      "/projects/bergamo-gaber/04.jpeg",
+      "/projects/bergamo-suardi/05.jpg",
       "/projects/bergamo-gaber/06.jpeg",
     ],
     excerpt:
-      "Volumi netti e terrazze aggettanti nel centro di Bergamo: un intervento residenziale contemporaneo affacciato sulla piazza.",
+      "Il nostro intervento residenziale più esteso a Bergamo: 75 appartamenti nel borgo di Santa Caterina, affacciati sulla piazza.",
     intro:
-      "Un intervento residenziale contemporaneo che ridefinisce il fronte sulla piazza attraverso volumi netti e terrazze profonde.",
+      "Un complesso residenziale di 75 appartamenti nel borgo di Santa Caterina, costruito attorno a una piazza pubblica.",
     description: [
-      "Affacciato su Piazza Giorgio Gaber, l'intervento reinterpreta l'isolato urbano con volumi netti e terrazze aggettanti, realizzate mediante una struttura a sbalzo continua. Il ritmo delle logge genera una facciata in costante variazione di luci e ombre.",
-      "Gli appartamenti, disponibili in tagli differenziati, condividono spazi comuni curati e un attacco a terra permeabile, che restituisce alla piazza un fronte attivo.",
+      "Tower Santa Caterina è il nostro intervento di maggiore estensione a Bergamo: 75 appartamenti nel borgo storico di Santa Caterina, distribuiti in corpi di fabbrica che si affacciano su Piazza Giorgio Gaber. Volumi chiari e grigi si alternano, con logge profonde e parapetti vetrati che alleggeriscono i fronti.",
+      "Il progetto è stato sviluppato attorno alla casa campione: un appartamento completo, finito e arredato, visitabile durante l'esecuzione dei lavori. Una soluzione che consente di verificare capitolato, finiture e qualità degli ambienti prima dell'acquisto. L'attacco a terra permeabile restituisce alla piazza un fronte attivo, con spazi comuni curati e percorsi pedonali.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
-      { label: "Anno", value: "2022" },
       { label: "Stato", value: "Realizzato" },
       { label: "Tipologia", value: "Residenziale" },
-      { label: "Unità", value: "24 appartamenti" },
-      { label: "Piani", value: "7" },
+      { label: "Unità", value: "75 appartamenti" },
+      { label: "Quartiere", value: "Borgo Santa Caterina" },
     ],
   },
   {
     slug: "nembro",
-    title: "Tower Baioni",
+    title: "Tower Nembro",
     city: "Nembro",
     province: "BG",
     address: "Via Stazione",
@@ -105,18 +108,21 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/nembro/03.jpg",
     gallery: [
+      "/projects/nembro/20.jpg",
+      "/projects/nembro/26.jpg",
+      "/projects/nembro/21.jpg",
+      "/projects/nembro/23.jpg",
+      "/projects/nembro/25.jpg",
+      "/projects/nembro/27.jpg",
+      "/projects/nembro/24.jpg",
       "/projects/nembro/03.jpg",
-      "/projects/nembro/11.jpg",
-      "/projects/nembro/01.jpg",
-      "/projects/nembro/02.jpg",
-      "/projects/nembro/04.jpg",
     ],
     excerpt:
-      "Una torre residenziale dal disegno articolato, immersa nel verde, con terrazzi profondi e una facciata in continua variazione.",
+      "Due torri residenziali dal disegno articolato, immerse nel verde, con terrazzi profondi e facciate in continua variazione.",
     intro:
-      "Una torre residenziale dal disegno articolato, immersa nel verde, concepita per ottimizzare illuminazione naturale e affacci.",
+      "Due torri residenziali immerse nel verde, concepite per ottimizzare illuminazione naturale e affacci sulla valle.",
     description: [
-      "Tower Baioni è una torre residenziale affacciata sul parco e sulla valle, alle porte di Nembro. I terrazzi, profondi e sfalsati di piano in piano, generano una facciata dinamica che muta con la luce e con le stagioni.",
+      "Tower Nembro è un complesso residenziale composto da due torri affacciate sul parco e sulla valle, alle porte di Nembro. I terrazzi, profondi e sfalsati di piano in piano, generano facciate dinamiche che mutano con la luce e con le stagioni.",
       "Il progetto pone al centro il rapporto con il paesaggio: ogni alloggio è orientato per massimizzare l'illuminazione naturale e gli affacci sui rilievi circostanti, mentre il piano terra si relaziona con il verde pubblico del quartiere.",
     ],
     facts: [
@@ -124,8 +130,7 @@ export const projects: Project[] = [
       { label: "Anno", value: "2025" },
       { label: "Stato", value: "In costruzione" },
       { label: "Tipologia", value: "Residenziale" },
-      { label: "Altezza", value: "11 piani" },
-      { label: "Unità", value: "40 appartamenti" },
+      { label: "Composizione", value: "2 torri" },
     ],
   },
   {
@@ -180,53 +185,21 @@ export const projects: Project[] = [
       "/projects/bergamo-baioni/06.jpg",
     ],
     excerpt:
-      "Rigenerazione urbana a Bergamo: dalla demolizione di un capannone dismesso a un nuovo intervento residenziale, presentato in un padiglione Open Living.",
+      "Rigenerazione urbana dell'ex area SACE a Bergamo: demolizione, bonifica del sito e restituzione alla città di un'area industriale dismessa.",
     intro:
-      "Un'area industriale dismessa restituita alla città attraverso demolizione, bonifica e un nuovo intervento residenziale.",
+      "L'ex area industriale SACE restituita alla città attraverso demolizione controllata, bonifica dei suoli e un nuovo intervento residenziale.",
     description: [
-      "L'intervento di Via Baioni ha avuto origine da una demolizione. Al posto di un capannone dismesso, con coperture in lamiera, capriate e pilastri prefabbricati, l'area è stata liberata e restituita al quartiere come superficie edificabile. Si tratta di un intervento che richiede particolare competenza: gestione dei materiali di risulta, selezione e recupero dei materiali, sicurezza in un contesto urbano densamente edificato.",
-      "Accanto al cantiere è stato realizzato un padiglione Open Living: un volume netto di colore grigio, aperto sul giardino con vetrate a tutta altezza e una pensilina profonda attraversata da linee di luce. Più che un ufficio vendite, uno spazio che consente di valutare materiali, illuminazione e proporzioni del progetto prima della sua realizzazione.",
+      "L'intervento di Via Baioni nasce dal recupero dell'ex area industriale SACE. La demolizione dei capannoni dismessi, con coperture in lamiera, capriate e pilastri prefabbricati, è stata condotta in modo controllato e selettivo, separando i materiali per avviarli a recupero anziché a smaltimento indifferenziato. Alla demolizione è seguita la bonifica dei suoli, necessaria per restituire l'area a un uso residenziale.",
+      "È la parte meno visibile del lavoro e insieme quella che qualifica un'impresa: gestione dei materiali di risulta, caratterizzazione e messa in sicurezza del sito, lavorazioni in un contesto urbano densamente edificato. Accanto al cantiere è stato realizzato un padiglione Open Living, uno spazio che consente di valutare materiali, illuminazione e proporzioni del progetto prima della sua realizzazione.",
     ],
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
       { label: "Anno", value: "2025" },
       { label: "Stato", value: "Realizzato" },
       { label: "Tipologia", value: "Residenziale" },
-      { label: "Intervento", value: "Demolizione e ricostruzione" },
+      { label: "Intervento", value: "Bonifica e ricostruzione" },
+      { label: "Area", value: "Ex stabilimento SACE" },
       { label: "Spazi", value: "Padiglione Open Living" },
-    ],
-  },
-  {
-    slug: "bergamo-suardi",
-    title: "Tower Santa Caterina",
-    city: "Bergamo",
-    province: "BG",
-    address: "Via G. Suardi, 30",
-    category: "Residenziale",
-    status: "Realizzato",
-    cover: "/projects/bergamo-suardi/01.jpg",
-    gallery: [
-      "/projects/bergamo-suardi/01.jpg",
-      "/projects/bergamo-suardi/02.jpg",
-      "/projects/bergamo-suardi/03.jpg",
-      "/projects/bergamo-suardi/04.jpg",
-      "/projects/bergamo-suardi/05.jpg",
-    ],
-    excerpt:
-      "Tre torri e 75 appartamenti nel borgo di Santa Caterina: il nostro complesso residenziale di maggiori dimensioni a Bergamo.",
-    intro:
-      "Tre torri residenziali nel borgo di Santa Caterina: 75 appartamenti, finiture di pregio e materiali a basso impatto ambientale.",
-    description: [
-      "Tower Santa Caterina è il nostro intervento di maggiore estensione in città: tre corpi residenziali per complessivi 75 appartamenti in via Suardi, nel borgo storico di Santa Caterina. Volumi chiari e grigi si alternano, con logge profonde e parapetti vetrati che alleggeriscono i fronti.",
-      "Il progetto è stato sviluppato attorno alla casa campione: un appartamento completo, finito e arredato, visitabile durante l'esecuzione dei lavori. Una soluzione che consente di verificare capitolato, finiture e qualità degli ambienti prima dell'acquisto.",
-    ],
-    facts: [
-      { label: "Località", value: "Bergamo (BG)" },
-      { label: "Stato", value: "Realizzato" },
-      { label: "Tipologia", value: "Residenziale" },
-      { label: "Unità", value: "75 appartamenti" },
-      { label: "Corpi", value: "3 torri" },
-      { label: "Quartiere", value: "Borgo Santa Caterina" },
     ],
   },
   {
@@ -283,9 +256,9 @@ export const projects: Project[] = [
       "/projects/milano-sbodio/04.jpg",
     ],
     excerpt:
-      "Due corpi gemelli a Milano est, seguiti dalle strutture in elevazione fino alle finiture: il nostro cantiere in contesto più densamente urbanizzato.",
+      "Due corpi gemelli a Milano est, seguiti dalle strutture in elevazione fino alle finiture: uno dei nostri cantieri milanesi.",
     intro:
-      "Due corpi residenziali gemelli in via Sbodio: il nostro cantiere milanese, seguito in ogni fase esecutiva.",
+      "Due corpi residenziali gemelli in via Sbodio: uno dei nostri cantieri milanesi, seguito in ogni fase esecutiva.",
     description: [
       "Twin Palace è un intervento residenziale a Milano est, realizzato su un lotto stretto e profondo compreso tra la strada e il tessuto edilizio esistente. Due corpi gemelli, scanditi da logge e da una tessitura di facciata bicromatica, completano l'isolato con un fronte compatto.",
       "Il cantiere è stato documentato mese dopo mese, dalle strutture in elevazione al montaggio dei ponteggi, dalla posa del cappotto alle finiture. Un'organizzazione rigorosa in uno spazio operativo ridotto, dove la logistica incide quanto il progetto.",
@@ -315,18 +288,18 @@ export const projects: Project[] = [
       "/projects/bollate-bixio/04.jpg",
     ],
     excerpt:
-      "Un intervento residenziale di scala contenuta alle porte di Milano, in cui gli spazi verdi privati hanno lo stesso rilievo del costruito.",
+      "Un edificio residenziale di otto piani alle porte di Milano, in cui gli spazi verdi di pertinenza hanno lo stesso rilievo del costruito.",
     intro:
-      "Un intervento residenziale di scala contenuta a Bollate, organizzato attorno agli spazi aperti di pertinenza di ogni alloggio.",
+      "Un edificio residenziale di otto piani a Bollate, organizzato attorno agli spazi aperti di pertinenza di ogni alloggio.",
     description: [
-      "A Bollate è stato realizzato un intervento volutamente contenuto in altezza, coerente con il tessuto di case unifamiliari circostante. Volumi semplici, intonaci chiari e logge utilizzabili come spazi all'aperto per buona parte dell'anno.",
+      "A Bollate è stato realizzato un edificio residenziale che si sviluppa su otto piani, con un volume compatto che segna il proprio affaccio sulla strada. Intonaci chiari, logge profonde su ogni livello e un attacco a terra ordinato ne definiscono il carattere.",
       "Il progetto riserva ampio spazio al verde di pertinenza e ai percorsi: giardini privati al piano terra, terrazzi ai piani superiori e un attacco a terra curato, che conferisce al complesso un carattere riconoscibile e misurato.",
     ],
     facts: [
       { label: "Località", value: "Bollate (MI)" },
       { label: "Stato", value: "Realizzato" },
       { label: "Tipologia", value: "Residenziale" },
-      { label: "Contesto", value: "Tessuto residenziale" },
+      { label: "Altezza", value: "8 piani" },
     ],
   },
   {

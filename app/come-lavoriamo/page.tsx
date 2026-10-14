@@ -13,15 +13,15 @@ export const metadata: Metadata = {
 const pillars = [
   {
     title: "Un unico interlocutore",
-    body: "Dalla fattibilità alla consegna, un'unica regia. Progettazione, cantiere e collaudo rispondono a un solo responsabile: nessuna sovrapposizione di competenze e sempre le stesse persone a seguire il progetto.",
+    body: "Dalla fattibilità alla consegna la regia è una sola: progettazione, cantiere e collaudo rispondono a un unico responsabile. Il committente non deve coordinare soggetti diversi né ricostruire di chi sia la responsabilità quando qualcosa non torna.",
   },
   {
-    title: "Trent'anni di cantieri",
-    body: "Un'esperienza maturata in tre decenni nell'edilizia residenziale, industriale e commerciale. Certificazioni SOA, ISO 9001 e ISO 14001 e Rating di Legalità: solidità e trasparenza verificabili da chi valuta di affidarci un'opera.",
+    title: "Trent'anni di esperienza",
+    body: "In tre decenni abbiamo costruito nell'edilizia residenziale, industriale e commerciale. Le certificazioni SOA, ISO 9001 e ISO 14001 e il Rating di Legalità rendono verificabili la nostra solidità e la nostra trasparenza da parte di chi valuta se affidarci un'opera.",
   },
   {
     title: "Una squadra, non una filiera",
-    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati operano come un'unica struttura. È questo che ci permette di governare insieme qualità, tempi e costi: i tre fattori che determinano l'esito di un'operazione.",
+    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati operano come un'unica struttura. È questo che ci permette di governare contemporaneamente qualità, tempi e costi, i tre fattori da cui dipende l'esito di un'operazione.",
   },
 ];
 
@@ -40,14 +40,13 @@ export default function ServiziPage() {
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
               Costruire significa assumere decisioni destinate a durare anni, e
-              quasi tutte si traducono in costi di cantiere. Per questo
-              chiediamo di essere coinvolti già in fase di progettazione, quando
-              una scelta costruttiva può ancora essere corretta sulla carta
-              anziché in opera. Mettiamo trent&apos;anni di esperienza, un
-              ufficio tecnico interno e maestranze selezionate al servizio del
-              progetto e di chi lo promuove: fondi di sviluppo, committenti
-              industriali e privati. Un solo interlocutore, dalla fattibilità
-              alla consegna.
+              quasi tutte vengono messe alla prova in cantiere. Per questo
+              chiediamo di essere coinvolti già in fase di progettazione: una
+              scelta costruttiva corretta sulla carta costa una frazione di
+              quanto costerebbe correggerla in opera. Al servizio del progetto
+              mettiamo trent&apos;anni di esperienza, un ufficio tecnico interno
+              e maestranze selezionate, e garantiamo a chi ci affida un&apos;opera
+              un solo interlocutore dalla fattibilità alla consegna.
             </p>
           </Reveal>
         </div>

@@ -51,8 +51,8 @@ const cells: Cell[] = [
   },
   {
     kind: "text",
-    title: "Sviluppo immobiliare, ma non solo",
-    body: "Acquisiamo e valorizziamo aree anche in proprio: un'attività che ci ha insegnato a valutare un'operazione dal punto di vista di chi la promuove, considerando costi, tempi e marginalità. Resta però una parte del nostro lavoro, non l'attività principale.",
+    title: "Dall'area al progetto",
+    body: "Acquisiamo e valorizziamo aree anche in proprio. È un'attività che ci ha insegnato a valutare un'operazione dal punto di vista di chi la promuove, considerando costi, tempi e marginalità: la stessa lettura che portiamo nei progetti altrui.",
     align: "start",
   },
   {
@@ -61,7 +61,7 @@ const cells: Cell[] = [
     w: 430,
     h: "54vh",
     align: "end",
-    caption: "Piazza G. Gaber",
+    caption: "Tower Santa Caterina",
     city: "Bergamo",
   },
   {
@@ -76,12 +76,12 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Il cantiere sotto controllo",
-    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati, mantenendo il controllo su tempi, costi e qualità esecutiva. È la fase in cui si determina il risultato di un'operazione, ed è quella in cui siamo specializzati.",
+    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati, mantenendo il controllo su tempi, costi e qualità esecutiva. È la fase in cui si determina il risultato economico di un'operazione.",
     align: "center",
   },
   {
     kind: "image",
-    src: "/projects/nembro/01.jpg",
+    src: "/projects/nembro/20.jpg",
     w: 320,
     h: "50vh",
     align: "end",
@@ -173,16 +173,15 @@ export default function HorizontalShowcase() {
                 >
                   <p className="eyebrow mb-6 text-stone">Cosa facciamo</p>
                   <p className="text-lg leading-relaxed text-ink md:text-xl">
-                    Siamo un&apos;impresa di costruzioni. Operiamo anche
-                    sull&apos;intera filiera, dall&apos;acquisizione delle aree
-                    allo sviluppo immobiliare, ma la nostra attività principale
-                    è costruire.
+                    Siamo un&apos;azienda di costruzioni e operiamo lungo
+                    l&apos;intera filiera immobiliare, dall&apos;acquisizione
+                    delle aree fino allo sviluppo.
                   </p>
                   <p className="mt-5 text-base leading-relaxed text-stone">
-                    Conoscere l&apos;intera filiera ci consente di affrontare il
-                    progetto con la prospettiva di chi dovrà realizzarlo:
-                    ottimizzazioni costruttive, minori imprevisti in cantiere e
-                    un risultato solido nel tempo.
+                    Presidiare ogni fase ci permette di affrontare il progetto
+                    con la prospettiva di chi dovrà realizzarlo: ottimizzazioni
+                    costruttive, minori imprevisti in cantiere e un risultato
+                    solido nel tempo.
                   </p>
                   <Link
                     href="/come-lavoriamo"

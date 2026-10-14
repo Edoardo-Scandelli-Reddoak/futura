@@ -14,31 +14,31 @@ const steps: Step[] = [
   {
     n: "01",
     title: "Ascolto & fattibilità",
-    body: "Tutto comincia da un incontro. Che esista già un progetto, un'area o soltanto un'ipotesi, effettuiamo un sopralluogo e ne verifichiamo la fattibilità tecnica, urbanistica ed economica. Segnalare subito ciò che non è sostenibile vale più di un preventivo ottimistico.",
+    body: "Tutto comincia da un incontro. Che esista già un progetto, un'area o soltanto un'ipotesi, effettuiamo un sopralluogo e ne verifichiamo la fattibilità tecnica, urbanistica ed economica. Preferiamo segnalare subito ciò che non è sostenibile piuttosto che presentare un preventivo ottimistico.",
     image: "/services/step-1.jpg",
   },
   {
     n: "02",
     title: "Progettazione su misura",
-    body: "Il nostro ufficio tecnico interno collabora con architetti e ingegneri, portando in fase di progettazione l'esperienza maturata in cantiere: ottimizzazioni costruttive, dettagli eseguibili e scelte compatibili con il budget. Quando necessario, curiamo permessi e pratiche edilizie.",
+    body: "Il nostro ufficio tecnico interno collabora con architetti e ingegneri, portando in progettazione l'esperienza maturata in cantiere: ottimizzazioni costruttive, dettagli effettivamente eseguibili e soluzioni compatibili con il budget. Quando serve, curiamo anche permessi e pratiche edilizie.",
     image: "/services/step-2.jpg",
   },
   {
     n: "03",
     title: "Preventivo & pianificazione",
-    body: "Prima di avviare i lavori definiamo ogni aspetto per iscritto: computo metrico dettagliato, cronoprogramma e costi trasparenti. La formula è scelta dal committente, chiavi in mano oppure affidamento di opere parziali, e gli importi concordati restano invariati fino alla consegna.",
+    body: "Prima di avviare i lavori mettiamo per iscritto ogni aspetto: computo metrico dettagliato, cronoprogramma e costi. La formula la definisce il committente, chiavi in mano oppure affidamento di opere parziali; gli importi concordati restano invariati fino alla consegna.",
     image: "/services/step-3-sede.jpg",
   },
   {
     n: "04",
     title: "Cantiere & direzione lavori",
-    body: "Apriamo il cantiere con un unico interlocutore dall'inizio alla fine. Maestranze selezionate, fornitori qualificati e un controllo costante su qualità, sicurezza, tempi e costi: trent'anni di esperienza e le certificazioni SOA e ISO costituiscono la garanzia dell'intera operazione.",
+    body: "Il cantiere viene seguito da un unico interlocutore dall'inizio alla fine, con maestranze selezionate, fornitori qualificati e un controllo costante su qualità, sicurezza, tempi e costi. Trent'anni di esperienza e le certificazioni SOA e ISO sono la garanzia che l'operazione arrivi in fondo come previsto.",
     image: "/services/step-4.jpg",
   },
   {
     n: "05",
     title: "Consegna & cura nel tempo",
-    body: "Consegniamo un'opera finita, collaudata e corredata di tutta la documentazione. Il rapporto non si esaurisce con la consegna: restiamo disponibili per assistenza e manutenzione, affinché l'edificio mantenga il proprio valore nel tempo. È anche per questo che molti committenti ci affidano i lavori successivi.",
+    body: "Consegniamo un'opera finita, collaudata e corredata di tutta la documentazione. Il rapporto però non si esaurisce con la consegna: restiamo disponibili per assistenza e manutenzione, perché l'edificio mantenga il proprio valore nel tempo. È anche per questo che molti committenti tornano ad affidarci i lavori successivi.",
     image: "/services/step-5.jpg",
   },
 ];

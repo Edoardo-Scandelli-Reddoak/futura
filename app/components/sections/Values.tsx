@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 const scattered = [
   { src: "/projects/bergamo-gaber/05.jpeg", top: "4%", left: "4%", w: 300, h: 200, speed: 30 },
   { src: "/projects/ponte-pietra/03.jpg", top: "5%", right: "4%", w: 300, h: 195, speed: -36 },
-  { src: "/projects/nembro/02.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
+  { src: "/projects/nembro/26.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
   { src: "/site/milano-sbodio-01.jpg", top: "35%", right: "1%", w: 300, h: 200, speed: 40 },
   { src: "/projects/solaro/03.jpeg", bottom: "5%", left: "5%", w: 290, h: 195, speed: 26 },
   { src: "/projects/nembro/03.jpg", bottom: "5%", right: "5%", w: 300, h: 195, speed: -32 },
@@ -15,7 +15,7 @@ const scattered = [
 
 const shadow = "shadow-[0_22px_50px_-24px_rgba(20,20,20,0.45)]";
 
-const LINES = ["L'esperienza", "di chi costruisce"];
+const LINES = ["Investire", "con chi costruisce"];
 const TOTAL = LINES.reduce((a, l) => a + l.length, 0);
 
 export default function Values() {
@@ -132,7 +132,7 @@ export default function Values() {
                 className="text-[0.72rem] font-medium uppercase tracking-[0.08em] text-ink underline underline-offset-[6px] transition-opacity duration-700 [transition-delay:150ms]"
                 style={{ opacity: started ? 1 : 0 }}
               >
-                Il nostro valore aggiunto
+                Perché Futura
               </p>
               <h2
                 aria-label={LINES.join(" ")}
@@ -164,9 +164,12 @@ export default function Values() {
                   transform: imagesIn ? "translateY(0)" : "translateY(14px)",
                 }}
               >
-                Trent&apos;anni di esperienza a disposizione di chi progetta e
-                di chi investe: soluzioni costruttive più efficienti, tempi
-                rispettati, edifici che mantengono valore nel tempo.
+                Chi investe con noi non si affida a un intermediario che
+                appalta a terzi: progettazione, cantiere e collaudo rispondono a
+                un unico responsabile. Il preventivo concordato resta quello
+                fino alla consegna, i tempi sono quelli del cronoprogramma e la
+                qualità costruttiva difende il valore dell&apos;immobile negli
+                anni.
               </p>
             </div>
           </div>
@@ -183,7 +186,7 @@ export default function Values() {
               className="text-[0.72rem] font-medium uppercase tracking-[0.08em] text-ink underline underline-offset-[6px] transition-opacity duration-700"
               style={{ opacity: started ? 1 : 0 }}
             >
-              Il nostro valore aggiunto
+              Perché Futura
             </p>
             <h2
               aria-label={LINES.join(" ")}
@@ -212,7 +215,7 @@ export default function Values() {
               className="mx-auto mt-6 max-w-sm text-base leading-snug text-stone transition-opacity duration-700"
               style={{ opacity: imagesIn ? 1 : 0 }}
             >
-              Trent&apos;anni di esperienza al servizio di chi progetta e di chi investe.
+              Un solo responsabile dalla fattibilità alla consegna: costi, tempi e qualità sotto controllo.
             </p>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-3">
