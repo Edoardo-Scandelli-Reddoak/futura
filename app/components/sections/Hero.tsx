@@ -57,10 +57,10 @@ export default function Hero() {
         >
           Futura
         </h1>
-        <div className="mt-5 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <div className="mt-5 flex flex-col gap-6 md:-mt-6 md:flex-row md:items-end md:justify-between">
           <p
             ref={subRef}
-            className="inline-block w-fit whitespace-nowrap text-lg text-white/85 opacity-0 [animation:fadeUp_1s_var(--ease-out-soft)_0.45s_forwards]"
+            className="inline-block w-fit whitespace-nowrap text-lg leading-none text-white/85 opacity-0 [animation:fadeUp_1s_var(--ease-out-soft)_0.45s_forwards]"
           >
             Costruiamo da trent&apos;anni, al servizio del progetto.
           </p>
@@ -68,7 +68,7 @@ export default function Hero() {
             href="/progetti"
             className="group inline-flex w-fit shrink-0 items-center gap-3 border border-white/70 bg-white/5 px-8 py-4 text-xs uppercase tracking-[0.2em] text-white opacity-0 backdrop-blur-sm [animation:fadeUp_1s_var(--ease-out-soft)_0.6s_forwards] transition-colors hover:bg-white/15"
           >
-            Scopri i progetti
+            Scoprite i progetti
             <span className="transition-transform duration-300 group-hover:translate-x-1">
               →
             </span>
