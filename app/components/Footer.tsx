@@ -26,8 +26,8 @@ export default function Footer() {
             />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/70">
               Impresa di costruzioni attiva in Lombardia da trent&apos;anni.
-              Realizziamo opere residenziali, direzionali e industriali per chi
-              progetta, sviluppa e investe.
+              Realizziamo edifici residenziali, commerciali, direzionali e
+              industriali per chi progetta, sviluppa e investe.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function Footer() {
               </p>
               <p>
                 <a href="tel:+390225062368" className="nav-link">
-                  +39 02 250 62368
+                  +39 02 2506 2368
                 </a>
               </p>
             </address>

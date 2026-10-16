@@ -164,12 +164,12 @@ export default function Values() {
                   transform: imagesIn ? "translateY(0)" : "translateY(14px)",
                 }}
               >
-                Chi investe con noi non si affida a un intermediario che
-                appalta a terzi: progettazione, cantiere e collaudo rispondono a
-                un unico responsabile. Il preventivo concordato resta quello
-                fino alla consegna, i tempi sono quelli del cronoprogramma e la
-                qualità costruttiva difende il valore dell&apos;immobile negli
-                anni.
+                Chi investe con noi non passa da un intermediario che affida i
+                lavori ad altri. Progettazione, cantiere e collaudo fanno capo
+                a un unico responsabile. Il prezzo concordato resta invariato
+                fino alla consegna. I tempi sono quelli del cronoprogramma. La
+                qualità costruttiva protegge il valore dell&apos;immobile
+                negli anni.
               </p>
             </div>
           </div>

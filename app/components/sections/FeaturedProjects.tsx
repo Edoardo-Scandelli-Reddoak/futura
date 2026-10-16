@@ -44,7 +44,7 @@ export default function FeaturedProjects() {
                   {project.excerpt}
                 </p>
                 <span className="mt-7 inline-flex items-center border border-white/60 px-7 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-white transition-colors group-hover:border-white">
-                  Scopri il progetto
+                  Scoprite il progetto
                 </span>
               </div>
 
@@ -89,7 +89,7 @@ export default function FeaturedProjects() {
                 {project.excerpt}
               </p>
               <span className="mt-5 inline-flex w-fit items-center border border-white/60 px-6 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-white">
-                Scopri il progetto
+                Scoprite il progetto
               </span>
             </div>
           </Link>

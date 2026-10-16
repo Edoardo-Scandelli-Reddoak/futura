@@ -1,6 +1,6 @@
 export type Fact = { label: string; value: string };
 
-export type Category = "Residenziale" | "Direzionale" | "Mixed-use";
+export type Category = "Residenziale" | "Direzionale" | "Funzione mista";
 
 export type Project = {
   slug: string;
@@ -44,7 +44,7 @@ export const projects: Project[] = [
       "/projects/ponte-pietra/06.jpg",
     ],
     excerpt:
-      "Un nuovo isolato residenziale in prossimità dello stadio, nel tessuto consolidato di Bergamo. Un cantiere complesso, condotto in spazi ristretti.",
+      "Un nuovo isolato residenziale vicino allo stadio, nel cuore di Bergamo. Un cantiere complesso, gestito in spazi ristretti.",
     intro:
       "Un nuovo isolato residenziale nel tessuto consolidato di Bergamo, realizzato in un contesto urbano particolarmente vincolato.",
     description: [
@@ -82,7 +82,7 @@ export const projects: Project[] = [
       "/projects/bergamo-gaber/06.jpeg",
     ],
     excerpt:
-      "Il nostro intervento residenziale più esteso a Bergamo: 75 appartamenti nel borgo di Santa Caterina, affacciati sulla piazza.",
+      "Il nostro intervento residenziale più grande a Bergamo: 75 appartamenti nel borgo di Santa Caterina, affacciati sulla piazza.",
     intro:
       "Un complesso residenziale di 75 appartamenti nel borgo di Santa Caterina, costruito attorno a una piazza pubblica.",
     description: [
@@ -118,7 +118,7 @@ export const projects: Project[] = [
       "/projects/nembro/03.jpg",
     ],
     excerpt:
-      "Due torri residenziali dal disegno articolato, immerse nel verde, con terrazzi profondi e facciate in continua variazione.",
+      "Due torri residenziali dalle forme articolate, immerse nel verde, con terrazzi profondi e facciate sempre diverse.",
     intro:
       "Due torri residenziali immerse nel verde, concepite per ottimizzare illuminazione naturale e affacci sulla valle.",
     description: [
@@ -139,7 +139,7 @@ export const projects: Project[] = [
     city: "Saronno",
     province: "VA",
     address: "Via Gaudenzio Ferrari",
-    category: "Mixed-use",
+    category: "Funzione mista",
     year: "2023",
     status: "Realizzato",
     cover: "/projects/saronno-ferrari/03.jpeg",
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       "/projects/saronno-ferrari/02.jpg",
     ],
     excerpt:
-      "Un fronte urbano dai colori decisi che accoglie residenze e attività commerciali in un unico intervento a funzione mista.",
+      "Un fronte urbano dai colori decisi, che riunisce abitazioni e negozi in un unico edificio.",
     intro:
       "Un fronte urbano dai colori decisi, dove residenze e attività commerciali convivono in un'identità architettonica unitaria.",
     description: [
@@ -161,7 +161,7 @@ export const projects: Project[] = [
       { label: "Località", value: "Saronno (VA)" },
       { label: "Anno", value: "2023" },
       { label: "Stato", value: "Realizzato" },
-      { label: "Tipologia", value: "Mixed-use" },
+      { label: "Tipologia", value: "Funzione mista" },
       { label: "Funzioni", value: "Residenze + retail" },
       { label: "Piani", value: "6" },
     ],
@@ -185,7 +185,7 @@ export const projects: Project[] = [
       "/projects/bergamo-baioni/06.jpg",
     ],
     excerpt:
-      "Rigenerazione urbana dell'ex area SACE a Bergamo: demolizione, bonifica del sito e restituzione alla città di un'area industriale dismessa.",
+      "Rigenerazione dell'ex area SACE: demolizione, bonifica e restituzione alla città di un'area industriale dismessa.",
     intro:
       "L'ex area industriale SACE restituita alla città attraverso demolizione controllata, bonifica dei suoli e un nuovo intervento residenziale.",
     description: [
@@ -221,7 +221,7 @@ export const projects: Project[] = [
       "/projects/osio-sotto/06.jpg",
     ],
     excerpt:
-      "Quattro corpi bassi disposti attorno a corti verdi, con coperture interamente dedicate al fotovoltaico.",
+      "Quattro edifici bassi disposti intorno a cortili verdi, con i tetti interamente coperti da pannelli fotovoltaici.",
     intro:
       "Un complesso residenziale a corte aperta, con i tetti interamente dedicati al fotovoltaico.",
     description: [
@@ -256,7 +256,7 @@ export const projects: Project[] = [
       "/projects/milano-sbodio/04.jpg",
     ],
     excerpt:
-      "Due corpi gemelli a Milano est, seguiti dalle strutture in elevazione fino alle finiture: uno dei nostri cantieri milanesi.",
+      "Due edifici gemelli nella zona est di Milano. Ne seguiamo la costruzione dalle strutture fino alle finiture.",
     intro:
       "Due corpi residenziali gemelli in via Sbodio: uno dei nostri cantieri milanesi, seguito in ogni fase esecutiva.",
     description: [
@@ -292,7 +292,7 @@ export const projects: Project[] = [
       "/projects/milano-leto/04.jpg",
     ],
     excerpt:
-      "La ristrutturazione di un edificio a Milano in un nuovo complesso residenziale con giardino interno: uno dei nostri cantieri milanesi.",
+      "La trasformazione di un edificio esistente in un nuovo complesso residenziale con giardino interno.",
     intro:
       "Un edificio esistente trasformato in un complesso residenziale contemporaneo, tra il fronte su strada e un giardino interno.",
     description: [
@@ -324,7 +324,7 @@ export const projects: Project[] = [
       "/projects/milano-bonomi/03.jpg",
     ],
     excerpt:
-      "Un nuovo edificio residenziale NZEB nel quartiere Dergano, con ampie terrazze e impianti fotovoltaici: uno dei nostri cantieri milanesi.",
+      "Un nuovo edificio residenziale a energia quasi zero (NZEB) nel quartiere Dergano, con ampie terrazze e impianto fotovoltaico.",
     intro:
       "Un nuovo edificio residenziale a energia quasi zero nel cuore di Dergano, quartiere milanese in piena trasformazione.",
     description: [
@@ -356,7 +356,7 @@ export const projects: Project[] = [
       "/projects/bollate-bixio/04.jpg",
     ],
     excerpt:
-      "Un edificio residenziale di otto piani alle porte di Milano, in cui gli spazi verdi di pertinenza hanno lo stesso rilievo del costruito.",
+      "Un edificio residenziale di otto piani alle porte di Milano, dove il verde conta quanto il costruito.",
     intro:
       "Un edificio residenziale di otto piani a Bollate, organizzato attorno agli spazi aperti di pertinenza di ogni alloggio.",
     description: [
@@ -388,7 +388,7 @@ export const projects: Project[] = [
       "/projects/saronno-dante/02.jpeg",
     ],
     excerpt:
-      "Due corpi residenziali gemelli rivestiti in ceramica cangiante, con alloggi a doppia esposizione affacciati su una corte condivisa.",
+      "Due edifici gemelli rivestiti in ceramica cangiante. Ogni appartamento ha una doppia esposizione e si affaccia su un cortile comune.",
     intro:
       "Due corpi residenziali gemelli rivestiti in ceramica cangiante, organizzati attorno a una corte condivisa.",
     description: [
@@ -419,7 +419,7 @@ export const projects: Project[] = [
       "/projects/saronno-monti/03.jpg",
     ],
     excerpt:
-      "Il recupero di un palazzo storico affacciato sulla piazza pedonale di Saronno: facciata restaurata, interni rinnovati e spazi commerciali al piano terra.",
+      "Il recupero di un palazzo storico sulla piazza pedonale di Saronno: facciata restaurata, interni rinnovati e negozi al piano terra.",
     intro:
       "Un palazzo storico sulla piazza pedonale di Saronno, recuperato nel rispetto del suo carattere originario.",
     description: [
@@ -475,7 +475,7 @@ export const projects: Project[] = [
       "/projects/caronno/01.jpg",
     ],
     excerpt:
-      "Palazzine in antracite e legno affacciate su una corte privata pavimentata: un intervento residenziale compatto fondato sul contrasto dei materiali.",
+      "Palazzine in antracite e legno affacciate su un cortile privato. Un intervento compatto, giocato sul contrasto tra i materiali.",
     intro:
       "Palazzine in antracite e legno affacciate su una corte privata: un intervento residenziale compatto e matericamente articolato.",
     description: [

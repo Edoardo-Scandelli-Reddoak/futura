@@ -11,6 +11,11 @@ const AREE = [
   "Fornitori e collaboratori",
 ];
 
+// Testo mostrato nel menu quando differisce dal valore inviato con il form.
+const ETICHETTE: Record<string, string> = {
+  "Sicurezza e direzione lavori": "Sicurezza",
+};
+
 // La chiave arriva dall'account Web3Forms. Finché non c'è, il form non finge
 // di funzionare: lo dichiara e basta.
 const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
@@ -128,7 +133,7 @@ export default function CareersForm() {
           </option>
           {AREE.map((a) => (
             <option key={a} value={a}>
-              {a}
+              {ETICHETTE[a] ?? a}
             </option>
           ))}
         </select>

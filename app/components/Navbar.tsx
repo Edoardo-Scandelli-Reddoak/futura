@@ -212,7 +212,7 @@ export default function Navbar() {
               </InfoBlock>
               <InfoBlock label="Telefono">
                 <a href="tel:+390225062368" className="nav-link">
-                  (+39) 02 250 62368
+                  +39 02 2506 2368
                 </a>
               </InfoBlock>
               <InfoBlock label="Sedi">

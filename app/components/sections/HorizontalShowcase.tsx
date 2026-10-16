@@ -37,7 +37,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "L'esperienza prima del disegno",
-    body: "Un progetto regge quando chi lo realizza conosce a fondo le tecniche costruttive. Portiamo in fase di disegno l'esperienza del cantiere: dettagli effettivamente eseguibili, materiali reperibili e soluzioni che non generano varianti in corso d'opera.",
+    body: "Un progetto funziona quando chi lo realizza conosce bene le tecniche costruttive. Per questo portiamo l'esperienza del cantiere già in fase di disegno. Proponiamo dettagli realizzabili, materiali facili da reperire e soluzioni che evitano varianti in corso d'opera.",
     align: "center",
   },
   {
@@ -52,7 +52,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Dall'area al progetto",
-    body: "Acquisiamo e valorizziamo aree anche in proprio. È un'attività che ci ha insegnato a valutare un'operazione dal punto di vista di chi la promuove, considerando costi, tempi e marginalità: la stessa lettura che portiamo nei progetti altrui.",
+    body: "Acquisiamo e valorizziamo aree anche in proprio. Questa attività ci ha insegnato a valutare un'operazione come la valuta chi la promuove: costi, tempi e margini. Applichiamo lo stesso metodo ai progetti dei nostri committenti.",
     align: "start",
   },
   {
@@ -76,7 +76,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Il cantiere sotto controllo",
-    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati, mantenendo il controllo su tempi, costi e qualità esecutiva. È la fase in cui si determina il risultato economico di un'operazione.",
+    body: "Gestiamo il cantiere come general contractor, con maestranze e fornitori selezionati. Teniamo sotto controllo tempi, costi e qualità dell'esecuzione. È in questa fase che si decide il risultato economico dell'operazione.",
     align: "center",
   },
   {
@@ -100,7 +100,7 @@ const cells: Cell[] = [
   {
     kind: "text",
     title: "Costruire per durare",
-    body: "Un edificio costruito a regola d'arte mantiene il proprio valore, comporta costi di gestione inferiori e riduce il rischio di contenziosi. Per questo adottiamo soluzioni durevoli anche dove non saranno visibili.",
+    body: "Un edificio costruito a regola d'arte mantiene il suo valore. Costa meno da gestire e riduce il rischio di contenziosi. Per questo scegliamo soluzioni durevoli anche dove non si vedono.",
     align: "center",
   },
 ];
@@ -173,15 +173,14 @@ export default function HorizontalShowcase() {
                 >
                   <p className="eyebrow mb-6 text-stone">Cosa facciamo</p>
                   <p className="text-lg leading-relaxed text-ink md:text-xl">
-                    Siamo un&apos;azienda di costruzioni e operiamo lungo
-                    l&apos;intera filiera immobiliare, dall&apos;acquisizione
-                    delle aree fino allo sviluppo.
+                    Seguiamo ogni fase dell&apos;operazione,
+                    dall&apos;acquisizione dell&apos;area alla consegna
+                    dell&apos;edificio.
                   </p>
                   <p className="mt-5 text-base leading-relaxed text-stone">
-                    Presidiare ogni fase ci permette di affrontare il progetto
-                    con la prospettiva di chi dovrà realizzarlo: ottimizzazioni
-                    costruttive, minori imprevisti in cantiere e un risultato
-                    solido nel tempo.
+                    Così affrontiamo il progetto con l&apos;occhio di chi
+                    dovrà costruirlo: soluzioni più efficienti, meno
+                    imprevisti in cantiere e un edificio che dura nel tempo.
                   </p>
                   <Link
                     href="/come-lavoriamo"

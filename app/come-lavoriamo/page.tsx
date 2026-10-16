@@ -7,21 +7,32 @@ import CTA from "../components/sections/CTA";
 export const metadata: Metadata = {
   title: "Come lavoriamo — Futura",
   description:
-    "Impresa di costruzioni con trent'anni di cantieri e ufficio tecnico interno: un solo interlocutore dalla fattibilità alla consegna.",
+    "Trent'anni di cantieri e un ufficio tecnico interno: un unico interlocutore dalla fattibilità alla consegna.",
+  openGraph: {
+    title: "Come lavoriamo — Futura",
+    description:
+      "Trent'anni di cantieri e un ufficio tecnico interno: un unico interlocutore dalla fattibilità alla consegna.",
+    type: "website",
+  },
+  twitter: {
+    title: "Come lavoriamo — Futura",
+    description:
+      "Trent'anni di cantieri e un ufficio tecnico interno: un unico interlocutore dalla fattibilità alla consegna.",
+  },
 };
 
 const pillars = [
   {
     title: "Un unico interlocutore",
-    body: "Dalla fattibilità alla consegna la regia è una sola: progettazione, cantiere e collaudo rispondono a un unico responsabile. Il committente non deve coordinare soggetti diversi né ricostruire di chi sia la responsabilità quando qualcosa non torna.",
+    body: "Dalla fattibilità alla consegna, la regia è una sola: progettazione, cantiere e collaudo fanno capo a un unico responsabile. Il committente non deve coordinare più soggetti. E non deve cercare il responsabile quando qualcosa non va.",
   },
   {
     title: "Trent'anni di esperienza",
-    body: "In tre decenni abbiamo costruito nell'edilizia residenziale, industriale e commerciale. Le certificazioni SOA, ISO 9001 e ISO 14001 e il Rating di Legalità rendono verificabili la nostra solidità e la nostra trasparenza da parte di chi valuta se affidarci un'opera.",
+    body: "In tre decenni abbiamo lavorato nell'edilizia residenziale, commerciale, direzionale e industriale. Le certificazioni SOA, ISO 9001 e ISO 14001 e il Rating di Legalità permettono a chiunque di verificare la nostra solidità e la nostra trasparenza.",
   },
   {
-    title: "Una squadra, non una filiera",
-    body: "Ufficio tecnico interno, maestranze qualificate e fornitori selezionati operano come un'unica struttura. È questo che ci permette di governare contemporaneamente qualità, tempi e costi, i tre fattori da cui dipende l'esito di un'operazione.",
+    title: "Una squadra, non una catena di fornitori",
+    body: "Ufficio tecnico, maestranze e fornitori lavorano come un'unica struttura. Così possiamo controllare insieme qualità, tempi e costi: i tre fattori da cui dipende il successo di un'operazione.",
   },
 ];
 
@@ -39,14 +50,14 @@ export default function ServiziPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Costruire significa assumere decisioni destinate a durare anni, e
-              quasi tutte vengono messe alla prova in cantiere. Per questo
-              chiediamo di essere coinvolti già in fase di progettazione: una
-              scelta costruttiva corretta sulla carta costa una frazione di
-              quanto costerebbe correggerla in opera. Al servizio del progetto
-              mettiamo trent&apos;anni di esperienza, un ufficio tecnico interno
-              e maestranze selezionate, e garantiamo a chi ci affida un&apos;opera
-              un solo interlocutore dalla fattibilità alla consegna.
+              Costruire significa prendere decisioni che durano anni. Quasi
+              tutte vengono messe alla prova in cantiere. Per questo chiediamo
+              di essere coinvolti già in fase di progetto: correggere un
+              errore sulla carta costa molto meno che correggerlo in opera.
+              Mettiamo a disposizione trent&apos;anni di esperienza, un
+              ufficio tecnico interno e maestranze selezionate. E garantiamo a
+              chi ci affida un&apos;opera un unico interlocutore, dalla
+              fattibilità alla consegna.
             </p>
           </Reveal>
         </div>
@@ -71,7 +82,7 @@ export default function ServiziPage() {
           <Reveal>
             <p className="eyebrow text-cream/50">La differenza Futura</p>
             <h2 className="mt-6 max-w-3xl font-serif text-3xl leading-[1.15] md:text-5xl">
-              Ciò che ci distingue non è che cosa costruiamo, ma come lo costruiamo.
+              Ciò che ci distingue non è cosa costruiamo, ma come lo costruiamo.
             </h2>
           </Reveal>
 

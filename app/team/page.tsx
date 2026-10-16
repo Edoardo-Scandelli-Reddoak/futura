@@ -9,7 +9,18 @@ import Careers from "../components/sections/Careers";
 export const metadata: Metadata = {
   title: "Team — Futura",
   description:
-    "Le persone e il metodo di Futura: ufficio tecnico interno, maestranze qualificate e trent'anni di cantieri al servizio del progetto.",
+    "Le persone di Futura: ufficio tecnico interno, maestranze qualificate e trent'anni di esperienza al servizio del progetto.",
+  openGraph: {
+    title: "Team — Futura",
+    description:
+      "Le persone di Futura: ufficio tecnico interno, maestranze qualificate e trent'anni di esperienza al servizio del progetto.",
+    type: "website",
+  },
+  twitter: {
+    title: "Team — Futura",
+    description:
+      "Le persone di Futura: ufficio tecnico interno, maestranze qualificate e trent'anni di esperienza al servizio del progetto.",
+  },
 };
 
 export default function TeamPage() {
@@ -26,11 +37,11 @@ export default function TeamPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Futura non è un catalogo di servizi, ma un gruppo di persone:
-              tecnici, capicantiere e maestranze che condividono un metodo di
-              lavoro fondato sulla precisione e sulla responsabilità. È dalle
-              competenze e dall&apos;esperienza di chi la compone che dipende la
-              riuscita di ogni opera che ci viene affidata.
+              Futura non è un elenco di servizi, ma un gruppo di persone.
+              Tecnici, capicantiere e maestranze condividono un metodo di
+              lavoro basato su precisione e responsabilità. La riuscita di
+              ogni opera dipende dalle loro competenze e dalla loro
+              esperienza.
             </p>
           </Reveal>
         </div>
@@ -48,18 +59,17 @@ export default function TeamPage() {
             <Reveal delay={120}>
               <div className="space-y-6 text-lg leading-relaxed text-stone md:text-xl">
                 <p>
-                  Non partiamo dal disegno, ma dall&apos;analisi di ciò che
-                  serve realmente: vincoli del lotto, budget, tempi e risultato
-                  atteso da chi promuove l&apos;intervento. Da questa premessa
-                  nasce un rapporto solido per l&apos;intero percorso, dalla
-                  fattibilità al collaudo.
+                  Non partiamo dal disegno, ma da ciò che serve davvero: i
+                  vincoli del lotto, il budget, i tempi e il risultato atteso
+                  da chi promuove l&apos;intervento. Su questa base costruiamo
+                  un rapporto solido, dalla fattibilità al collaudo.
                 </p>
                 <p>
-                  La precisione fa il resto. Curiamo materiali, finiture e tempi
-                  con rigore artigianale in ogni fase del cantiere, assumendoci
-                  la responsabilità di quanto realizziamo: un edificio eseguito
-                  correttamente rappresenta un valore che dura nel tempo e
-                  risparmia contenziosi a chi ce lo ha affidato.
+                  Poi conta la precisione. Curiamo materiali, finiture e tempi
+                  con rigore artigianale, in ogni fase del cantiere. E ci
+                  assumiamo la responsabilità di ciò che realizziamo. Un
+                  edificio costruito bene mantiene il suo valore ed evita
+                  contenziosi a chi ce lo ha affidato.
                 </p>
               </div>
             </Reveal>
@@ -94,19 +104,19 @@ export default function TeamPage() {
             <div className="max-w-xl">
               <p className="text-base leading-relaxed text-cream/85 md:text-lg">
                 Non esistono due cantieri uguali. Per questo lavoriamo su
-                misura, con la medesima cura in ogni dettaglio e con le stesse
-                persone a seguire il progetto dall&apos;inizio alla fine.
+                misura, con la stessa cura in ogni dettaglio. E le stesse
+                persone seguono il progetto dall&apos;inizio alla fine.
               </p>
               <p className="mt-6 text-base leading-relaxed text-cream/85 md:text-lg">
                 Ogni opera che consegniamo nasce da competenza, esperienza e
-                senso di responsabilità: un&apos;operazione portata a buon fine
-                è il risultato a cui aspiriamo.
+                senso di responsabilità. Il nostro obiettivo è portare a buon
+                fine ogni operazione.
               </p>
               <Link
                 href="/contatti"
                 className="group mt-10 inline-flex items-center gap-3 border border-cream/50 px-9 py-5 text-xs uppercase tracking-[0.2em] text-cream transition-colors hover:border-cream hover:bg-cream hover:text-ink"
               >
-                Contattaci
+                Contattateci
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
@@ -132,7 +142,7 @@ export default function TeamPage() {
                   href="/impegno-sociale"
                   className="group mt-10 inline-flex items-center gap-3 border border-ink/30 px-8 py-4 text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:border-navy hover:bg-navy hover:text-paper"
                 >
-                  Scopri il nostro impegno
+                  Scoprite il nostro impegno
                   <span className="transition-transform duration-300 group-hover:translate-x-1">
                     →
                   </span>
@@ -142,18 +152,18 @@ export default function TeamPage() {
             <Reveal delay={120}>
               <div className="space-y-8 md:mt-24">
                 <p className="text-base leading-relaxed text-stone md:text-lg">
-                  Costruiamo nei territori in cui viviamo e sentiamo la
-                  responsabilità di restituire qualcosa alle comunità che ci
-                  accolgono. Per questo sosteniamo le realtà e le iniziative
-                  locali, a cominciare dallo sport, che promuove ogni giorno gli
-                  stessi valori in cui crediamo: impegno, rispetto e spirito di
-                  squadra.
+                  Costruiamo nei luoghi in cui viviamo e vogliamo restituire
+                  qualcosa alle comunità che ci accolgono. Per questo
+                  sosteniamo le realtà e le iniziative locali, a partire dallo
+                  sport. Lo sport promuove ogni giorno i valori in cui
+                  crediamo: impegno, rispetto e spirito di squadra.
                 </p>
                 <blockquote className="border-l-2 border-navy pl-6 font-serif text-xl leading-snug text-ink md:text-2xl">
-                  «Il lavoro di squadra è l&apos;abilità di lavorare insieme verso
-                  una visione comune: dirigere ogni risultato individuale verso un
-                  obiettivo condiviso. È l&apos;entusiasmo che permette a persone
-                  comuni di ottenere risultati non comuni.»
+                  «Il lavoro di squadra è la capacità di lavorare insieme
+                  verso una visione comune, indirizzando ogni risultato
+                  individuale verso un obiettivo condiviso. È l&apos;energia
+                  che permette a persone comuni di ottenere risultati fuori
+                  dal comune.»
                   <cite className="mt-5 block text-sm not-italic uppercase tracking-[0.16em] text-stone">
                     Gaetano Barletta
                   </cite>

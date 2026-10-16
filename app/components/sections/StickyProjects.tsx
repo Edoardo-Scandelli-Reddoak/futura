@@ -100,7 +100,7 @@ export default function StickyProjects() {
                   {project.excerpt}
                 </p>
                 <span className="mt-9 inline-flex items-center gap-3 border border-ink/30 px-8 py-4 text-xs uppercase tracking-[0.2em] text-ink transition-colors duration-300 group-hover:border-navy group-hover:bg-navy group-hover:text-paper">
-                  Scopri il progetto
+                  Scoprite il progetto
                   <span className="transition-transform duration-300 group-hover:translate-x-1">
                     →
                   </span>
@@ -139,7 +139,7 @@ export default function StickyProjects() {
                 {project.excerpt}
               </p>
               <span className="mt-5 inline-flex w-fit items-center gap-2 border border-white/60 px-6 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-white">
-                Scopri il progetto →
+                Scoprite il progetto →
               </span>
             </div>
           </Link>

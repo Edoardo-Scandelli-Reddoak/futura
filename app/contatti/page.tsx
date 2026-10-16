@@ -6,7 +6,18 @@ import ContactForm from "../components/sections/ContactForm";
 export const metadata: Metadata = {
   title: "Contatti — Futura",
   description:
-    "Parliamo della prossima operazione. Le sedi Futura sono a Solaro (MI), in Via Como 51, e a Bergamo, in Piazza Gaber 3/E.",
+    "Parliamo della vostra prossima operazione. Le sedi Futura sono a Solaro (MI), in Via Como 51, e a Bergamo, in Piazza Gaber 3/E.",
+  openGraph: {
+    title: "Contatti — Futura",
+    description:
+      "Parliamo della vostra prossima operazione. Le sedi Futura sono a Solaro (MI), in Via Como 51, e a Bergamo, in Piazza Gaber 3/E.",
+    type: "website",
+  },
+  twitter: {
+    title: "Contatti — Futura",
+    description:
+      "Parliamo della vostra prossima operazione. Le sedi Futura sono a Solaro (MI), in Via Como 51, e a Bergamo, in Piazza Gaber 3/E.",
+  },
 };
 
 const mapsUrl =
@@ -29,10 +40,10 @@ export default function ContattiPage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Ogni opera comincia da un confronto. Un progetto da realizzare,
-              un&apos;area da valorizzare o un preventivo da verificare:
-              esaminiamo numeri e vincoli e indichiamo con chiarezza se e in che
-              modo l&apos;intervento è realizzabile.
+              Ogni opera comincia da un incontro. Avete un progetto da
+              realizzare, un&apos;area da valorizzare o un preventivo da
+              verificare? Analizziamo numeri e vincoli e vi diciamo con
+              chiarezza se l&apos;intervento si può fare, e in che modo.
             </p>
           </Reveal>
         </div>
@@ -44,7 +55,7 @@ export default function ContattiPage() {
           <h2 className="font-serif text-4xl uppercase leading-[0.9] tracking-tight text-ink md:text-6xl lg:text-7xl">
             Parliamo
             <br />
-            del progetto
+            del vostro progetto
           </h2>
         </div>
 
@@ -56,7 +67,7 @@ export default function ContattiPage() {
                 <div>
                   <p className="eyebrow flex items-center gap-2.5 text-stone">
                     <span className="inline-block h-2.5 w-2.5 bg-[#DDD8D0]" />
-                    Sede operativa
+                    Sede di Solaro
                   </p>
                   <p className="mt-4 font-serif text-2xl leading-snug text-ink">
                     Via Como, 51
@@ -112,7 +123,7 @@ export default function ContattiPage() {
                     href="tel:+390225062368"
                     className="nav-link mt-4 inline-block text-lg text-ink"
                   >
-                    +39 02 250 62368
+                    +39 02 2506 2368
                   </a>
                 </div>
                 <div>

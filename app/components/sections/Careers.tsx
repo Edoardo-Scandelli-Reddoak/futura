@@ -27,11 +27,11 @@ export default function Careers() {
               Un&apos;impresa vale quanto le persone che manda in cantiere.
             </h2>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-cream/85 md:text-lg">
-              Futura è cresciuta così: tecnici e maestranze rimasti nel tempo,
-              che hanno a loro volta portato in azienda altri professionisti
-              qualificati. Non pubblichiamo posizioni aperte, ma esaminiamo
-              tutte le candidature spontanee: quando si apre una ricerca,
-              partiamo da lì.
+              Futura è cresciuta così: con tecnici e maestranze che sono
+              rimasti con noi nel tempo e che hanno portato in azienda altri
+              professionisti qualificati. Non pubblichiamo annunci, ma
+              leggiamo tutte le candidature spontanee. Quando cerchiamo una
+              nuova figura, partiamo da lì.
             </p>
           </Reveal>
 
@@ -41,7 +41,7 @@ export default function Careers() {
               href="#candidatura"
               className="group inline-flex shrink-0 items-center gap-4 bg-white px-9 py-5 text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-cream"
             >
-              Invia la tua candidatura
+              Inviate la vostra candidatura
               <span className="transition-transform duration-300 group-hover:translate-y-1">
                 ↓
               </span>
@@ -58,19 +58,19 @@ export default function Careers() {
               <div className="md:sticky md:top-32">
                 <p className="eyebrow text-stone">Candidatura spontanea</p>
                 <h3 className="mt-6 font-serif text-3xl leading-[1.1] text-ink md:text-5xl">
-                  Presentate
+                  Presentateci
                   <br />
                   la vostra esperienza.
                 </h3>
                 <p className="mt-8 max-w-sm text-base leading-relaxed text-stone">
-                  Ufficio tecnico, cantiere, maestranze, sicurezza, fornitori e
-                  collaboratori: se conoscete il vostro mestiere e volete
-                  esercitarlo con serietà, scriveteci.
+                  Ufficio tecnico, cantiere, maestranze, sicurezza,
+                  amministrazione, fornitori e collaboratori: se conoscete il
+                  vostro mestiere e volete svolgerlo con serietà, scriveteci.
                 </p>
                 <p className="mt-6 max-w-sm text-sm leading-relaxed text-stone/80">
-                  Esaminiamo ogni candidatura. Se il profilo risulta in linea
-                  con le nostre esigenze vi ricontattiamo, anche a distanza di
-                  mesi, quando si apre il cantiere adatto.
+                  Leggiamo ogni candidatura. Se il vostro profilo è in linea
+                  con le nostre esigenze, vi ricontatteremo, anche dopo
+                  qualche mese, quando si aprirà il cantiere giusto.
                 </p>
               </div>
             </Reveal>

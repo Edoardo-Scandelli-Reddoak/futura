@@ -132,7 +132,7 @@ export default async function ProjectPage({
             {next.title}
           </h2>
           <span className="mt-8 inline-flex items-center gap-3 border border-white/60 px-9 py-4 text-xs uppercase tracking-[0.2em] transition-colors duration-300 group-hover:border-white group-hover:bg-white group-hover:text-ink">
-            Scopri il progetto
+            Scoprite il progetto
             <span className="transition-transform duration-300 group-hover:translate-x-1">
               →
             </span>

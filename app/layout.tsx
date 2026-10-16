@@ -13,14 +13,19 @@ const grotesk = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Futura — Impresa di Costruzioni",
+  title: "Futura — Impresa di costruzioni in Lombardia",
   description:
-    "Impresa di costruzioni attiva in Lombardia da trent'anni. Mettiamo competenze ed esperienza di cantiere al servizio del progetto e di chi lo promuove.",
+    "Impresa di costruzioni attiva in Lombardia da trent'anni. Mettiamo l'esperienza del cantiere al servizio del progetto e di chi lo promuove.",
   openGraph: {
-    title: "Futura — Impresa di Costruzioni",
+    title: "Futura — Impresa di costruzioni in Lombardia",
     description:
-      "Impresa di costruzioni in Lombardia da trent'anni. Mettiamo competenze ed esperienza di cantiere al servizio del progetto e di chi lo promuove.",
+      "Impresa di costruzioni attiva in Lombardia da trent'anni. Mettiamo l'esperienza del cantiere al servizio del progetto e di chi lo promuove.",
     type: "website",
+  },
+  twitter: {
+    title: "Futura — Impresa di costruzioni in Lombardia",
+    description:
+      "Impresa di costruzioni attiva in Lombardia da trent'anni. Mettiamo l'esperienza del cantiere al servizio del progetto e di chi lo promuove.",
   },
 };
 

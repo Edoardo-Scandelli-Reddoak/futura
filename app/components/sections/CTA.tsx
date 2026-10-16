@@ -24,7 +24,7 @@ export default function CTA() {
             href="/contatti"
             className="group inline-flex shrink-0 items-center gap-3 bg-white px-9 py-5 text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-cream"
           >
-            Contattaci
+            Contattateci
             <span className="transition-transform duration-300 group-hover:translate-x-1">
               →
             </span>

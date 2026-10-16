@@ -6,7 +6,7 @@ import Reveal from "../Reveal";
 const stats = [
   { target: 30, suffix: "+", label: "Anni di esperienza" },
   { target: 120, suffix: "+", label: "Progetti realizzati" },
-  { target: 21, suffix: "", label: "Cantieri" },
+  { target: 21, suffix: "", label: "Cantieri aperti" },
   { target: 4, suffix: "", label: "Certificazioni e rating" },
 ];
 
@@ -50,9 +50,9 @@ export default function NavyBand() {
           </h2>
           <p className="mx-auto mt-8 max-w-2xl leading-relaxed text-stone">
             Per questo interveniamo già in fase di progetto, con le competenze
-            di chi dovrà realizzarlo: ottimizzazioni costruttive, controllo dei
-            tempi e dei costi, una qualità che si mantiene nel tempo. Chi ci
-            affida un&apos;opera sa fin dall&apos;inizio che cosa aspettarsi.
+            di chi dovrà costruire. Ottimizziamo le soluzioni costruttive,
+            controlliamo tempi e costi e garantiamo una qualità che dura. Chi
+            ci affida un&apos;opera sa fin dall&apos;inizio cosa aspettarsi.
           </p>
         </Reveal>
 

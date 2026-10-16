@@ -9,7 +9,18 @@ import CTA from "../components/sections/CTA";
 export const metadata: Metadata = {
   title: "Impegno sociale — Futura",
   description:
-    "Futura per il sociale: sosteniamo lo sport, le associazioni e le iniziative che tengono viva la comunità del territorio in cui costruiamo.",
+    "Futura per il sociale: sosteniamo lo sport, le associazioni e le iniziative che tengono viva la comunità del nostro territorio.",
+  openGraph: {
+    title: "Impegno sociale — Futura",
+    description:
+      "Futura per il sociale: sosteniamo lo sport, le associazioni e le iniziative che tengono viva la comunità del nostro territorio.",
+    type: "website",
+  },
+  twitter: {
+    title: "Impegno sociale — Futura",
+    description:
+      "Futura per il sociale: sosteniamo lo sport, le associazioni e le iniziative che tengono viva la comunità del nostro territorio.",
+  },
 };
 
 // Reads every image dropped into /public/impegno-sociale so new photos appear
@@ -43,20 +54,20 @@ export default function ImpegnoSocialePage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-36">
           <Reveal>
             <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
-              Costruiamo dove viviamo. Per questo il nostro impegno non si ferma
-              in cantiere: sosteniamo lo sport, le associazioni e le iniziative
-              che tengono viva la comunità del territorio in cui operiamo. Perché
-              crediamo che un&apos;impresa cresca davvero solo insieme al luogo
-              che la accoglie.
+              Costruiamo dove viviamo. Per questo il nostro impegno non si
+              ferma in cantiere. Sosteniamo lo sport, le associazioni e le
+              iniziative che tengono viva la comunità del nostro territorio.
+              Crediamo infatti che un&apos;impresa cresca davvero solo insieme
+              al luogo che la accoglie.
             </p>
           </Reveal>
 
           <Reveal delay={120}>
             <blockquote className="mt-14 max-w-3xl border-l-2 border-navy pl-6 font-serif text-xl leading-snug text-ink md:mt-20 md:text-2xl">
-              «Il lavoro di squadra è l&apos;abilità di lavorare insieme verso una
-              visione comune: dirigere ogni risultato individuale verso un
-              obiettivo condiviso. È l&apos;entusiasmo che permette a persone
-              comuni di ottenere risultati non comuni.»
+              «Il lavoro di squadra è la capacità di lavorare insieme verso
+              una visione comune, indirizzando ogni risultato individuale
+              verso un obiettivo condiviso. È l&apos;energia che permette a
+              persone comuni di ottenere risultati fuori dal comune.»
               <cite className="mt-5 block text-sm not-italic uppercase tracking-[0.16em] text-stone">
                 Gaetano Barletta
               </cite>
@@ -70,14 +81,13 @@ export default function ImpegnoSocialePage() {
         <div className="mx-auto max-w-[1600px] px-6 pb-32 md:px-10">
           <div className="grid gap-8 md:grid-cols-2 md:items-end md:gap-16">
             <h2 className="font-serif text-4xl uppercase leading-[0.9] tracking-tight text-ink md:text-6xl lg:text-7xl">
-              Progetti
+              Le iniziative
               <br />
-              in evidenza
+              che sosteniamo
             </h2>
             <p className="text-base leading-relaxed text-stone md:text-lg">
-              Alcune delle opere che testimoniano il nostro rapporto con il
-              territorio: cantieri aperti nei luoghi in cui viviamo e
-              lavoriamo.
+              Alcune delle realtà che sosteniamo nel territorio in cui viviamo
+              e lavoriamo: società sportive, associazioni ed eventi locali.
             </p>
           </div>
 
