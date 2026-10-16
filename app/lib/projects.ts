@@ -262,6 +262,7 @@ export const projects: Project[] = [
     description: [
       "Twin Palace è un intervento residenziale a Milano est, realizzato su un lotto stretto e profondo compreso tra la strada e il tessuto edilizio esistente. Due corpi gemelli, scanditi da logge e da una tessitura di facciata bicromatica, completano l'isolato con un fronte compatto.",
       "Il cantiere è stato documentato mese dopo mese, dalle strutture in elevazione al montaggio dei ponteggi, dalla posa del cappotto alle finiture. Un'organizzazione rigorosa in uno spazio operativo ridotto, dove la logistica incide quanto il progetto.",
+      "Insieme ai cantieri di via Leto Pomponio e di via Bonomi, Twin Palace fa parte degli interventi che stiamo realizzando a Milano.",
     ],
     facts: [
       { label: "Località", value: "Milano (MI)" },
@@ -270,6 +271,73 @@ export const projects: Project[] = [
       { label: "Tipologia", value: "Residenziale" },
       { label: "Corpi", value: "2 edifici gemelli" },
       { label: "Fase", value: "Facciate e finiture" },
+    ],
+  },
+  {
+    slug: "milano-leto",
+    title: "Via Leto Pomponio",
+    city: "Milano",
+    province: "MI",
+    address: "Via Leto Pomponio, 3",
+    category: "Residenziale",
+    year: "2025",
+    status: "In costruzione",
+    cover: "/projects/milano-leto/01.jpg",
+    gallery: [
+      "/projects/milano-leto/01.jpg",
+      "/projects/milano-leto/02.jpg",
+      "/projects/milano-leto/05.jpg",
+      "/projects/milano-leto/06.jpg",
+      "/projects/milano-leto/03.jpg",
+      "/projects/milano-leto/04.jpg",
+    ],
+    excerpt:
+      "La ristrutturazione di un edificio a Milano in un nuovo complesso residenziale con giardino interno: uno dei nostri cantieri milanesi.",
+    intro:
+      "Un edificio esistente trasformato in un complesso residenziale contemporaneo, tra il fronte su strada e un giardino interno.",
+    description: [
+      "In via Leto Pomponio un edificio esistente viene trasformato in un complesso residenziale. Il progetto alterna due linguaggi di facciata: un fronte chiaro scandito da lesene verticali e logge continue, e volumi rivestiti da listelli color terracotta che dialogano con le cortine in mattone degli edifici vicini. Verso l'interno del lotto gli alloggi si affacciano su un giardino comune.",
+      "Il cantiere è nella fase delle demolizioni interne: rimozione delle finiture e delle partizioni interne, separazione dei materiali di risulta e preparazione delle strutture alle lavorazioni successive. Un intervento di ristrutturazione in pieno tessuto urbano, dove la gestione degli spazi e delle interferenze con il quartiere è parte integrante del lavoro.",
+    ],
+    facts: [
+      { label: "Località", value: "Milano (MI)" },
+      { label: "Anno", value: "2025" },
+      { label: "Stato", value: "In costruzione" },
+      { label: "Tipologia", value: "Residenziale" },
+      { label: "Intervento", value: "Ristrutturazione edilizia" },
+      { label: "Fase", value: "Demolizioni interne" },
+    ],
+  },
+  {
+    slug: "milano-bonomi",
+    title: "Dergano Living",
+    city: "Milano",
+    province: "MI",
+    address: "Via Bonomi, 6",
+    category: "Residenziale",
+    status: "In costruzione",
+    cover: "/projects/milano-bonomi/01.jpg",
+    gallery: [
+      "/projects/milano-bonomi/01.jpg",
+      "/projects/milano-bonomi/02.jpg",
+      "/projects/milano-bonomi/04.jpg",
+      "/projects/milano-bonomi/03.jpg",
+    ],
+    excerpt:
+      "Un nuovo edificio residenziale NZEB nel quartiere Dergano, con ampie terrazze e impianti fotovoltaici: uno dei nostri cantieri milanesi.",
+    intro:
+      "Un nuovo edificio residenziale a energia quasi zero nel cuore di Dergano, quartiere milanese in piena trasformazione.",
+    description: [
+      "Dergano Living è un nuovo edificio residenziale in via Bonomi, a pochi passi dalla fermata Dergano della M3 e dalle aree di riqualificazione di Scalo Farini e della Bovisa. Il volume, scandito da logge e ampie terrazze continue, ospita bilocali, trilocali, quadrilocali e attici.",
+      "È un edificio NZEB (Nearly Zero Energy Building): impianti fotovoltaici, involucro ad alto isolamento e sistemi di gestione e riutilizzo delle acque ne riducono i consumi e l'impatto ambientale. Il cantiere è stato avviato con l'allestimento dell'area e il montaggio delle gru.",
+    ],
+    facts: [
+      { label: "Località", value: "Milano (MI)" },
+      { label: "Quartiere", value: "Dergano" },
+      { label: "Stato", value: "In costruzione" },
+      { label: "Tipologia", value: "Residenziale" },
+      { label: "Classe", value: "NZEB" },
+      { label: "Impianto", value: "Fotovoltaico" },
     ],
   },
   {
