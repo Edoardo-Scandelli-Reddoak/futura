@@ -81,7 +81,7 @@ const cells: Cell[] = [
   },
   {
     kind: "image",
-    src: "/projects/nembro/20.jpg",
+    src: "/projects/nembro/05.jpg",
     w: 320,
     h: "50vh",
     align: "end",

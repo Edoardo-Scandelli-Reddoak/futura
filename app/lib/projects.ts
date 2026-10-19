@@ -108,13 +108,10 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/nembro/03.jpg",
     gallery: [
-      "/projects/nembro/20.jpg",
-      "/projects/nembro/26.jpg",
-      "/projects/nembro/21.jpg",
-      "/projects/nembro/23.jpg",
-      "/projects/nembro/25.jpg",
-      "/projects/nembro/27.jpg",
-      "/projects/nembro/24.jpg",
+      "/projects/nembro/01.jpg",
+      "/projects/nembro/05.jpg",
+      "/projects/nembro/02.jpg",
+      "/projects/nembro/04.jpg",
       "/projects/nembro/03.jpg",
     ],
     excerpt:
