@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 const scattered = [
   { src: "/projects/bergamo-gaber/05.jpeg", top: "4%", left: "4%", w: 300, h: 200, speed: 30 },
   { src: "/projects/ponte-pietra/03.jpg", top: "5%", right: "4%", w: 300, h: 195, speed: -36 },
-  { src: "/projects/nembro/26.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
+  { src: "/projects/nembro/01.jpg", top: "36%", left: "1%", w: 290, h: 195, speed: -22 },
   { src: "/site/milano-sbodio-01.jpg", top: "35%", right: "1%", w: 300, h: 200, speed: 40 },
   { src: "/projects/solaro/03.jpeg", bottom: "5%", left: "5%", w: 290, h: 195, speed: 26 },
   { src: "/projects/nembro/03.jpg", bottom: "5%", right: "5%", w: 300, h: 195, speed: -32 },
@@ -166,10 +166,8 @@ export default function Values() {
               >
                 Chi investe con noi non passa da un intermediario che affida i
                 lavori ad altri. Progettazione, cantiere e collaudo fanno capo
-                a un unico responsabile. Il prezzo concordato resta invariato
-                fino alla consegna. I tempi sono quelli del cronoprogramma. La
-                qualità costruttiva protegge il valore dell&apos;immobile
-                negli anni.
+                a un unico responsabile. La qualità costruttiva protegge il
+                valore dell&apos;immobile negli anni.
               </p>
             </div>
           </div>

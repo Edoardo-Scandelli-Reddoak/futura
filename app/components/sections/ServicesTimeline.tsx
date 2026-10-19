@@ -26,7 +26,7 @@ const steps: Step[] = [
   {
     n: "03",
     title: "Preventivo e pianificazione",
-    body: "Prima di iniziare i lavori mettiamo tutto per iscritto: computo metrico dettagliato, cronoprogramma e costi. È il committente a scegliere la formula: chiavi in mano oppure affidamento di singole opere. Gli importi concordati restano invariati fino alla consegna.",
+    body: "Prima di iniziare i lavori mettiamo tutto per iscritto: computo metrico dettagliato, cronoprogramma e costi. È il committente a scegliere la formula: chiavi in mano oppure affidamento di singole opere.",
     image: "/services/step-3-sede.jpg",
   },
   {
