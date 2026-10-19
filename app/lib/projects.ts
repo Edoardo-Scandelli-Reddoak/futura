@@ -109,7 +109,6 @@ export const projects: Project[] = [
     cover: "/projects/nembro/03.jpg",
     gallery: [
       "/projects/nembro/01.jpg",
-      "/projects/nembro/05.jpg",
       "/projects/nembro/02.jpg",
       "/projects/nembro/04.jpg",
       "/projects/nembro/03.jpg",
