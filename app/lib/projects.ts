@@ -280,6 +280,35 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "pedrengo",
+    title: "Pedrengo",
+    city: "Pedrengo",
+    province: "BG",
+    address: "Pedrengo",
+    category: "Residenziale",
+    status: "In costruzione",
+    cover: "/projects/pedrengo/01.jpg",
+    gallery: [
+      "/projects/pedrengo/01.jpg",
+      "/projects/pedrengo/02.jpg",
+      "/projects/pedrengo/03.jpg",
+      "/projects/pedrengo/04.jpg",
+    ],
+    excerpt:
+      "Un edificio residenziale dalle linee essenziali, con balconi continui, ringhiere metalliche e un vano scala vetrato.",
+    intro:
+      "Un edificio residenziale dal disegno rigoroso: fasce orizzontali dei balconi, telai chiari e un corpo scala vetrato a scandire la facciata.",
+    description: [
+      "A Pedrengo l'edificio si sviluppa su più livelli con balconi continui che corrono lungo la facciata, protetti da ringhiere metalliche scure e inquadrati da telai intonacati chiari. Il vano scala vetrato separa i due fronti e porta luce naturale negli spazi comuni.",
+      "Al piano terra la recinzione e le fioriere definiscono il rapporto con la strada, mentre gli sbalzi della copertura chiudono il volume con un profilo netto.",
+    ],
+    facts: [
+      { label: "Località", value: "Pedrengo (BG)" },
+      { label: "Stato", value: "In costruzione" },
+      { label: "Tipologia", value: "Residenziale" },
+    ],
+  },
+  {
     slug: "osio-sotto",
     title: "Corso Italia",
     city: "Osio Sotto",
