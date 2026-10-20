@@ -248,6 +248,38 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "pradalunga",
+    title: "Pradalunga",
+    city: "Pradalunga",
+    province: "BG",
+    address: "Pradalunga",
+    category: "Residenziale",
+    status: "In costruzione",
+    cover: "/projects/pradalunga/01.jpg",
+    gallery: [
+      "/projects/pradalunga/01.jpg",
+      "/projects/pradalunga/02.jpg",
+      "/projects/pradalunga/03.jpg",
+      "/projects/pradalunga/04.jpg",
+      "/projects/pradalunga/05.jpg",
+      "/projects/pradalunga/06.jpg",
+    ],
+    excerpt:
+      "Residenze ai piedi dei rilievi della Val Seriana, con tetti a falde, sporti e balconi in legno.",
+    intro:
+      "Un intervento residenziale in Val Seriana che riprende i caratteri dell'edilizia di montagna: tetti a falde, legno a vista e intonaci chiari.",
+    description: [
+      "A Pradalunga gli edifici si inseriscono ai piedi dei versanti boscosi della Val Seriana. Le coperture a falde con struttura e sporti in legno, i balconi e i pilastri lignei e i manti in coppi richiamano l'architettura tradizionale della valle.",
+      "Il cantiere è in corso: le strutture in calcestruzzo e i solai in laterocemento sono completati, le facciate intonacate e le coperture posate, mentre all'interno procedono tamponamenti e serramenti.",
+    ],
+    facts: [
+      { label: "Località", value: "Pradalunga (BG)" },
+      { label: "Stato", value: "In costruzione" },
+      { label: "Tipologia", value: "Residenziale" },
+      { label: "Coperture", value: "Legno e coppi" },
+    ],
+  },
+  {
     slug: "osio-sotto",
     title: "Corso Italia",
     city: "Osio Sotto",
