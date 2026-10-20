@@ -4,20 +4,23 @@ import Reveal from "../Reveal";
 type ProjectGalleryProps = {
   images: string[];
   title: string;
-  /** Apre con una coppia affiancata invece che con un'immagine a tutta larghezza. */
-  startWithPair?: boolean;
+  /** Prima immagine a tutta larghezza in apertura (default sì). */
+  withHero?: boolean;
+  /** Dopo l'eventuale apertura, la griglia parte con una coppia invece che con un'immagine piena. */
+  pairFirst?: boolean;
 };
 
 // Editorial rhythm: first image full-width, then alternating wide/narrow pairs.
-// With startWithPair the gallery opens on a pair: pair, full, pair, full…
+// pairFirst flips the grid to pair, full, pair, full…; withHero={false} drops the opening image.
 export default function ProjectGallery({
   images,
   title,
-  startWithPair = false,
+  withHero = true,
+  pairFirst = false,
 }: ProjectGalleryProps) {
-  const hero = startWithPair ? undefined : images[0];
-  const rest = startWithPair ? images : images.slice(1);
-  const fullAt = startWithPair ? 2 : 0;
+  const hero = withHero ? images[0] : undefined;
+  const rest = withHero ? images.slice(1) : images;
+  const fullAt = pairFirst ? 2 : 0;
 
   return (
     <section className="bg-paper">

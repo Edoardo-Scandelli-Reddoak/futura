@@ -114,7 +114,8 @@ export default async function ProjectPage({
       <ProjectGallery
         images={project.gallery}
         title={project.title}
-        startWithPair={project.galleryStartsWithPair}
+        withHero={project.galleryHero}
+        pairFirst={project.galleryPairFirst}
       />
 
       {/* Next project */}

@@ -14,8 +14,10 @@ export type Project = {
   status: "Realizzato" | "In costruzione" | "In progetto";
   cover: string;
   gallery: string[];
-  /** La galleria apre con una coppia di immagini verticali affiancate. */
-  galleryStartsWithPair?: boolean;
+  /** false: la galleria non apre con un'immagine a tutta larghezza. */
+  galleryHero?: boolean;
+  /** La griglia della galleria parte con una coppia affiancata. */
+  galleryPairFirst?: boolean;
   excerpt: string;
   /** Frase d'apertura della pagina dedicata. */
   intro: string;
@@ -217,7 +219,8 @@ export const projects: Project[] = [
       "/projects/pedrengo/07.jpg",
       "/projects/pedrengo/05.jpg",
     ],
-    galleryStartsWithPair: true,
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Un edificio residenziale a Pedrengo dai volumi sfalsati, con logge profonde, parapetti in vetro e una terrazza panoramica sui colli.",
     intro:
@@ -245,10 +248,11 @@ export const projects: Project[] = [
     cover: "/projects/pradalunga/01.jpg",
     gallery: [
       "/projects/pradalunga/05.jpg",
-      "/projects/pradalunga/02.jpg",
       "/projects/pradalunga/03.jpg",
       "/projects/pradalunga/04.jpg",
+      "/projects/pradalunga/02.jpg",
     ],
+    galleryPairFirst: true,
     excerpt:
       "Residenze ai piedi dei rilievi della Val Seriana, con tetti a falde, sporti e balconi in legno.",
     intro:
