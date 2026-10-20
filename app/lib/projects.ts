@@ -14,6 +14,8 @@ export type Project = {
   status: "Realizzato" | "In costruzione" | "In progetto";
   cover: string;
   gallery: string[];
+  /** La galleria apre con una coppia di immagini verticali affiancate. */
+  galleryStartsWithPair?: boolean;
   excerpt: string;
   /** Frase d'apertura della pagina dedicata. */
   intro: string;
@@ -208,14 +210,14 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/pedrengo/01.jpg",
     gallery: [
-      "/projects/pedrengo/02.jpg",
-      "/projects/pedrengo/05.jpg",
       "/projects/pedrengo/03.jpg",
       "/projects/pedrengo/04.jpg",
-      "/projects/pedrengo/08.jpg",
+      "/projects/pedrengo/02.jpg",
       "/projects/pedrengo/06.jpg",
       "/projects/pedrengo/07.jpg",
+      "/projects/pedrengo/05.jpg",
     ],
+    galleryStartsWithPair: true,
     excerpt:
       "Un edificio residenziale a Pedrengo dai volumi sfalsati, con logge profonde, parapetti in vetro e una terrazza panoramica sui colli.",
     intro:

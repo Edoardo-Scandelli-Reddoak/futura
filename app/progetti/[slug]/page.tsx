@@ -111,7 +111,11 @@ export default async function ProjectPage({
       </section>
 
       {/* Gallery */}
-      <ProjectGallery images={project.gallery} title={project.title} />
+      <ProjectGallery
+        images={project.gallery}
+        title={project.title}
+        startWithPair={project.galleryStartsWithPair}
+      />
 
       {/* Next project */}
       <Link
