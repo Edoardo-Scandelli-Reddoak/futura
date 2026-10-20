@@ -278,14 +278,15 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/santi-maurizio/01.jpg",
     gallery: [
+      "/projects/santi-maurizio/04.jpg",
       "/projects/santi-maurizio/02.jpg",
       "/projects/santi-maurizio/05.jpg",
-      "/projects/santi-maurizio/03.jpg",
-      "/projects/santi-maurizio/04.jpg",
-      "/projects/santi-maurizio/08.jpg",
       "/projects/santi-maurizio/07.jpg",
       "/projects/santi-maurizio/09.jpg",
+      "/projects/santi-maurizio/08.jpg",
     ],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Un edificio residenziale dalle linee essenziali, con balconi continui, ringhiere metalliche e un vano scala vetrato.",
     intro:
