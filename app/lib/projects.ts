@@ -183,7 +183,6 @@ export const projects: Project[] = [
       "/projects/bergamo-baioni/01.jpg",
       "/projects/bergamo-baioni/02.jpg",
       "/projects/bergamo-baioni/05.jpg",
-      "/projects/bergamo-baioni/03.jpg",
       "/projects/bergamo-baioni/06.jpg",
     ],
     excerpt:
