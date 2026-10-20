@@ -30,17 +30,53 @@ function Field({
   );
 }
 
+const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [nome, setNome] = useState("");
+  const [invio, setInvio] = useState(false);
+  const [errore, setErrore] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = new FormData(e.currentTarget);
-    // TODO: collegare a un endpoint/servizio email (es. Resend, form action).
-    setNome(String(data.get("nome") ?? "").trim());
-    setSent(true);
-  };
+    const form = e.currentTarget;
+
+    if (!ACCESS_KEY) {
+      setErrore(
+        "Il modulo non è ancora collegato all'account Web3Forms. Nel frattempo potete scrivere a info@futurasrl.net."
+      );
+      return;
+    }
+
+    setInvio(true);
+    setErrore("");
+    const data = new FormData(form);
+    data.append("access_key", ACCESS_KEY);
+    data.append("subject", "Richiesta di contatto dal sito");
+    data.append("from_name", "Sito Futura");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: data,
+      });
+      const json = await res.json();
+      if (json.success) {
+        setNome(String(data.get("nome") ?? "").trim());
+        setSent(true);
+        form.reset();
+      } else {
+        setErrore(json.message || "Invio non riuscito. Vi invitiamo a riprovare tra qualche minuto.");
+      }
+    } catch {
+      setErrore(
+        "Non è stato possibile inviare il messaggio. Verificate la connessione e riprovate."
+      );
+    } finally {
+      setInvio(false);
+    }
+  }
 
   if (sent) {
     return (
@@ -71,6 +107,15 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {/* Honeypot anti-spam: invisibile agli umani */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        autoComplete="off"
+        className="hidden"
+        aria-hidden
+      />
       <div className="grid gap-6 sm:grid-cols-2">
         <Field label="Nome" name="nome" required />
         <Field label="Cognome" name="cognome" />
@@ -91,11 +136,17 @@ export default function ContactForm() {
           className="mt-3 w-full resize-none border-b border-ink/20 bg-transparent py-3 text-ink outline-none transition-colors focus:border-navy"
         />
       </div>
+      {errore && (
+        <p className="border-l-2 border-red-500 bg-red-50 py-3 pl-4 text-sm leading-relaxed text-red-800">
+          {errore}
+        </p>
+      )}
       <button
         type="submit"
-        className="group inline-flex items-center gap-3 bg-ink px-9 py-5 text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-navy"
+        disabled={invio}
+        className="group inline-flex items-center gap-3 bg-ink px-9 py-5 text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-navy disabled:cursor-not-allowed disabled:opacity-60"
       >
-        Invia messaggio
+        {invio ? "Invio in corso…" : "Invia messaggio"}
         <span className="transition-transform duration-300 group-hover:translate-x-1">
           →
         </span>
