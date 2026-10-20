@@ -4,7 +4,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Reveal from "../../components/Reveal";
 import ProjectGallery from "../../components/sections/ProjectGallery";
-import { getNextProject, getProject, projects } from "../../lib/projects";
+import {
+  getNextProject,
+  getProject,
+  placeLabel,
+  projects,
+} from "../../lib/projects";
 
 type Params = { slug: string };
 
@@ -59,7 +64,7 @@ export default async function ProjectPage({
             progetti
           </Link>
           <p className="eyebrow text-white/70">
-            {project.city} ({project.province}) · {project.category}
+            {placeLabel(project)} · {project.category}
           </p>
           <h1 className="mt-5 font-serif text-5xl leading-[0.92] text-white sm:text-7xl lg:text-8xl">
             {project.title}

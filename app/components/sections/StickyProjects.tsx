@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { projects } from "../../lib/projects";
+import { placeLabel, projects } from "../../lib/projects";
 
 export default function StickyProjects() {
   const [active, setActive] = useState(0);
@@ -86,7 +86,7 @@ export default function StickyProjects() {
               <Link href={`/progetti/${project.slug}`} className="group block">
                 <span className="text-sm uppercase tracking-[0.2em] text-stone">
                   {String(i + 1).padStart(2, "0")} —{" "}
-                  {project.city} ({project.province})
+                  {placeLabel(project)}
                 </span>
                 <h3 className="mt-5 font-serif text-5xl leading-[0.95] text-ink transition-colors duration-500 group-hover:text-navy lg:text-7xl">
                   {project.title}
@@ -129,8 +129,7 @@ export default function StickyProjects() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/10" />
             <div className="absolute inset-0 flex flex-col justify-end p-6">
               <span className="text-xs uppercase tracking-[0.2em] text-white/70">
-                {String(i + 1).padStart(2, "0")} — {project.city} (
-                {project.province})
+                {String(i + 1).padStart(2, "0")} — {placeLabel(project)}
               </span>
               <h3 className="mt-2 font-serif text-4xl uppercase leading-none tracking-tight text-white">
                 {project.title}

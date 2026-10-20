@@ -50,6 +50,11 @@ export default function Footer() {
                 </SmartLink>
               </li>
               <li>
+                <SmartLink href="/#certificazioni" className="nav-link">
+                  Certificazioni
+                </SmartLink>
+              </li>
+              <li>
                 <SmartLink href="/team" className="nav-link">
                   Team
                 </SmartLink>

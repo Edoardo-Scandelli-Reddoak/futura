@@ -1,11 +1,16 @@
 export type Fact = { label: string; value: string };
 
-export type Category = "Residenziale" | "Direzionale" | "Funzione mista";
+export type Category =
+  | "Residenziale"
+  | "Direzionale"
+  | "Commerciale"
+  | "Funzione mista";
 
 export type Project = {
   slug: string;
   title: string;
   city: string;
+  /** Vuota quando l'intervento è distribuito su più province. */
   province: string;
   address: string;
   category: Category;
@@ -75,7 +80,7 @@ export const projects: Project[] = [
     cover: "/projects/bergamo-gaber/01.jpg",
     gallery: [
       "/projects/bergamo-gaber/01.jpg",
-      "/projects/bergamo-suardi/01.jpg",
+      "/projects/bergamo-gaber/06.jpeg",
       "/projects/bergamo-gaber/02.jpg",
       "/projects/bergamo-gaber/05.jpeg",
       "/projects/bergamo-suardi/03.jpg",
@@ -83,7 +88,6 @@ export const projects: Project[] = [
       "/projects/bergamo-suardi/04.jpg",
       "/projects/bergamo-gaber/04.jpeg",
       "/projects/bergamo-suardi/05.jpg",
-      "/projects/bergamo-gaber/06.jpeg",
     ],
     excerpt:
       "Il nostro intervento residenziale più grande a Bergamo: 75 appartamenti nel borgo di Santa Caterina, affacciati sulla piazza.",
@@ -115,7 +119,7 @@ export const projects: Project[] = [
       "/projects/nembro/01.jpg",
       "/projects/nembro/02.jpg",
       "/projects/nembro/04.jpg",
-      "/projects/nembro/03.jpg",
+      "/projects/nembro/05.jpg",
     ],
     excerpt:
       "Due torri residenziali dalle forme articolate, immerse nel verde, con terrazzi profondi e facciate sempre diverse.",
@@ -177,7 +181,7 @@ export const projects: Project[] = [
     status: "Realizzato",
     cover: "/projects/bergamo-baioni/04.jpg",
     gallery: [
-      "/projects/bergamo-baioni/04.jpg",
+      "/projects/bergamo-baioni/07.jpg",
       "/projects/bergamo-baioni/01.jpg",
       "/projects/bergamo-baioni/02.jpg",
       "/projects/bergamo-baioni/05.jpg",
@@ -571,10 +575,12 @@ export const projects: Project[] = [
     status: "Realizzato",
     cover: "/projects/caronno/02.jpg",
     gallery: [
-      "/projects/caronno/02.jpg",
       "/projects/caronno/03.jpg",
       "/projects/caronno/01.jpg",
+      "/projects/caronno/04.jpg",
     ],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Palazzine in antracite e legno affacciate su un cortile privato. Un intervento compatto, giocato sul contrasto tra i materiali.",
     intro:
@@ -591,7 +597,46 @@ export const projects: Project[] = [
       { label: "Materiali", value: "Antracite, legno, intonaco" },
     ],
   },
+  {
+    slug: "giochi-preziosi",
+    title: "Negozi Giochi Preziosi",
+    city: "Milano, Bergamo, Verona",
+    province: "",
+    address: "Piazza del Duomo, Milano",
+    category: "Commerciale",
+    status: "Realizzato",
+    cover: "/projects/giochi-preziosi/01.jpg",
+    gallery: [
+      "/projects/giochi-preziosi/02.jpg",
+      "/projects/giochi-preziosi/03.jpg",
+      "/projects/giochi-preziosi/04.jpg",
+      "/projects/giochi-preziosi/05.jpg",
+    ],
+    galleryHero: false,
+    galleryPairFirst: true,
+    excerpt:
+      "Gli interventi realizzati per Giochi Preziosi: i punti vendita di Milano in piazza del Duomo, Bergamo e Verona, e le sedi del gruppo.",
+    intro:
+      "Una serie di interventi commerciali per Giochi Preziosi, dal negozio in piazza del Duomo a Milano ai punti vendita di Bergamo e Verona.",
+    description: [
+      "Per Giochi Preziosi Futura ha realizzato più interventi in contesti molto diversi tra loro. Il più rappresentativo è il negozio in piazza del Duomo a Milano, ricavato al piano terra di un edificio storico: vetrine ad arco, insegne e allestimenti interni sono stati inseriti rispettando la facciata e lavorando in uno dei luoghi più frequentati della città.",
+      "Lo stesso approccio ha guidato i punti vendita di Bergamo e Verona, con fronti vetrati e spazi interni pensati per l'esposizione, e i lavori sugli edifici del gruppo. Interventi in cui contano la rapidità di esecuzione, il coordinamento con il committente e la cura delle finiture in spazi aperti al pubblico.",
+    ],
+    facts: [
+      { label: "Committente", value: "Giochi Preziosi" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Commerciale" },
+      { label: "Punti vendita", value: "Milano, Bergamo, Verona" },
+    ],
+  },
 ];
+
+/** "Città (PR)", o solo le città quando la provincia non c'è. */
+export function placeLabel(project: Project) {
+  return project.province
+    ? `${project.city} (${project.province})`
+    : project.city;
+}
 
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);
