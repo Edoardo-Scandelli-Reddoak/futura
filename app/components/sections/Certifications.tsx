@@ -90,7 +90,6 @@ export default function Certifications() {
             </Reveal>
           ))}
         </div>
-
       </div>
     </section>
   );
