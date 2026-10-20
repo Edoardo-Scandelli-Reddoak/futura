@@ -293,6 +293,12 @@ export const projects: Project[] = [
       "/projects/pedrengo/02.jpg",
       "/projects/pedrengo/03.jpg",
       "/projects/pedrengo/04.jpg",
+      "/projects/pedrengo/05.jpg",
+      "/projects/pedrengo/06.jpg",
+      "/projects/pedrengo/07.jpg",
+      "/projects/pedrengo/08.jpg",
+      "/projects/pedrengo/09.jpg",
+      "/projects/pedrengo/10.jpg",
     ],
     excerpt:
       "Un edificio residenziale dalle linee essenziali, con balconi continui, ringhiere metalliche e un vano scala vetrato.",
@@ -300,12 +306,14 @@ export const projects: Project[] = [
       "Un edificio residenziale dal disegno rigoroso: fasce orizzontali dei balconi, telai chiari e un corpo scala vetrato a scandire la facciata.",
     description: [
       "A Pedrengo l'edificio si sviluppa su più livelli con balconi continui che corrono lungo la facciata, protetti da ringhiere metalliche scure e inquadrati da telai intonacati chiari. Il vano scala vetrato separa i due fronti e porta luce naturale negli spazi comuni.",
-      "Al piano terra la recinzione e le fioriere definiscono il rapporto con la strada, mentre gli sbalzi della copertura chiudono il volume con un profilo netto.",
+      "L'involucro è completato, con recinzione e fioriere già in opera al piano terra. All'interno gli alloggi sono in fase di finitura: grandi vetrate scorrevoli sui soggiorni, bagni rivestiti in grès di grande formato, porte blindate e climatizzazione. Al piano interrato si trovano le autorimesse con box chiusi.",
     ],
     facts: [
       { label: "Località", value: "Pedrengo (BG)" },
       { label: "Stato", value: "In costruzione" },
       { label: "Tipologia", value: "Residenziale" },
+      { label: "Fase", value: "Finiture" },
+      { label: "Interrato", value: "Autorimesse con box" },
     ],
   },
   {
