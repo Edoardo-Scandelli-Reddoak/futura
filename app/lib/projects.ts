@@ -79,14 +79,12 @@ export const projects: Project[] = [
     status: "Realizzato",
     cover: "/projects/bergamo-gaber/01.jpg",
     gallery: [
-      "/projects/bergamo-gaber/01.jpg",
       "/projects/bergamo-gaber/06.jpeg",
-      "/projects/bergamo-gaber/02.jpg",
-      "/projects/bergamo-gaber/05.jpeg",
-      "/projects/bergamo-suardi/03.jpg",
       "/projects/bergamo-gaber/03.jpeg",
+      "/projects/bergamo-gaber/02.jpg",
       "/projects/bergamo-suardi/04.jpg",
       "/projects/bergamo-gaber/04.jpeg",
+      "/projects/bergamo-suardi/03.jpg",
       "/projects/bergamo-suardi/05.jpg",
     ],
     excerpt:
@@ -608,9 +606,9 @@ export const projects: Project[] = [
     cover: "/projects/giochi-preziosi/01.jpg",
     gallery: [
       "/projects/giochi-preziosi/02.jpg",
-      "/projects/giochi-preziosi/03.jpg",
-      "/projects/giochi-preziosi/04.jpg",
       "/projects/giochi-preziosi/05.jpg",
+      "/projects/giochi-preziosi/04.jpg",
+      "/projects/giochi-preziosi/03.jpg",
     ],
     galleryHero: false,
     galleryPairFirst: true,
