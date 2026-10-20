@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Reveal from "../Reveal";
 
 // Documenti ripresi dal vecchio sito (futurasrl.net/certificazioni).
@@ -92,25 +91,6 @@ export default function Certifications() {
           ))}
         </div>
 
-        <Reveal delay={150}>
-          <div className="mt-12 flex flex-col gap-6 border-t border-paper/15 pt-12 sm:flex-row sm:items-center">
-            <div className="relative h-24 w-24 shrink-0 overflow-hidden bg-white">
-              <Image
-                src="/certificazioni/cassa-edile-awards-2025.png"
-                alt="Cassa Edile Awards 2025"
-                fill
-                sizes="96px"
-                className="object-contain"
-              />
-            </div>
-            <div>
-              <p className="eyebrow text-paper/60">Riconoscimento</p>
-              <p className="mt-3 font-serif text-2xl text-paper md:text-3xl">
-                Cassa Edile Awards 2025
-              </p>
-            </div>
-          </div>
-        </Reveal>
       </div>
     </section>
   );
