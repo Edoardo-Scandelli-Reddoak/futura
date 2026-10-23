@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { Drawing } from "../../lib/projects";
 import Reveal from "../Reveal";
 
 type ProjectGalleryProps = {
@@ -8,6 +9,8 @@ type ProjectGalleryProps = {
   withHero?: boolean;
   /** Dopo l'eventuale apertura, la griglia parte con una coppia invece che con un'immagine piena. */
   pairFirst?: boolean;
+  /** Prospetti panoramici, mostrati interi in coda. */
+  drawings?: Drawing[];
 };
 
 // Editorial rhythm: first image full-width, then alternating wide/narrow pairs.
@@ -17,6 +20,7 @@ export default function ProjectGallery({
   title,
   withHero = true,
   pairFirst = false,
+  drawings = [],
 }: ProjectGalleryProps) {
   const hero = withHero ? images[0] : undefined;
   const rest = withHero ? images.slice(1) : images;
@@ -69,6 +73,24 @@ export default function ProjectGallery({
             );
           })}
         </div>
+
+        {drawings.map((d) => (
+          <Reveal key={d.src}>
+            <figure className="mx-auto mt-16 max-w-[1310px]">
+              <Image
+                src={d.src}
+                alt={`${title} — ${d.caption}`}
+                width={d.width}
+                height={d.height}
+                sizes="(max-width: 1360px) 100vw, 1310px"
+                className="h-auto w-full"
+              />
+              <figcaption className="mt-4 text-xs uppercase tracking-[0.18em] text-stone">
+                {d.caption}
+              </figcaption>
+            </figure>
+          </Reveal>
+        ))}
       </div>
     </section>
   );

@@ -121,6 +121,7 @@ export default async function ProjectPage({
         title={project.title}
         withHero={project.galleryHero}
         pairFirst={project.galleryPairFirst}
+        drawings={project.galleryDrawings}
       />
 
       {/* Next project */}

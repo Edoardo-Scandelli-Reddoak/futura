@@ -1,5 +1,7 @@
 export type Fact = { label: string; value: string };
 
+export type Drawing = { src: string; width: number; height: number; caption: string };
+
 export type Category =
   | "Residenziale"
   | "Direzionale"
@@ -23,6 +25,8 @@ export type Project = {
   galleryHero?: boolean;
   /** La griglia della galleria parte con una coppia affiancata. */
   galleryPairFirst?: boolean;
+  /** Prospetti e sezioni: mostrati interi, senza ritaglio, in coda alla galleria. */
+  galleryDrawings?: Drawing[];
   excerpt: string;
   /** Frase d'apertura della pagina dedicata. */
   intro: string;
@@ -44,14 +48,15 @@ export const projects: Project[] = [
     status: "In costruzione",
     cover: "/projects/ponte-pietra/01.jpg",
     gallery: [
+      "/projects/ponte-pietra/08.jpg",
+      "/projects/ponte-pietra/07.jpg",
       "/projects/ponte-pietra/20.jpg",
-      "/projects/ponte-pietra/01.jpg",
-      "/projects/ponte-pietra/05.jpg",
       "/projects/ponte-pietra/03.jpg",
       "/projects/ponte-pietra/04.jpg",
-      "/projects/ponte-pietra/02.jpg",
-      "/projects/ponte-pietra/06.jpg",
+      "/projects/ponte-pietra/05.jpg",
     ],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Un nuovo isolato residenziale vicino allo stadio, nel cuore di Bergamo. Un cantiere complesso, gestito in spazi ristretti.",
     intro:
@@ -176,14 +181,36 @@ export const projects: Project[] = [
     address: "Via Baioni",
     category: "Residenziale",
     year: "2025",
-    status: "Realizzato",
+    status: "In costruzione",
     cover: "/projects/bergamo-baioni/04.jpg",
     gallery: [
       "/projects/bergamo-baioni/07.jpg",
+      "/projects/bergamo-baioni/08.jpg",
+      "/projects/bergamo-baioni/09.jpg",
       "/projects/bergamo-baioni/01.jpg",
-      "/projects/bergamo-baioni/02.jpg",
+      "/projects/bergamo-baioni/10.jpg",
+      "/projects/bergamo-baioni/11.jpg",
       "/projects/bergamo-baioni/05.jpg",
+      "/projects/bergamo-baioni/12.jpg",
+      "/projects/bergamo-baioni/13.jpg",
+      "/projects/bergamo-baioni/02.jpg",
+      "/projects/bergamo-baioni/14.jpg",
       "/projects/bergamo-baioni/06.jpg",
+    ],
+    galleryPairFirst: true,
+    galleryDrawings: [
+      {
+        src: "/projects/bergamo-baioni/prospetto-torri.jpg",
+        width: 1310,
+        height: 233,
+        caption: "Profilo delle torri: 5, 6 e 7 piani",
+      },
+      {
+        src: "/projects/bergamo-baioni/prospetto-via-baioni.jpg",
+        width: 1311,
+        height: 256,
+        caption: "Fronte su Via Baioni",
+      },
     ],
     excerpt:
       "Rigenerazione dell'ex area SACE: demolizione, bonifica e restituzione alla città di un'area industriale dismessa.",
@@ -196,8 +223,9 @@ export const projects: Project[] = [
     facts: [
       { label: "Località", value: "Bergamo (BG)" },
       { label: "Anno", value: "2025" },
-      { label: "Stato", value: "Realizzato" },
+      { label: "Stato", value: "In costruzione" },
       { label: "Tipologia", value: "Residenziale" },
+      { label: "Composizione", value: "6 torri, circa 160 appartamenti" },
       { label: "Intervento", value: "Bonifica e ricostruzione" },
       { label: "Area", value: "Ex stabilimento SACE" },
       { label: "Spazi", value: "Padiglione Open Living" },

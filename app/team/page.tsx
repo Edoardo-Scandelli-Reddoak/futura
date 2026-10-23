@@ -23,6 +23,30 @@ export const metadata: Metadata = {
   },
 };
 
+// Foto riprese dal vecchio sito (futurasrl.net/impegno-sociale).
+// Ordine = griglia: stretta + larga, poi larga + stretta.
+const socialImages: {
+  src: string;
+  alt: string;
+  wide?: boolean;
+  position?: string;
+}[] = [
+  { src: "/team/impegno-ledwall.jpg", alt: "Il marchio Futura sul ledwall dello stadio" },
+  {
+    src: "/team/impegno-saronno.jpg",
+    alt: "Campagna «Avanti Saronno!» con la maglia sponsorizzata Futura",
+    wide: true,
+    position: "object-top",
+  },
+  {
+    src: "/team/impegno-stadio.jpg",
+    alt: "Tribuna dello stadio con lo striscione Futura",
+    wide: true,
+    position: "object-[50%_70%]",
+  },
+  { src: "/team/impegno-squadra.jpg", alt: "Squadra di calcio con le maglie Futura" },
+];
+
 export default function TeamPage() {
   return (
     <>
@@ -170,6 +194,27 @@ export default function TeamPage() {
                 </blockquote>
               </div>
             </Reveal>
+          </div>
+
+          {/* Two staggered rows: narrow + wide, then wide + narrow */}
+          <div className="mt-16 grid gap-4 md:mt-24 md:auto-rows-[clamp(240px,26vw,420px)] md:grid-cols-11 md:gap-6">
+            {socialImages.map((img, i) => (
+              <Reveal
+                key={img.src}
+                delay={(i % 2) * 120}
+                className={img.wide ? "md:col-span-7" : "md:col-span-4"}
+              >
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-cream md:aspect-auto md:h-full">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    sizes={img.wide ? "(max-width: 768px) 100vw, 60vw" : "(max-width: 768px) 100vw, 35vw"}
+                    className={`object-cover ${img.position ?? ""}`}
+                  />
+                </div>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
