@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const AREE = [
@@ -167,7 +168,11 @@ export default function CareersForm() {
         />
         <span>
           Acconsento al trattamento dei dati personali per finalità di selezione
-          del personale. *
+          del personale, come descritto nella{" "}
+          <Link href="/privacy-policy" className="underline underline-offset-2 hover:text-ink">
+            Privacy Policy
+          </Link>
+          . *
         </span>
       </label>
 

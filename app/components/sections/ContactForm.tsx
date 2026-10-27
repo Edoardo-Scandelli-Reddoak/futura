@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 function Field({
@@ -136,6 +137,13 @@ export default function ContactForm() {
           className="mt-3 w-full resize-none border-b border-ink/20 bg-transparent py-3 text-ink outline-none transition-colors focus:border-navy"
         />
       </div>
+      <p className="text-xs leading-relaxed text-stone">
+        Inviando il messaggio dichiari di aver letto la{" "}
+        <Link href="/privacy-policy" className="underline underline-offset-2 hover:text-ink">
+          Privacy Policy
+        </Link>
+        .
+      </p>
       {errore && (
         <p className="border-l-2 border-red-500 bg-red-50 py-3 pl-4 text-sm leading-relaxed text-red-800">
           {errore}

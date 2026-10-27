@@ -108,7 +108,20 @@ export default function Footer() {
 
         <div className="mt-20 flex flex-col gap-3 border-t border-cream/15 pt-8 text-xs text-cream/50 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Futura S.r.l. — Tutti i diritti riservati.</p>
-          <p>P.IVA e C.F. 02870190168 · Privacy Policy · Cookie Policy</p>
+          <p>
+            P.IVA e C.F. 02870190168 ·{" "}
+            <SmartLink href="/privacy-policy" className="nav-link">
+              Privacy Policy
+            </SmartLink>{" "}
+            ·{" "}
+            <SmartLink href="/cookie-policy" className="nav-link">
+              Cookie Policy
+            </SmartLink>{" "}
+            ·{" "}
+            <SmartLink href="/termini-e-condizioni" className="nav-link">
+              Termini e condizioni
+            </SmartLink>
+          </p>
         </div>
       </div>
     </footer>
