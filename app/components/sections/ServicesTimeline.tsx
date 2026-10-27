@@ -166,7 +166,8 @@ export default function ServicesTimeline() {
   const { ref, visible } = useReveal<HTMLDivElement>({ threshold: 0.04 });
 
   return (
-    <section className="bg-paper">
+    // Clip the slide-in offsets: on phones they would widen the page.
+    <section className="overflow-x-clip bg-paper">
       <div className="mx-auto max-w-[1600px] px-6 pb-24 pt-4 md:px-10 md:pb-32">
         <div ref={ref} className="relative">
           {/* Vertical thread (desktop) — draws from the top */}

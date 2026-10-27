@@ -67,8 +67,9 @@ export default function CareersForm() {
     }
   }
 
+  // 16px on phones: iOS Safari zooms into any field with smaller text.
   const campo =
-    "w-full border border-ink/20 bg-white px-4 py-3.5 text-sm text-ink transition-colors placeholder:text-stone/70 focus:border-navy focus:outline-none";
+    "w-full border border-ink/20 bg-white px-4 py-3.5 text-base text-ink md:text-sm transition-colors placeholder:text-stone/70 focus:border-navy focus:outline-none";
 
   if (stato === "fatto") {
     return (
@@ -148,7 +149,7 @@ export default function CareersForm() {
           name="cv"
           type="file"
           accept="application/pdf"
-          className="w-full cursor-pointer text-sm text-stone file:mr-4 file:cursor-pointer file:border file:border-ink/20 file:bg-paper file:px-5 file:py-2.5 file:text-xs file:uppercase file:tracking-[0.16em] file:text-ink file:transition-colors hover:file:bg-sand"
+          className="w-full cursor-pointer text-base text-stone md:text-sm file:mr-4 file:cursor-pointer file:border file:border-ink/20 file:bg-paper file:px-5 file:py-2.5 file:text-xs file:uppercase file:tracking-[0.16em] file:text-ink file:transition-colors hover:file:bg-sand"
         />
       </label>
 

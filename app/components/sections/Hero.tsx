@@ -21,6 +21,7 @@ export default function Hero() {
   };
 
   // Scale the tagline so it spans exactly the same width as "Futura".
+  // Desktop only: on phones that width would shrink it to ~9px.
   useEffect(() => {
     const title = titleRef.current;
     const sub = subRef.current;
@@ -28,6 +29,7 @@ export default function Hero() {
 
     const fit = () => {
       sub.style.fontSize = "";
+      if (!window.matchMedia("(min-width: 768px)").matches) return;
       const target = title.getBoundingClientRect().width;
       const natural = sub.getBoundingClientRect().width;
       if (natural > 0 && target > 0) {
@@ -39,11 +41,17 @@ export default function Hero() {
     // Re-fit whenever the title's width changes (font load, resize, breakpoints).
     const ro = new ResizeObserver(fit);
     ro.observe(title);
+    // Crossing the 768px breakpoint doesn't change the title width.
+    const desktop = window.matchMedia("(min-width: 768px)");
+    desktop.addEventListener("change", fit);
     if (typeof document !== "undefined" && document.fonts?.ready) {
       document.fonts.ready.then(fit);
     }
     requestAnimationFrame(() => requestAnimationFrame(fit));
-    return () => ro.disconnect();
+    return () => {
+      ro.disconnect();
+      desktop.removeEventListener("change", fit);
+    };
   }, []);
 
   return (
@@ -89,7 +97,7 @@ export default function Hero() {
         <div className="mt-5 flex flex-col gap-6 md:-mt-6 md:flex-row md:items-end md:justify-between">
           <p
             ref={subRef}
-            className="inline-block w-fit whitespace-nowrap text-lg leading-none text-white/85 opacity-0 [animation:fadeUp_1s_var(--ease-out-soft)_0.45s_forwards]"
+            className="inline-block w-fit text-base leading-snug text-white/85 md:whitespace-nowrap md:text-lg md:leading-none opacity-0 [animation:fadeUp_1s_var(--ease-out-soft)_0.45s_forwards]"
           >
             Costruiamo da trent&apos;anni, al servizio del progetto.
           </p>
