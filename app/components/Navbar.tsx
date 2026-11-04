@@ -231,7 +231,7 @@ export default function Navbar() {
                       href={s.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="nav-link underline"
+                      className="nav-link w-fit underline underline-offset-4 hover:no-underline"
                     >
                       {s.label}
                     </a>

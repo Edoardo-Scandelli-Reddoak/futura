@@ -2,6 +2,8 @@ export type Fact = { label: string; value: string };
 
 export type Drawing = { src: string; width: number; height: number; caption: string };
 
+export type Video = { src: string; poster: string; caption: string };
+
 export type Category =
   | "Residenziale"
   | "Direzionale"
@@ -28,6 +30,8 @@ export type Project = {
   galleryPairFirst?: boolean;
   /** Prospetti e sezioni: mostrati interi, senza ritaglio, in coda alla galleria. */
   galleryDrawings?: Drawing[];
+  /** Riprese video: unica eccezione alle schede solo foto (Tower Eden, drone). */
+  videos?: Video[];
   excerpt: string;
   /** Frase d'apertura della pagina dedicata. */
   intro: string;
@@ -53,6 +57,18 @@ export const projects: Project[] = [
       "/projects/tower-eden/03.jpg",
       "/projects/tower-eden/04.jpg",
       "/projects/nembro/01.jpg",
+    ],
+    videos: [
+      {
+        src: "/projects/tower-eden/drone-0174.mp4",
+        poster: "/projects/tower-eden/drone-0174.jpg",
+        caption: "Il cantiere di Tower Eden accanto a Tower Nembro, dal drone",
+      },
+      {
+        src: "/projects/tower-eden/drone-0204.mp4",
+        poster: "/projects/tower-eden/drone-0204.jpg",
+        caption: "Le strutture della nuova torre in costruzione",
+      },
     ],
     excerpt:
       "La seconda torre del complesso di via Stazione a Nembro: dieci piani di terrazze verdi accanto a Tower Nembro, già realizzata.",

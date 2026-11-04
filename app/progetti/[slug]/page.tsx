@@ -115,6 +115,32 @@ export default async function ProjectPage({
         </div>
       </section>
 
+      {/* Drone footage — only Tower Eden has it */}
+      {project.videos && project.videos.length > 0 && (
+        <section className="bg-paper">
+          <div className="mx-auto grid max-w-[1600px] gap-6 px-6 pb-6 md:grid-cols-2 md:px-10">
+            {project.videos.map((video) => (
+              <Reveal key={video.src}>
+                <figure>
+                  <video
+                    className="aspect-video w-full bg-navy-deep object-cover"
+                    src={video.src}
+                    poster={video.poster}
+                    controls
+                    muted
+                    playsInline
+                    preload="none"
+                  />
+                  <figcaption className="mt-3 text-xs leading-relaxed text-stone">
+                    {video.caption}
+                  </figcaption>
+                </figure>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Gallery */}
       <ProjectGallery
         images={project.gallery}
