@@ -2,8 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "../../lib/projects";
 
+// Picked by hand: the order of the projects list no longer decides them.
+const FEATURED = [
+  "bergamo-ponte-pietra",
+  "bergamo-gaber",
+  "nembro",
+  "saronno-ferrari",
+];
+
 export default function FeaturedProjects() {
-  const featured = projects.slice(0, 4);
+  const featured = FEATURED.flatMap((slug) =>
+    projects.filter((p) => p.slug === slug)
+  );
 
   return (
     <section id="progetti" className="bg-paper">

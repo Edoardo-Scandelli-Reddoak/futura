@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SmartLink from "./SmartLink";
+import { social } from "../lib/social";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -11,14 +12,9 @@ const menu = [
   { label: "Progetti", href: "/progetti" },
   { label: "Come lavoriamo", href: "/come-lavoriamo" },
   { label: "Team", href: "/team" },
+  { label: "Impegno sociale", href: "/impegno-sociale" },
   { label: "Lavora con noi", href: "/team#lavora-con-noi" },
   { label: "Contatti", href: "/contatti" },
-];
-
-const social = [
-  { label: "LinkedIn", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "YouTube", href: "#" },
 ];
 
 export default function Navbar() {
@@ -147,7 +143,7 @@ export default function Navbar() {
         </button>
 
         {/* Content */}
-        <div className="relative z-[5] mx-auto flex h-full max-w-[1600px] flex-col px-6 pb-10 pt-24 md:grid md:grid-cols-[1.6fr_1fr] md:gap-16 md:px-10 md:pt-32">
+        <div className="relative z-[5] mx-auto flex h-full max-w-[1600px] flex-col overflow-y-auto px-6 pb-10 pt-24 md:grid md:grid-cols-[1.6fr_1fr] md:gap-16 md:px-10 md:pt-28">
           {/* Menu list */}
           <nav className="flex flex-col justify-center">
             {menu.map((item, i) => (
@@ -170,7 +166,7 @@ export default function Navbar() {
                   0{i + 1}.
                 </span>
                 <span
-                  className={`relative flex flex-1 items-center justify-between overflow-hidden border-b border-white/15 px-4 py-3 transition-all duration-500 md:px-7 md:py-4 ${
+                  className={`relative flex flex-1 items-center justify-between overflow-hidden border-b border-white/15 px-4 py-[min(0.75rem,1.4vh)] transition-all duration-500 md:px-7 md:py-[min(1rem,1.5vh)] ${
                     open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
                   }`}
                   style={{ transitionDelay: open ? `${120 + i * 70}ms` : "0ms" }}
@@ -180,7 +176,7 @@ export default function Navbar() {
                     aria-hidden
                     className="absolute inset-0 origin-left scale-x-0 bg-cream transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-x-100"
                   />
-                  <span className="relative z-10 font-sans text-3xl font-medium uppercase leading-none tracking-tight text-cream transition-colors duration-150 group-hover:text-navy-deep sm:text-4xl md:text-6xl">
+                  <span className="relative z-10 font-sans text-[min(1.875rem,4.2vh)] font-medium uppercase leading-none tracking-tight text-cream transition-colors duration-150 group-hover:text-navy-deep sm:text-[min(2.25rem,4.6vh)] md:text-[min(3.75rem,6.4vh)]">
                     {item.label}
                   </span>
                   <span className="relative z-10 ml-4 translate-x-[-8px] text-navy-deep opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
@@ -216,16 +212,27 @@ export default function Navbar() {
                 </a>
               </InfoBlock>
               <InfoBlock label="Sedi">
-                <span className="not-italic">
-                  Via Como, 51 — 20033 Solaro (MI)
-                  <br />
-                  Piazza Gaber, 3/E — 24124 Bergamo (BG)
+                <span className="flex flex-col gap-3 not-italic">
+                  <span>
+                    <span className="block text-cream">Solaro (MI)</span>
+                    <span className="text-cream/65">Via Como, 51 — 20033</span>
+                  </span>
+                  <span>
+                    <span className="block text-cream">Bergamo (BG)</span>
+                    <span className="text-cream/65">Piazza Gaber, 3/E — 24124</span>
+                  </span>
                 </span>
               </InfoBlock>
               <InfoBlock label="Social">
                 <span className="flex flex-col gap-1">
                   {social.map((s) => (
-                    <a key={s.label} href={s.href} className="nav-link underline">
+                    <a
+                      key={s.label}
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="nav-link underline"
+                    >
                       {s.label}
                     </a>
                   ))}

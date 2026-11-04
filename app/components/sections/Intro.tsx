@@ -7,8 +7,9 @@ export default function Intro() {
         <Reveal>
           <p className="font-serif text-xl leading-[1.25] text-ink md:text-[2rem] md:leading-[1.22]">
             Futura è un&apos;impresa di costruzioni attiva su tutta la filiera
-            immobiliare. Da trent&apos;anni costruiamo edifici residenziali,
-            commerciali, direzionali e industriali con una struttura interna,
+            immobiliare. Da trent&apos;anni costruiamo residenze, edifici
+            commerciali e per la grande distribuzione, strutture ricettive e
+            interventi industriali con una struttura interna,
             dall&apos;ufficio tecnico al cantiere. Per questo possiamo
             garantire direttamente qualità, tempi e costi.
           </p>

@@ -22,6 +22,8 @@ export default function ProjectGallery({
   pairFirst = false,
   drawings = [],
 }: ProjectGalleryProps) {
+  if (images.length === 0 && drawings.length === 0) return null;
+
   const hero = withHero ? images[0] : undefined;
   const rest = withHero ? images.slice(1) : images;
   const fullAt = pairFirst ? 2 : 0;

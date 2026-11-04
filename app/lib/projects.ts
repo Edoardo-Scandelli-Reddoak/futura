@@ -6,7 +6,8 @@ export type Category =
   | "Residenziale"
   | "Direzionale"
   | "Commerciale"
-  | "Funzione mista";
+  | "Hospitality"
+  | "Industriale";
 
 export type Project = {
   slug: string;
@@ -37,6 +38,66 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    slug: "nembro",
+    title: "Tower Eden",
+    city: "Nembro",
+    province: "BG",
+    address: "Via Stazione",
+    category: "Residenziale",
+    year: "2025",
+    status: "In costruzione",
+    cover: "/projects/tower-eden/01.jpg",
+    gallery: [
+      "/projects/tower-eden/02.jpg",
+      "/projects/tower-eden/03.jpg",
+      "/projects/tower-eden/04.jpg",
+      "/projects/nembro/01.jpg",
+    ],
+    excerpt:
+      "La seconda torre del complesso di via Stazione a Nembro: dieci piani di terrazze verdi accanto a Tower Nembro, già realizzata.",
+    intro:
+      "Dieci piani affacciati sul parco e sulla valle: la seconda torre del complesso di via Stazione, accanto a Tower Nembro.",
+    description: [
+      "Il complesso di via Stazione a Nembro è composto da due torri residenziali. La prima, Tower Nembro, è già realizzata: otto piani fuori terra e sedici appartamenti, con grandi terrazze asimmetriche e piantumate aperte verso il parco e la vallata. La seconda, Tower Eden, è in costruzione.",
+      "Tower Eden sale per dieci piani e riprende lo stesso linguaggio: terrazzi profondi e sfalsati di piano in piano, con il verde che abita le facciate. Ogni alloggio è orientato per massimizzare la luce naturale e gli affacci sui rilievi circostanti. Le immagini della torre in costruzione sono render di progetto.",
+    ],
+    facts: [
+      { label: "Località", value: "Nembro (BG)" },
+      { label: "Stato", value: "In costruzione" },
+      { label: "Tipologia", value: "Residenziale" },
+      { label: "Composizione", value: "2 torri" },
+      { label: "Tower Nembro", value: "8 piani, realizzata" },
+      { label: "Tower Eden", value: "10 piani, in costruzione" },
+    ],
+  },
+  {
+    slug: "lidl",
+    title: "Supermercati Lidl",
+    city: "Gerenzano",
+    province: "VA",
+    address: "Punti vendita Lidl",
+    category: "Commerciale",
+    status: "Realizzato",
+    cover: "/projects/lidl/01.jpg",
+    gallery: ["/projects/lidl/02.jpg", "/projects/lidl/03.jpg"],
+    galleryHero: false,
+    galleryPairFirst: true,
+    excerpt:
+      "Punti vendita per la grande distribuzione: edifici commerciali consegnati nei tempi stretti che le catene richiedono.",
+    intro:
+      "Edifici commerciali per Lidl: punti vendita costruiti per la grande distribuzione, tra cui quello di Gerenzano.",
+    description: [
+      "Per Lidl Futura ha costruito punti vendita della grande distribuzione, tra cui quello di Gerenzano: volumi commerciali con ampie facciate vetrate sull'area di vendita, coperture inclinate e piazzali di parcheggio per la clientela.",
+      "Nella grande distribuzione il calendario di apertura è fissato in anticipo e non si sposta. Per questo contano la pianificazione del cantiere, il coordinamento con i tecnici del committente e la capacità di consegnare l'edificio pronto per l'allestimento nei tempi concordati.",
+    ],
+    facts: [
+      { label: "Committente", value: "Lidl Italia" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Commerciale" },
+      { label: "Settore", value: "Grande distribuzione" },
+    ],
+  },
   {
     slug: "bergamo-ponte-pietra",
     title: "Via Ponte Pietra",
@@ -75,6 +136,66 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "hotel-pioppeto",
+    title: "Hotel Pioppeto",
+    city: "Saronno",
+    province: "VA",
+    address: "Saronno",
+    category: "Hospitality",
+    status: "Realizzato",
+    cover: "/projects/hotel-pioppeto/01.jpg",
+    gallery: [],
+    excerpt:
+      "La ristrutturazione completa delle camere e delle aree di servizio dell'Hotel Pioppeto a Saronno.",
+    intro:
+      "La ristrutturazione completa delle camere e delle aree di servizio di una struttura ricettiva a Saronno.",
+    description: [
+      "All'Hotel Pioppeto di Saronno Futura ha curato la ristrutturazione completa delle camere e delle aree a servizio: nuovi rivestimenti, testate imbottite, illuminazione integrata e corridoi rinnovati.",
+      "Lavorare in una struttura ricettiva significa organizzare il cantiere per lotti e ridurre al minimo i tempi di fermo, con finiture pensate per resistere a un uso intenso e quotidiano.",
+    ],
+    facts: [
+      { label: "Località", value: "Saronno (VA)" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Hospitality" },
+      { label: "Intervento", value: "Ristrutturazione" },
+    ],
+  },
+  {
+    slug: "ristorante-olio",
+    title: "Ristorante Olio",
+    city: "Origgio",
+    province: "VA",
+    address: "Spazio The Box, Origgio",
+    category: "Hospitality",
+    status: "Realizzato",
+    cover: "/projects/ristorante-olio/01.jpg",
+    gallery: [
+      "/projects/ristorante-olio/02.jpg",
+      "/projects/ristorante-olio/03.jpg",
+      "/projects/ristorante-olio/04.jpg",
+      "/projects/ristorante-olio/05.jpg",
+      "/projects/ristorante-olio/06.jpg",
+      "/projects/ristorante-olio/07.jpg",
+      "/projects/ristorante-olio/08.jpg",
+    ],
+    excerpt:
+      "Il ristorante stellato di Origgio, dentro Spazio The Box: sala, cucina a vista, serre e giardini per gli eventi.",
+    intro:
+      "Un ristorante di alta cucina dentro Spazio The Box, a Origgio: sala, cucina a vista, serre per gli eventi e giardini.",
+    description: [
+      "Olio è il ristorante di pesce di Spazio The Box, a Origgio: un complesso nato dalla trasformazione di un'area produttiva in un luogo per la ristorazione, gli eventi e le collezioni d'arte e di auto d'epoca, immerso in ampi giardini. Futura ha lavorato alla realizzazione degli spazi del ristorante, aperto nel 2020 e oggi premiato con una Stella MICHELIN.",
+      "La sala si affaccia sulla cucina a vista e dialoga con le auto d'epoca della collezione, mentre le serre vetrate ospitano banchetti e allestimenti per gli eventi. Un intervento in cui la qualità dell'esecuzione si misura sui dettagli: finiture, impianti e spazi pensati per accogliere il pubblico ogni giorno.",
+    ],
+    facts: [
+      { label: "Località", value: "Origgio (VA)" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Hospitality" },
+      { label: "Contesto", value: "Spazio The Box" },
+      { label: "Apertura", value: "2020" },
+      { label: "Riconoscimento", value: "Stella MICHELIN" },
+    ],
+  },
+  {
     slug: "bergamo-gaber",
     title: "Tower Santa Caterina",
     city: "Bergamo",
@@ -109,68 +230,35 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "nembro",
-    title: "Tower Nembro",
-    city: "Nembro",
-    province: "BG",
-    address: "Via Stazione",
-    category: "Residenziale",
-    year: "2025",
-    status: "In costruzione",
-    cover: "/projects/nembro/03.jpg",
-    gallery: [
-      "/projects/nembro/01.jpg",
-      "/projects/nembro/02.jpg",
-      "/projects/nembro/04.jpg",
-      "/projects/nembro/05.jpg",
-    ],
-    excerpt:
-      "Due torri residenziali dalle forme articolate, immerse nel verde, con terrazzi profondi e facciate sempre diverse.",
-    intro:
-      "Due torri residenziali immerse nel verde, concepite per ottimizzare illuminazione naturale e affacci sulla valle.",
-    description: [
-      "Tower Nembro è un complesso residenziale composto da due torri affacciate sul parco e sulla valle, alle porte di Nembro. I terrazzi, profondi e sfalsati di piano in piano, generano facciate dinamiche che mutano con la luce e con le stagioni.",
-      "Il progetto pone al centro il rapporto con il paesaggio: ogni alloggio è orientato per massimizzare l'illuminazione naturale e gli affacci sui rilievi circostanti, mentre il piano terra si relaziona con il verde pubblico del quartiere.",
-    ],
-    facts: [
-      { label: "Località", value: "Nembro (BG)" },
-      { label: "Anno", value: "2025" },
-      { label: "Stato", value: "In costruzione" },
-      { label: "Tipologia", value: "Residenziale" },
-      { label: "Composizione", value: "2 torri" },
-    ],
-  },
-  {
-    slug: "saronno-ferrari",
-    title: "Via Gaudenzio Ferrari",
-    city: "Saronno",
-    province: "VA",
-    address: "Via Gaudenzio Ferrari",
-    category: "Funzione mista",
-    year: "2023",
+    slug: "giochi-preziosi",
+    title: "Negozi Giochi Preziosi",
+    city: "Milano, Bergamo, Verona",
+    province: "",
+    address: "Piazza del Duomo, Milano",
+    category: "Commerciale",
     status: "Realizzato",
-    cover: "/projects/saronno-ferrari/03.jpeg",
+    cover: "/projects/giochi-preziosi/01.jpg",
     gallery: [
-      "/projects/saronno-ferrari/03.jpeg",
-      "/projects/saronno-ferrari/04.jpeg",
-      "/projects/saronno-ferrari/01.jpg",
-      "/projects/saronno-ferrari/02.jpg",
+      "/projects/giochi-preziosi/02.jpg",
+      "/projects/giochi-preziosi/05.jpg",
+      "/projects/giochi-preziosi/04.jpg",
+      "/projects/giochi-preziosi/03.jpg",
     ],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
-      "Un fronte urbano dai colori decisi, che riunisce abitazioni e negozi in un unico edificio.",
+      "Gli interventi realizzati per Giochi Preziosi: i punti vendita di Milano in piazza del Duomo, Bergamo e Verona, e le sedi del gruppo.",
     intro:
-      "Un fronte urbano dai colori decisi, dove residenze e attività commerciali convivono in un'identità architettonica unitaria.",
+      "Una serie di interventi commerciali per Giochi Preziosi, dal negozio in piazza del Duomo a Milano ai punti vendita di Bergamo e Verona.",
     description: [
-      "Via Gaudenzio Ferrari è un intervento a funzione mista: un fronte urbano dai colori decisi che accoglie residenze ai piani superiori e attività commerciali al piano terra, restituendo vitalità alla strada.",
-      "La sovrapposizione delle funzioni è risolta con ingressi distinti e una scansione di facciata che distingue con chiarezza le diverse destinazioni d'uso.",
+      "Per Giochi Preziosi Futura ha realizzato più interventi in contesti molto diversi tra loro. Il più rappresentativo è il negozio in piazza del Duomo a Milano, ricavato al piano terra di un edificio storico: vetrine ad arco, insegne e allestimenti interni sono stati inseriti rispettando la facciata e lavorando in uno dei luoghi più frequentati della città.",
+      "Lo stesso approccio ha guidato i punti vendita di Bergamo e Verona, con fronti vetrati e spazi interni pensati per l'esposizione, e i lavori sugli edifici del gruppo. Interventi in cui contano la rapidità di esecuzione, il coordinamento con il committente e la cura delle finiture in spazi aperti al pubblico.",
     ],
     facts: [
-      { label: "Località", value: "Saronno (VA)" },
-      { label: "Anno", value: "2023" },
+      { label: "Committente", value: "Giochi Preziosi" },
       { label: "Stato", value: "Realizzato" },
-      { label: "Tipologia", value: "Funzione mista" },
-      { label: "Funzioni", value: "Residenze + retail" },
-      { label: "Piani", value: "6" },
+      { label: "Tipologia", value: "Commerciale" },
+      { label: "Punti vendita", value: "Milano, Bergamo, Verona" },
     ],
   },
   {
@@ -232,6 +320,91 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "eurospin",
+    title: "Supermercati Eurospin",
+    city: "Lombardia",
+    province: "",
+    address: "Punti vendita Eurospin",
+    category: "Commerciale",
+    status: "Realizzato",
+    cover: "/projects/eurospin/01.jpg",
+    gallery: ["/projects/eurospin/02.jpg", "/projects/eurospin/03.jpg"],
+    galleryHero: false,
+    galleryPairFirst: true,
+    excerpt:
+      "Punti vendita Eurospin: edifici commerciali con fronti vetrati, pensiline d'ingresso e piazzali per la clientela.",
+    intro:
+      "Edifici commerciali per Eurospin, costruiti per la media distribuzione organizzata.",
+    description: [
+      "Per Eurospin Futura ha realizzato punti vendita della media distribuzione: edifici a un piano con il fronte vetrato sull'area di vendita, pensiline d'ingresso e facciate rivestite, completati dai piazzali di parcheggio.",
+      "Sono cantieri in cui rapidità di esecuzione e rispetto della data di apertura contano quanto la qualità delle finiture. Futura segue l'intervento dal grezzo alla consegna dell'edificio pronto per l'allestimento.",
+    ],
+    facts: [
+      { label: "Committente", value: "Eurospin" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Commerciale" },
+      { label: "Settore", value: "Media distribuzione" },
+    ],
+  },
+  {
+    slug: "saronno-ferrari",
+    title: "Via Gaudenzio Ferrari",
+    city: "Saronno",
+    province: "VA",
+    address: "Via Gaudenzio Ferrari",
+    category: "Residenziale",
+    year: "2023",
+    status: "Realizzato",
+    cover: "/projects/saronno-ferrari/03.jpeg",
+    gallery: [
+      "/projects/saronno-ferrari/03.jpeg",
+      "/projects/saronno-ferrari/04.jpeg",
+      "/projects/saronno-ferrari/01.jpg",
+      "/projects/saronno-ferrari/02.jpg",
+    ],
+    excerpt:
+      "Un fronte urbano dai colori decisi, che riunisce abitazioni e negozi in un unico edificio.",
+    intro:
+      "Un fronte urbano dai colori decisi, dove residenze e attività commerciali convivono in un'identità architettonica unitaria.",
+    description: [
+      "Via Gaudenzio Ferrari è un edificio residenziale con attività commerciali al piano terra: un fronte urbano dai colori decisi che accoglie le abitazioni ai piani superiori e i negozi sulla strada, restituendo vitalità alla via.",
+      "La sovrapposizione delle funzioni è risolta con ingressi distinti e una scansione di facciata che distingue con chiarezza le diverse destinazioni d'uso.",
+    ],
+    facts: [
+      { label: "Località", value: "Saronno (VA)" },
+      { label: "Anno", value: "2023" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Residenziale" },
+      { label: "Funzioni", value: "Residenze + retail" },
+      { label: "Piani", value: "6" },
+    ],
+  },
+  {
+    slug: "procos",
+    title: "Stabilimento Procos",
+    city: "Cameri",
+    province: "NO",
+    address: "Cameri",
+    category: "Industriale",
+    status: "Realizzato",
+    cover: "/projects/procos/01.jpg",
+    gallery: [],
+    excerpt:
+      "Opere per lo stabilimento chimico-farmaceutico Procos a Cameri: un cantiere in ambito industriale.",
+    intro:
+      "Un intervento in ambito industriale per Procos, azienda chimico-farmaceutica con sede a Cameri, nel Novarese.",
+    description: [
+      "Per Procos Futura ha realizzato opere all'interno dello stabilimento di Cameri, un complesso produttivo chimico-farmaceutico circondato dalla campagna novarese.",
+      "In ambito industriale contano l'organizzazione del cantiere, la sicurezza e il coordinamento con il committente, per lavorare senza interferire con l'attività produttiva.",
+    ],
+    facts: [
+      { label: "Committente", value: "Procos" },
+      { label: "Località", value: "Cameri (NO)" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Industriale" },
+    ],
+  },
+  {
     slug: "pedrengo",
     title: "Pedrengo",
     city: "Pedrengo",
@@ -264,6 +437,36 @@ export const projects: Project[] = [
       { label: "Tipologia", value: "Residenziale" },
       { label: "Fase", value: "Finiture" },
       { label: "Copertura", value: "Terrazza panoramica" },
+    ],
+  },
+  {
+    slug: "mornati-paglia",
+    title: "Mornati Paglia",
+    city: "Gerenzano",
+    province: "VA",
+    address: "Gerenzano",
+    category: "Commerciale",
+    status: "Realizzato",
+    cover: "/projects/mornati-paglia/01.jpg",
+    gallery: [
+      "/projects/mornati-paglia/02.jpg",
+      "/projects/mornati-paglia/03.jpg",
+    ],
+    galleryHero: false,
+    galleryPairFirst: true,
+    excerpt:
+      "Un punto vendita per Mornati Paglia a Gerenzano: spazi commerciali, parcheggi e viabilità di accesso.",
+    intro:
+      "Un intervento commerciale per Mornati Paglia a Gerenzano, tra spazi di vendita, parcheggi e viabilità.",
+    description: [
+      "A Gerenzano Futura ha lavorato per Mornati Paglia alla realizzazione di spazi commerciali affacciati sulla strada, con i parcheggi per la clientela e la viabilità di accesso.",
+      "Un intervento che mostra il lavoro dell'impresa fuori dall'ambito residenziale: edifici destinati al pubblico, dove organizzazione del cantiere e qualità dell'esecuzione devono convivere con le esigenze commerciali del committente.",
+    ],
+    facts: [
+      { label: "Committente", value: "Mornati Paglia" },
+      { label: "Località", value: "Gerenzano (VA)" },
+      { label: "Stato", value: "Realizzato" },
+      { label: "Tipologia", value: "Commerciale" },
     ],
   },
   {
@@ -479,12 +682,9 @@ export const projects: Project[] = [
     category: "Residenziale",
     status: "Realizzato",
     cover: "/projects/bollate-bixio/01.jpg",
-    gallery: [
-      "/projects/bollate-bixio/01.jpg",
-      "/projects/bollate-bixio/02.jpg",
-      "/projects/bollate-bixio/03.jpg",
-      "/projects/bollate-bixio/04.jpg",
-    ],
+    gallery: ["/projects/bollate-bixio/02.jpg", "/projects/bollate-bixio/04.jpg"],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Un edificio residenziale di otto piani alle porte di Milano, dove il verde conta quanto il costruito.",
     intro:
@@ -620,38 +820,6 @@ export const projects: Project[] = [
       { label: "Tipologia", value: "Residenziale" },
       { label: "Impianto", value: "Palazzine a corte" },
       { label: "Materiali", value: "Antracite, legno, intonaco" },
-    ],
-  },
-  {
-    slug: "giochi-preziosi",
-    title: "Negozi Giochi Preziosi",
-    city: "Milano, Bergamo, Verona",
-    province: "",
-    address: "Piazza del Duomo, Milano",
-    category: "Commerciale",
-    status: "Realizzato",
-    cover: "/projects/giochi-preziosi/01.jpg",
-    gallery: [
-      "/projects/giochi-preziosi/02.jpg",
-      "/projects/giochi-preziosi/05.jpg",
-      "/projects/giochi-preziosi/04.jpg",
-      "/projects/giochi-preziosi/03.jpg",
-    ],
-    galleryHero: false,
-    galleryPairFirst: true,
-    excerpt:
-      "Gli interventi realizzati per Giochi Preziosi: i punti vendita di Milano in piazza del Duomo, Bergamo e Verona, e le sedi del gruppo.",
-    intro:
-      "Una serie di interventi commerciali per Giochi Preziosi, dal negozio in piazza del Duomo a Milano ai punti vendita di Bergamo e Verona.",
-    description: [
-      "Per Giochi Preziosi Futura ha realizzato più interventi in contesti molto diversi tra loro. Il più rappresentativo è il negozio in piazza del Duomo a Milano, ricavato al piano terra di un edificio storico: vetrine ad arco, insegne e allestimenti interni sono stati inseriti rispettando la facciata e lavorando in uno dei luoghi più frequentati della città.",
-      "Lo stesso approccio ha guidato i punti vendita di Bergamo e Verona, con fronti vetrati e spazi interni pensati per l'esposizione, e i lavori sugli edifici del gruppo. Interventi in cui contano la rapidità di esecuzione, il coordinamento con il committente e la cura delle finiture in spazi aperti al pubblico.",
-    ],
-    facts: [
-      { label: "Committente", value: "Giochi Preziosi" },
-      { label: "Stato", value: "Realizzato" },
-      { label: "Tipologia", value: "Commerciale" },
-      { label: "Punti vendita", value: "Milano, Bergamo, Verona" },
     ],
   },
 ];

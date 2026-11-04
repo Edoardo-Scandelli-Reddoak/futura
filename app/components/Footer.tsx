@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SmartLink from "./SmartLink";
+import { social } from "../lib/social";
 
 export default function Footer() {
   return (
@@ -26,8 +27,8 @@ export default function Footer() {
             />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/70">
               Impresa di costruzioni attiva in Lombardia da trent&apos;anni.
-              Realizziamo edifici residenziali, commerciali, direzionali e
-              industriali per chi progetta, sviluppa e investe.
+              Realizziamo residenze, edifici commerciali, strutture ricettive e
+              interventi industriali per chi progetta, sviluppa e investe.
             </p>
           </div>
 
@@ -102,6 +103,18 @@ export default function Footer() {
                   +39 02 2506 2368
                 </a>
               </p>
+              {social.map((s) => (
+                <p key={s.label}>
+                  <a
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="nav-link"
+                  >
+                    {s.label}
+                  </a>
+                </p>
+              ))}
             </address>
           </div>
         </div>

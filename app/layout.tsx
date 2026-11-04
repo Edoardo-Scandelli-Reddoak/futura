@@ -3,6 +3,7 @@ import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import HashScroll from "./components/HashScroll";
 
 // Neo-grotesque, used across the whole site — close in spirit to the
 // FT Aktual grotesque used on parkassociati.com.
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <HashScroll />
       </body>
     </html>
   );

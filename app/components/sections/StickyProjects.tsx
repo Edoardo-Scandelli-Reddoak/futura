@@ -2,12 +2,32 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
-import { placeLabel, projects } from "../../lib/projects";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { placeLabel, projects, type Category } from "../../lib/projects";
+
+// Filter tabs, in display order; only categories that have projects are shown.
+const CATEGORIES: Category[] = [
+  "Residenziale",
+  "Commerciale",
+  "Hospitality",
+  "Industriale",
+  "Direzionale",
+];
+const filters = CATEGORIES.filter((c) => projects.some((p) => p.category === c));
 
 export default function StickyProjects() {
+  const [filter, setFilter] = useState<Category | null>(null);
   const [active, setActive] = useState(0);
   const blockRefs = useRef<Array<HTMLDivElement | null>>([]);
+  const list = useMemo(
+    () => (filter ? projects.filter((p) => p.category === filter) : projects),
+    [filter]
+  );
+
+  const choose = (next: Category | null) => {
+    setFilter(next);
+    setActive(0);
+  };
 
   // The text block closest to the viewport centre drives the pinned image.
   useEffect(() => {
@@ -24,9 +44,11 @@ export default function StickyProjects() {
       },
       { threshold: 0.5, rootMargin: "-25% 0px -25% 0px" }
     );
-    blockRefs.current.forEach((el) => el && observer.observe(el));
+    blockRefs.current
+      .slice(0, list.length)
+      .forEach((el) => el && observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [list]);
 
   return (
     <section className="bg-paper">
@@ -36,6 +58,36 @@ export default function StickyProjects() {
           <br />
           progetti
         </h2>
+
+        {/* Category filter: scrolls sideways on phones instead of wrapping */}
+        <div className="-mx-6 mt-10 overflow-x-auto px-6 md:mx-0 md:mt-14 md:px-0">
+          <div className="flex w-max gap-2 md:w-auto md:flex-wrap">
+            {[null, ...filters].map((c) => {
+              const selected = filter === c;
+              const count = c
+                ? projects.filter((p) => p.category === c).length
+                : projects.length;
+              return (
+                <button
+                  key={c ?? "tutti"}
+                  type="button"
+                  onClick={() => choose(c)}
+                  aria-pressed={selected}
+                  className={`whitespace-nowrap border px-5 py-3 text-xs uppercase tracking-[0.18em] transition-colors ${
+                    selected
+                      ? "border-navy bg-navy text-paper"
+                      : "border-ink/25 text-ink hover:border-navy"
+                  }`}
+                >
+                  {c ?? "Tutti"}
+                  <span className={selected ? "ml-2 text-paper/60" : "ml-2 text-stone"}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
 
       {/* Desktop: pinned image on the left, scrolling text on the right */}
@@ -43,7 +95,7 @@ export default function StickyProjects() {
         {/* Pinned image column */}
         <div className="sticky top-0 h-screen">
           <div className="relative h-full w-full overflow-hidden">
-            {projects.map((project, i) => (
+            {list.map((project, i) => (
               <Image
                 key={project.slug}
                 src={project.cover}
@@ -66,7 +118,7 @@ export default function StickyProjects() {
                 {String(active + 1).padStart(2, "0")}
               </span>
               <span className="mb-1 text-sm text-white/60">
-                / {String(projects.length).padStart(2, "0")}
+                / {String(list.length).padStart(2, "0")}
               </span>
             </div>
           </div>
@@ -74,7 +126,7 @@ export default function StickyProjects() {
 
         {/* Scrolling text column */}
         <div>
-          {projects.map((project, i) => (
+          {list.map((project, i) => (
             <div
               key={project.slug}
               data-index={i}
@@ -113,7 +165,7 @@ export default function StickyProjects() {
 
       {/* Mobile: stacked full-width cards */}
       <div className="flex flex-col gap-4 px-6 pb-12 md:hidden">
-        {projects.map((project, i) => (
+        {list.map((project, i) => (
           <Link
             key={project.slug}
             href={`/progetti/${project.slug}`}
