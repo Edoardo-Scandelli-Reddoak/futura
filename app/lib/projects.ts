@@ -160,7 +160,9 @@ export const projects: Project[] = [
     category: "Hospitality",
     status: "Realizzato",
     cover: "/projects/hotel-pioppeto/01.jpg",
-    gallery: [],
+    gallery: ["/projects/hotel-pioppeto/02.jpg", "/projects/hotel-pioppeto/03.jpg"],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "La ristrutturazione completa delle camere e delle aree di servizio dell'Hotel Pioppeto a Saronno.",
     intro:
@@ -187,13 +189,11 @@ export const projects: Project[] = [
     cover: "/projects/ristorante-olio/01.jpg",
     gallery: [
       "/projects/ristorante-olio/02.jpg",
-      "/projects/ristorante-olio/03.jpg",
       "/projects/ristorante-olio/04.jpg",
-      "/projects/ristorante-olio/05.jpg",
       "/projects/ristorante-olio/06.jpg",
-      "/projects/ristorante-olio/07.jpg",
-      "/projects/ristorante-olio/08.jpg",
     ],
+    galleryHero: false,
+    galleryPairFirst: true,
     excerpt:
       "Il ristorante stellato di Origgio, dentro Spazio The Box: sala, cucina a vista, serre e giardini per gli eventi.",
     intro:
@@ -404,7 +404,7 @@ export const projects: Project[] = [
     category: "Industriale",
     status: "Realizzato",
     cover: "/projects/procos/01.jpg",
-    gallery: [],
+    gallery: ["/projects/procos/02.jpg"],
     excerpt:
       "Opere per lo stabilimento chimico-farmaceutico Procos a Cameri: un cantiere in ambito industriale.",
     intro:
